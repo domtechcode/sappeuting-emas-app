@@ -1,14 +1,15 @@
 <?php
 
+use App\Livewire\LoginIndex;
 use Illuminate\Support\Facades\Route;
-use App\Livewire\Kader\Components\DashboardKaderIndex;
 use App\Livewire\Kader\Components\SurveiKaderIndex;
+use App\Livewire\Kota\Components\DatabaseKotaIndex;
+use App\Livewire\Kota\Components\DashboardKotaIndex;
+use App\Livewire\Kader\Components\DashboardKaderIndex;
+use App\Livewire\Kota\Components\UserManagementsIndex;
+use App\Livewire\Kelurahan\Components\SurveiKelurahanIndex;
 use App\Livewire\Kecamatan\Components\DashboardKecamatanIndex;
 use App\Livewire\Kelurahan\Components\DashboardKelurahanIndex;
-use App\Livewire\Kelurahan\Components\SurveiKelurahanIndex;
-use App\Livewire\Kota\Components\DashboardKotaIndex;
-use App\Livewire\Kota\Components\DatabaseKotaIndex;
-use App\Livewire\Kota\Components\UserManagementsIndex;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,6 +25,8 @@ use App\Livewire\Kota\Components\UserManagementsIndex;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+
+Route::get('/', LoginIndex::class)->name('loginIndex');
 
 Route::get('/admin-kader', DashboardKaderIndex::class)->name('dashboardAdminKader');
 Route::get('/admin-kader-survei', SurveiKaderIndex::class)->name('surveiKader');
