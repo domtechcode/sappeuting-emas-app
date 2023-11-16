@@ -14,6 +14,8 @@ return new class extends Migration
     {
         Schema::create('pertanyaans', function (Blueprint $table) {
             $table->id();
+            $table->text('deskripsi');
+            $table->string('kategori');
             $table->timestamps();
             $table->softDeletes();
         });
