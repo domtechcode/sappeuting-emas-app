@@ -1,12 +1,13 @@
 <div>
-
+{{--
     @foreach ($pertanyaan as $data)
     [<br>
                 'nomor_keluarga_indonesia' => '{{ $data->deskripsi }}', <br>
                 'kategori' => '{{ $data->kategori }}',<br>
             ],
 
-    @endforeach
+    @endforeach --}}
+
     <!--app-content open-->
     <div class="main-content app-content mt-0">
         <div class="side-app">
@@ -34,7 +35,7 @@
                             <div class="card-body">
                                 <div class="d-flex">
                                     <div class="text-white">
-                                        <h2 class="mb-0 number-font"></h2>
+                                        <h2 class="mb-0 number-font">{{ $dataAll }}</h2>
                                         <p class="text-white mb-0">Total Data</p>
                                     </div>
                                     <div class="ms-auto"> <i class="fe fe-file-text text-white fs-40 me-2 mt-2"></i>
@@ -48,7 +49,7 @@
                             <div class="card-body">
                                 <div class="d-flex">
                                     <div class="text-white">
-                                        <h2 class="mb-0 number-font"></h2>
+                                        <h2 class="mb-0 number-font">{{ $dataValidasi }}</h2>
                                         <p class="text-white mb-0">Data Validasi</p>
                                     </div>
                                     <div class="ms-auto"> <i class="fe fe-check-square text-white fs-40 me-2 mt-2"></i>
@@ -62,7 +63,7 @@
                             <div class="card-body">
                                 <div class="d-flex">
                                     <div class="text-white">
-                                        <h2 class="mb-0 number-font"></h2>
+                                        <h2 class="mb-0 number-font">{{ $dataNonValidasi }}</h2>
                                         <p class="text-white mb-0">Data Non-Validasi</p>
                                     </div>
                                     <div class="ms-auto"> <i class="fe fe-x-square text-white fs-40 me-2 mt-2"></i>
@@ -100,15 +101,13 @@
                 </div>
                 <!--notif submit end-->
 
-
-
                 {{-- @if (session()->has('notfound')) --}}
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="card">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <img src="" class="card-img-left" alt="img">
+                                    <img src="{{ asset('assets/images/brand/undraw_Customer_survey_re_v9cj.png') }}" class="card-img-left" alt="img">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -208,25 +207,22 @@
                         <div class="card">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <img src="" class="card-img-left" alt="img">
+                                    <img src="{{ asset('assets/images/brand/undraw_Customer_survey_re_v9cj.png') }}" class="card-img-left" alt="img">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title">Nomor Kartu Keluarga Indonesia / Nama Kepala Keluarga
+                                        <h5 class="card-title">Nomor Kartu Keluarga Indonesia
                                         </h5>
-                                        <form method="POST" action="">
-                                            @csrf
-                                            <div class="form-group">
-                                                <input name="nomor_keluarga_indonesia" type="text"
-                                                    class="form-control"
-                                                    placeholder="Nomor Kartu Keluarga Indonesia / Nama Kepala Keluarga"
-                                                    autocomplete="off">
-                                            </div>
-                                            <div class="form-group">
-                                                <button type="submit" class="btn btn-dark"><i
-                                                        class="fe fe-search me-2"></i>Cari</button>
-                                            </div>
-                                        </form>
+                                        <div class="form-group">
+                                            <input name="nomor_keluarga_indonesia" type="text"
+                                                class="form-control"
+                                                placeholder="Nomor Kartu Keluarga Indonesia / Nama Kepala Keluarga"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-dark"><i
+                                                    class="fe fe-search me-2"></i>Cari</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -235,75 +231,46 @@
                 </div>
                 {{-- @endif --}}
 
+                <!-- ROW-2-->
                 <div class="row">
-                    <div class="col-lg-12">
-                        <!--Row-->
-                        <div class="panel panel-primary">
-                            <div class=" tab-menu-heading">
-                                <div class="tabs-menu1">
-                                    <!-- Tabs -->
-                                    <ul class="nav panel-tabs">
-                                        <li>
-                                            <button href="#tab1" class="active btn btn-primary mt-1 mb-1 me-3"
-                                                data-bs-toggle="tab">Data Survei
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-status bg-primary br-te-7 br-ts-7"></div>
+                            <div class="card-header">
+                                <h3 class="card-title">Data Survei</h3>
                             </div>
-                        </div>
-                        <!--Row End-->
-
-                        <!--Row -->
-                        <div class="panel-body tabs-menu-body">
-                            <div class="tab-content">
-                                <div class="tab-pane active" id="tab1">
-                                    <!-- ROW-2-->
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="card">
-                                                <div class="card-status bg-primary br-te-7 br-ts-7"></div>
-                                                <div class="card-header">
-                                                    <h3 class="card-title">Data Survei</h3>
-                                                </div>
-                                                <div class="card-body">
-                                                    <div class="row row-sm mt-3">
-                                                        <div class="col-md-12">
-                                                            <div class="table-responsive">
-                                                                <table id="example2"
-                                                                    class="table table-bordered text-nowrap border-bottom">
-                                                                    <thead>
-                                                                        <tr>
-                                                                            <th class="border-bottom-0">No</th>
-                                                                            <th class="border-bottom-0">Nama</th>
-                                                                            <th class="border-bottom-0">No Kartu
-                                                                                Keluarga
-                                                                                Indonesia</th>
-                                                                            <th class="border-bottom-0">Kepala Keluarga
-                                                                            </th>
-                                                                            <th class="border-bottom-0">Nama Istri</th>
-                                                                            <th class="border-bottom-0">Status Keluarga
-                                                                            </th>
-                                                                            <th class="border-bottom-0">Keterangan</th>
-                                                                            <th class="border-bottom-0">State</th>
-                                                                            <th class="border-bottom-0">Action</th>
-                                                                        </tr>
-                                                                    </thead>
-                                                                </table>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                            <div class="card-body">
+                                <div class="row row-sm mt-3">
+                                    <div class="col-md-12">
+                                        <div class="table-responsive">
+                                            <table id="example2"
+                                                class="table table-bordered text-nowrap border-bottom">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="border-bottom-0">No</th>
+                                                        <th class="border-bottom-0">Nama</th>
+                                                        <th class="border-bottom-0">No Kartu
+                                                            Keluarga
+                                                            Indonesia</th>
+                                                        <th class="border-bottom-0">Kepala Keluarga
+                                                        </th>
+                                                        <th class="border-bottom-0">Nama Istri</th>
+                                                        <th class="border-bottom-0">Status Keluarga
+                                                        </th>
+                                                        <th class="border-bottom-0">Keterangan</th>
+                                                        <th class="border-bottom-0">State</th>
+                                                        <th class="border-bottom-0">Action</th>
+                                                    </tr>
+                                                </thead>
+                                            </table>
                                         </div>
                                     </div>
-                                    <!-- ROW-2 END -->
                                 </div>
                             </div>
                         </div>
-                        <!--End Row-->
                     </div>
                 </div>
+                <!-- ROW-2 END -->
 
 
             </div>

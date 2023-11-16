@@ -25,8 +25,8 @@ use App\Livewire\Kota\Components\UserManagementsIndex;
 //     return view('welcome');
 // });
 
-Route::get('/admin-kader', DashboardKaderIndex::class);
-Route::get('/admin-kader-survei', SurveiKaderIndex::class);
+Route::get('/admin-kader', DashboardKaderIndex::class)->name('dashboardAdminKader');
+Route::get('/admin-kader-survei', SurveiKaderIndex::class)->name('surveiKader');
 
 Route::get('/admin-kecamatan', DashboardKecamatanIndex::class);
 

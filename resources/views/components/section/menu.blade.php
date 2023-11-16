@@ -23,7 +23,7 @@
                     <path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z" />
                 </svg></div>
             <ul class="side-menu">
-                
+
 
                 {{-- @if( auth()->user()->role == 'admin-kota' ) --}}
                 <li class="sub-category">
@@ -43,7 +43,7 @@
                                     <div class="tab-pane active" id="side1">
                                         <ul class="sidemenu-list">
                                             <li class="side-menu-label1"><a href="javascript:void(0)">Home</a></li>
-                                            <li><a href="" class="slide-item">Dashboard</a></li>
+                                            <li><a href="/admin-kader" class="slide-item" >Dashboard</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -69,7 +69,7 @@
                                     <div class="tab-pane active" id="side1">
                                         <ul class="sidemenu-list">
                                             <li class="side-menu-label1"><a href="javascript:void(0)">User</a></li>
-                                            <li><a href="" class="slide-item ">Add User</a></li>
+                                            <li><a href="/admin-kota-user" class="slide-item" >Add User</a></li>
                                         </ul>
                                     </div>
                                 </div>
