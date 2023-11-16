@@ -49,26 +49,15 @@
         <!-- PAGE -->
         <div class="page">
             <div class="">
-                <!-- Theme-Layout -->
-                @if (session()->has('success'))
-                <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <span class="alert-inner--icon"><i class="fe fe-check-circle"></i></span>
-                    <span class="alert-inner--text"><strong>Berhasil !</strong> Data berhasil disimpan...</span>
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                </div>
-                @endif
-
                 @if (session()->has('error'))
-                <div class="alert alert-danger alert-dismissible fade show mb-0" role="alert">
-                    <span class="alert-inner--icon"><i class="fe fe-slash"></i></span>
-                    <span class="alert-inner--text"><strong>Gagal !</strong> Periksa Kembali Data....</span>
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                        </button>
-                </div>
-                @endif
+        <div class="alert alert-danger alert-dismissible fade show mb-0" role="alert">
+            <span class="alert-inner--icon"><i class="fe fe-slash"></i></span>
+            <span class="alert-inner--text">{{ session('status') }}</span>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+        </div>
+    @endif
 
                 {{ $slot }}
             </div>

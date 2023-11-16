@@ -1,6 +1,6 @@
 <?php
 
-use App\Livewire\LoginIndex;
+use App\Livewire\Auth\LoginIndex;
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Kader\Components\SurveiKaderIndex;
 use App\Livewire\Kota\Components\DatabaseKotaIndex;
@@ -26,16 +26,26 @@ use App\Livewire\Kelurahan\Components\DashboardKelurahanIndex;
 //     return view('welcome');
 // });
 
-Route::get('/', LoginIndex::class)->name('loginIndex');
+Route::get('/', LoginIndex::class)->name('login');
 
-Route::get('/admin-kader', DashboardKaderIndex::class)->name('dashboardAdminKader');
-Route::get('/admin-kader-survei', SurveiKaderIndex::class)->name('surveiKader');
+Route::group(['middleware' => ['auth']], function () {
+    Route::group(['prefix' => 'admin-kota', 'middleware' => ['role:admin-kota']], function () {
+        Route::get('/dashboard', DashboardKotaIndex::class)->name('dashboardAdminKota');
+        Route::get('/admin-kota-database', DatabaseKotaIndex::class);
+        Route::get('/admin-kota-user', UserManagementsIndex::class);
+    });
 
-Route::get('/admin-kecamatan', DashboardKecamatanIndex::class);
+    Route::group(['prefix' => 'admin-kader', 'middleware' => ['role:admin-kader']], function () {
+        Route::get('/admin-kader', DashboardKaderIndex::class)->name('dashboardAdminKader');
+        Route::get('/admin-kader-survei', SurveiKaderIndex::class)->name('surveiKader');
+    });
 
-Route::get('/admin-kelurahan', DashboardKelurahanIndex::class);
-Route::get('/admin-kelurahan-survei', SurveiKelurahanIndex::class);
+    Route::group(['prefix' => 'admin-kelurahan', 'middleware' => ['role:admin-kelurahan']], function () {
+        Route::get('/admin-kelurahan', DashboardKelurahanIndex::class)->name('dashboardAdminKelurahan');
+        Route::get('/admin-kelurahan-survei', SurveiKelurahanIndex::class);
+    });
 
-Route::get('/admin-kota', DashboardKotaIndex::class);
-Route::get('/admin-kota-database', DatabaseKotaIndex::class);
-Route::get('/admin-kota-user', UserManagementsIndex::class);
+    Route::group(['prefix' => 'admin-kecamatan', 'middleware' => ['role:admin-kecamatan']], function () {
+        Route::get('/admin-kecamatan', DashboardKecamatanIndex::class)->name('dashboardAdminKecamatan');
+    });
+});
