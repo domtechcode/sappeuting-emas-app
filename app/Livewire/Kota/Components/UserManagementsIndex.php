@@ -8,37 +8,37 @@ use App\Models\User;
 use Livewire\Component;
 use App\Models\Kecamatan;
 use App\Models\Kelurahan;
-// use Livewire\Attributes\Rule;
+use Livewire\Attributes\Rule;
 use Livewire\Attributes\Title;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Validation\Rule;
 
 #[Title('User Managements - DP3AP2KB Kota Cimahi')]
+#[Layout('components.layouts.app')]
 class UserManagementsIndex extends Component
 {
-    // #[Rule('required', message: 'Nama harus diisi.')]
+    #[Rule('required', message: 'Nama harus diisi.')]
     public $nama;
 
-    // #[Rule('required', message: 'Role harus diisi.')]
+    #[Rule('required', message: 'Role harus diisi.')]
     public $role;
 
-    // #[Rule('required', message: 'Username harus diisi.')]
+    #[Rule('required|unique:users', message: 'Username harus diisi.')]
     public $username;
 
-    // #[Rule('required', message: 'Password harus diisi.')]
+    #[Rule('required', message: 'Password harus diisi.')]
     public $password;
 
-    // #[Rule('required', message: 'Kecamatan harus diisi.')]
+    #[Rule('required', message: 'Kecamatan harus diisi.')]
     public $kecamatan;
 
-    // #[Rule('required', message: 'Kelurahan harus diisi.')]
+    #[Rule('required', message: 'Kelurahan harus diisi.')]
     public $kelurahan;
 
-    // #[Rule('required', message: 'RW harus diisi.')]
+    #[Rule('required', message: 'RW harus diisi.')]
     public $rw;
 
-    // #[Rule('required', message: 'RT harus diisi.')]
+    #[Rule('required', message: 'RT harus diisi.')]
     public $rt;
 
     public function render()
@@ -53,16 +53,7 @@ class UserManagementsIndex extends Component
 
     public function save()
     {
-        $this->validate([
-            'nama' => 'required',
-            'role' => 'required',
-            'username' => ['required', Rule::unique('users')->ignore($this->id ?? null)],
-            'password' => 'required',
-            'kecamatan' => 'required',
-            'kelurahan' => 'required',
-            'rw' => 'required',
-            'rt' => 'required',
-        ]);
+        $this->validate();
 
         try {
             DB::beginTransaction();
@@ -80,32 +71,15 @@ class UserManagementsIndex extends Component
 
             DB::commit();
 
-            // Set flash message success
-             session()->flash('success', 'Data user berhasil disimpan.');
+            session()->flash('success', 'Data user berhasil disimpan.');
 
-            // Reset nilai input setelah berhasil disimpan
-            $this->resetInput();
+            $this->route = url()->previous();
+            $this->redirect($this->route);
         } catch (\Throwable $th) {
             DB::rollBack();
 
-            // Set flash message error
-             session()->flash('error', 'Terjadi kesalahan saat menyimpan data user.');
-
-            // Reset nilai input jika terjadi kesalahan
-            $this->resetInput();
+            session()->flash('error', 'Terjadi kesalahan saat menyimpan data user.');
         }
 
-    }
-
-    public function resetInput()
-    {
-        $this->nama = '';
-        $this->role = '';
-        $this->username = '';
-        $this->password = '';
-        $this->kecamatan = '';
-        $this->kelurahan = '';
-        $this->rw = '';
-        $this->rt = '';
     }
 }
