@@ -14,10 +14,18 @@
                         maxFileSize="1024mb" />
                 </div>
                 <div class="modal-footer">
-                    <button type="button" wire:click="import" class="btn btn-info">Import</button>
+                    <button type="button" wire:click="import" class="btn btn-success">Import</button>
+                    <button type="button" wire:click="downloadFile" class="btn btn-info">Download</button>
                     <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
 </div>
+@push('scripts')
+    <script>
+        window.addEventListener('closeModalAndReset', event => {
+            $('#modalImportUser').modal('hide');
+        });
+    </script>
+@endpush

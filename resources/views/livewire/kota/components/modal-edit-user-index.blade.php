@@ -164,7 +164,7 @@
 </div>
 
 @push('scripts')
-{{-- <script>
+    {{-- <script>
     $(function() {
         // Inisialisasi Select2
         $('#roleEdit').select2({
@@ -183,10 +183,9 @@
         });
     });
 </script> --}}
-<script>
-window.addEventListener('closeModal', event => {
+    <script>
+        window.addEventListener('closeModalAndReset', event => {
             $('#modalEditUser').modal('hide');
         });
-</script>
-
+    </script>
 @endpush

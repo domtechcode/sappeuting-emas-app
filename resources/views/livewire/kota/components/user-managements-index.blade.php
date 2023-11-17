@@ -187,30 +187,6 @@
         <!--End Row-->
     </form>
 
-    {{-- <div class="row">
-        <div class="col-xl-12">
-            <div class="card">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="card-body">
-                            <h5 class="card-title">File Import User</h5>
-                            <form method="POST" action="" enctype="multipart/form-data">
-                                @csrf
-                                <div class="form-group">
-                                    <input type="file" class="form-control" name="file">
-                                </div>
-                                <div class="form-group">
-                                    <button type="submit" class="btn btn-dark"><i
-                                            class="fe fe-plus me-2"></i>Import</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> --}}
-
     <div class="row">
         <div class="col-lg-12">
             <div class="card">

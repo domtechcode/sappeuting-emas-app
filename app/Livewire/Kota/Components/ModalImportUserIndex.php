@@ -4,15 +4,18 @@ namespace App\Livewire\Kota\Components;
 
 use App\Models\Rt;
 use App\Models\Rw;
+use Carbon\Carbon;
 use App\Models\User;
 use Livewire\Component;
 use App\Models\Kecamatan;
 use App\Models\Kelurahan;
 use Livewire\Attributes\On;
+use App\Imports\UsersImport;
 use Livewire\Attributes\Rule;
 use Livewire\WithFileUploads;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
+use Maatwebsite\Excel\Facades\Excel;
 
 class ModalImportUserIndex extends Component
 {
@@ -32,7 +35,23 @@ class ModalImportUserIndex extends Component
             'fileImport' => 'required|mimes:xlsx,xls|max:1024', // Sesuaikan dengan jenis file yang diizinkan dan batas maksimal ukuran file
         ]);
 
-        $newFileName = 'new_filename.' . $this->fileImport->getClientOriginalExtension();
+        $newFileName = Carbon::now()->timestamp . '-file-import-user.' . $this->fileImport->getClientOriginalExtension();
         $this->fileImport->storeAs('public/fileImport', $newFileName);
+
+        Excel::import(new UsersImport(), storage_path('app/public/fileImport/' . $newFileName));
+
+        session()->flash('success', 'Data user berhasil disimpan.');
+        $this->dispatch('closeModalAndReset');
+    }
+
+    public function downloadFile()
+    {
+        $filename = 'template-import-users.xlsx';
+        $path = public_path('files/' . $filename);
+
+        return response()->download($path, $filename, [
+            'Content-Type' => 'application/vnd.ms-excel',
+            'Content-Disposition' => 'inline; filename="' . $filename . '"',
+        ]);
     }
 }
