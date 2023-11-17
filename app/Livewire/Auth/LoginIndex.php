@@ -65,4 +65,11 @@ class LoginIndex extends Component
     {
         return response()->json(['captcha' => Captcha::img()]);
     }
+
+    public function logout()
+    {
+        Auth::logout();
+
+        return redirect('/');
+    }
 }

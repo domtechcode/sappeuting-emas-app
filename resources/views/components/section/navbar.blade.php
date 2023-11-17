@@ -21,7 +21,7 @@
                 <div class="navbar navbar-collapse responsive-navbar p-0">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
                         <div class="d-flex order-lg-2 w-auto p-3">
-                            
+
                             <!-- SIDE-MENU -->
                             <div class="dropdown d-flex profile-1">
                                 <a href="javascript:void(0)" data-bs-toggle="dropdown" class="nav-link leading-none d-flex">
@@ -36,7 +36,7 @@
                                         </div>
                                     </div>
                                     <div class="dropdown-divider m-0"></div>
-                                    <form action="" method="post">
+                                    <form action="/logout" method="post">
                                         @csrf
                                         <button class="button dropdown-item" type="submit">
                                             <i class="dropdown-icon fe fe-log-out"></i> Sign out

@@ -27,6 +27,7 @@ use App\Livewire\Kelurahan\Components\DashboardKelurahanIndex;
 // });
 
 Route::get('/', LoginIndex::class)->name('login');
+Route::post('/logout', [LoginIndex::class, 'logout'])->name('logoutProcess');
 
 Route::group(['middleware' => ['auth']], function () {
     Route::group(['prefix' => 'admin-kota', 'middleware' => ['role:admin-kota']], function () {
