@@ -238,32 +238,34 @@
                                     <thead>
                                         <tr>
                                             <th class="border-bottom-0">No</th>
-                                            <th class="border-bottom-0" wire:click="setSortBy('nama')">
-                                                <div class="flex items-center">
-                                                    Nama
-                                                    @if($sortBy !== "nama")
-                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9" />
-                                                      </svg>
-
-                                                    @elseif($sortDir === "ASC")
-                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
-                                                      </svg>
-
-                                                    @else
-                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-                                                      </svg>
-                                                    @endif
-                                                </div>
-                                            </th>
-                                            <th class="border-bottom-0">Role</th>
-                                            <th class="border-bottom-0">Username</th>
-                                            <th class="border-bottom-0">Kecamatan</th>
-                                            <th class="border-bottom-0">Kelurahan</th>
-                                            <th class="border-bottom-0">RW</th>
-                                            <th class="border-bottom-0">RT</th>
+                                            @include('livewire.includes.table-sortable-th', [
+                                                'name' => 'nama',
+                                                'displayName' => 'Nama'
+                                            ])
+                                            @include('livewire.includes.table-sortable-th', [
+                                                'name' => 'role',
+                                                'displayName' => 'Role'
+                                            ])
+                                            @include('livewire.includes.table-sortable-th', [
+                                                'name' => 'username',
+                                                'displayName' => 'Username'
+                                            ])
+                                            @include('livewire.includes.table-sortable-th', [
+                                                'name' => 'kecamatan',
+                                                'displayName' => 'Kecamatan'
+                                            ])
+                                            @include('livewire.includes.table-sortable-th', [
+                                                'name' => 'kelurahan',
+                                                'displayName' => 'Kelurahan'
+                                            ])
+                                            @include('livewire.includes.table-sortable-th', [
+                                                'name' => 'rw',
+                                                'displayName' => 'RW'
+                                            ])
+                                            @include('livewire.includes.table-sortable-th', [
+                                                'name' => 'rt',
+                                                'displayName' => 'RT'
+                                            ])
                                             <th class="border-bottom-0">Actions</th>
                                         </tr>
                                     </thead>
@@ -279,6 +281,12 @@
                                                 <td>{{ $data->kelurahan }}</td>
                                                 <td>{{ $data->rw }}</td>
                                                 <td>{{ $data->rt }}</td>
+                                                <td>
+                                                    <div class="btn-list">
+                                                        <button @click="$dispatch('edit', {id:{{ $data->id }}})" type="button" class="btn btn-icon btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#modalEditUser"><i class="fe fe-eye"></i></button>
+                                                        {{-- <button type="button" class="btn btn-icon btn-sm btn-danger" href="deleteuser/'.$data->id.'"><i class="fe fe-x"></i></button> --}}
+                                                    </div>
+                                                </td>
                                             </tr>
                                         @endforeach
                                     </tbody>
@@ -296,5 +304,6 @@
         <!-- COL-END -->
     </div>
 
+    <livewire:kota.components.modal-edit-user-index>
 
 </div>

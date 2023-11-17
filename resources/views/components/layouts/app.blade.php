@@ -32,7 +32,8 @@
     <!-- INTERNAL Switcher css -->
     <link href="{{ asset('assets/switcher/css/switcher.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/switcher/demo.css') }}" rel="stylesheet">
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    {{-- <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <style>
         .select2-selection__arrow {
             display: none;
@@ -42,7 +43,7 @@
             width: 100%;
             height: 100vh;
         }
-    </style>
+    </style> --}}
     @livewireStyles
 </head>
 
