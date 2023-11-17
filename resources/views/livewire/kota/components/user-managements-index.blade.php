@@ -216,6 +216,9 @@
             <div class="card">
                 <div class="card-header">
                     <div class="card-title">Database User</div>
+                    <div class="card-options">
+                        <button @click="$dispatch('importUser')" type="button" class="btn btn-icon btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#modalImportUser"><i class="fe fe-plus"></i>Import</button>
+                    </div>
                 </div>
                 <div class="card-body">
                     <div class="row mb-3">
@@ -305,5 +308,7 @@
     </div>
 
     <livewire:kota.components.modal-edit-user-index>
+
+    <livewire:kota.components.modal-import-user-index>
 
 </div>
