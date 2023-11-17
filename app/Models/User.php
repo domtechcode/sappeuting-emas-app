@@ -18,27 +18,14 @@ class User extends Authenticatable
      *
      * @var array<int, string>
      */
-    protected $fillable = [
-        'nama',
-        'role',
-        'username',
-        'password',
-        'kecamatan',
-        'kelurahan',
-        'rw',
-        'rt',
-    ];
-
+    protected $fillable = ['nama', 'role', 'username', 'password', 'kecamatan', 'kelurahan', 'rw', 'rt'];
 
     /**
      * The attributes that should be hidden for serialization.
      *
      * @var array<int, string>
      */
-    protected $hidden = [
-        'password',
-        'remember_token',
-    ];
+    protected $hidden = ['password', 'remember_token'];
 
     /**
      * The attributes that should be cast.
@@ -49,4 +36,15 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+    public function scopeSearch($query, $value)
+    {
+        $query
+            ->where('nama', 'like', "%{$value}%")
+            ->orWhere('username', 'like', "%{$value}%")
+            ->orWhere('kecamatan', 'like', "%{$value}%")
+            ->orWhere('kelurahan', 'like', "%{$value}%")
+            ->orWhere('rt', 'like', "%{$value}%")
+            ->orWhere('rw', 'like', "%{$value}%");
+    }
 }

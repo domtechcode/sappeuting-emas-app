@@ -8,15 +8,29 @@ use App\Models\User;
 use Livewire\Component;
 use App\Models\Kecamatan;
 use App\Models\Kelurahan;
+use Livewire\Attributes\Url;
+use Livewire\WithPagination;
 use Livewire\Attributes\Rule;
 use Livewire\Attributes\Title;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 
 #[Title('User Managements - DP3AP2KB Kota Cimahi')]
-#[Layout('components.layouts.app')]
 class UserManagementsIndex extends Component
 {
+    use WithPagination;
+
+    #[Url(history:true)]
+    public $search = '';
+
+    #[Url(history:true)]
+    public $sortBy = 'created_at';
+
+    #[Url(history:true)]
+    public $sortDir = 'ASC';
+    #[Url()]
+    public $perpage = 10;
+
     #[Rule('required', message: 'Nama harus diisi.')]
     public $nama;
 
@@ -41,6 +55,21 @@ class UserManagementsIndex extends Component
     #[Rule('required', message: 'RT harus diisi.')]
     public $rt;
 
+    public function updatedSearch(){
+        $this->resetPage();
+    }
+
+    public function setSortBy($sortByField)
+    {
+        if($this->sortBy === $sortByField){
+            $this->sortDir = ($this->sortDir == "ASC") ? "DESC" : "ASC";
+            return;
+        }
+
+        $this->sortBy = $sortByField;
+        $this->sortDir = "DESC";
+    }
+
     public function render()
     {
         return view('livewire.kota.components.user-managements-index', [
@@ -48,6 +77,9 @@ class UserManagementsIndex extends Component
             'dataKelurahan' => Kelurahan::all(),
             'dataRw' => Rw::all(),
             'dataRt' => Rt::all(),
+            'dataUser' => User::search($this->search)
+                ->orderBy($this->sortBy, $this->sortDir)
+                ->paginate($this->perpage),
         ]);
     }
 
@@ -80,6 +112,5 @@ class UserManagementsIndex extends Component
 
             session()->flash('error', 'Terjadi kesalahan saat menyimpan data user.');
         }
-
     }
 }

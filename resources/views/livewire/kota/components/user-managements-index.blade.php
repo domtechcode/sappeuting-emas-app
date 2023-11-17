@@ -186,8 +186,8 @@
         </div>
         <!--End Row-->
     </form>
-    {{--
-    <div class="row">
+
+    {{-- <div class="row">
         <div class="col-xl-12">
             <div class="card">
                 <div class="row">
@@ -209,7 +209,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <div class="row">
         <div class="col-lg-12">
@@ -218,28 +218,83 @@
                     <div class="card-title">Database User</div>
                 </div>
                 <div class="card-body">
-                    <div class="table-responsive">
-                        <table id="example2" class="table table-bordered text-nowrap border-bottom">
-                            <thead>
-                                <tr>
-                                    <th class="border-bottom-0">No</th>
-                                    <th class="border-bottom-0">Nama</th>
-                                    <th class="border-bottom-0">Role</th>
-                                    <th class="border-bottom-0">Username</th>
-                                    <th class="border-bottom-0">Kecamatan</th>
-                                    <th class="border-bottom-0">Kelurahan</th>
-                                    <th class="border-bottom-0">RW</th>
-                                    <th class="border-bottom-0">RT</th>
-                                    <th class="border-bottom-0">Actions</th>
-                                </tr>
-                            </thead>
-                        </table>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <select id="perpage" name="perpage" wire:model.live="perpage" class="form-control form-select w-auto" >
+                                <option value="10">10</option>
+                                <option value="25">25</option>
+                                <option value="50">50</option>
+                                <option value="100">100</option>
+                            </select>
+                        </div>
+                        <div class="col d-flex justify-content-end">
+                            <input type="text" class="form-control w-auto" placeholder="Search" wire:model.live.debounce.300ms="search" >
+                        </div>
                     </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="table-responsive">
+                                <table class="table border text-nowrap text-md-nowrap table-bordered table-hover mb-0">
+                                    <thead>
+                                        <tr>
+                                            <th class="border-bottom-0">No</th>
+                                            <th class="border-bottom-0" wire:click="setSortBy('nama')">
+                                                <div class="flex items-center">
+                                                    Nama
+                                                    @if($sortBy !== "nama")
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9" />
+                                                      </svg>
+
+                                                    @elseif($sortDir === "ASC")
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+                                                      </svg>
+
+                                                    @else
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                                      </svg>
+                                                    @endif
+                                                </div>
+                                            </th>
+                                            <th class="border-bottom-0">Role</th>
+                                            <th class="border-bottom-0">Username</th>
+                                            <th class="border-bottom-0">Kecamatan</th>
+                                            <th class="border-bottom-0">Kelurahan</th>
+                                            <th class="border-bottom-0">RW</th>
+                                            <th class="border-bottom-0">RT</th>
+                                            <th class="border-bottom-0">Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        @foreach ($dataUser as $key => $data)
+                                            <tr>
+                                                <td>{{ $key + 1 }}</td>
+                                                <td>{{ $data->nama }}</td>
+                                                <td>{{ $data->role }}</td>
+                                                <td>{{ $data->username }}</td>
+                                                <td>{{ $data->kecamatan }}</td>
+                                                <td>{{ $data->kelurahan }}</td>
+                                                <td>{{ $data->rw }}</td>
+                                                <td>{{ $data->rt }}</td>
+                                            </tr>
+                                        @endforeach
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col d-flex justify-content-end mt-3">
+                            {{ $dataUser->links(data: ['scrollTo' => false]) }}
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
         <!-- COL-END -->
-    </div> --}}
+    </div>
 
 
 </div>
