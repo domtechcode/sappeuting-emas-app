@@ -67,6 +67,7 @@ class ModalEditUserIndex extends Component
 
     public function update()
     {
+
         $this->validate();
 
         try {
@@ -86,6 +87,7 @@ class ModalEditUserIndex extends Component
             DB::commit();
             session()->flash('success', 'Data user berhasil disimpan.');
             $this->dispatch('closeModal');
+            $this->dispatch('closeModalAndReset');
         } catch (\Throwable $th) {
             DB::rollBack();
 

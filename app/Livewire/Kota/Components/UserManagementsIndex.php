@@ -8,6 +8,7 @@ use App\Models\User;
 use Livewire\Component;
 use App\Models\Kecamatan;
 use App\Models\Kelurahan;
+use Livewire\Attributes\On;
 use Livewire\Attributes\Url;
 use Livewire\WithPagination;
 use Livewire\Attributes\Rule;
@@ -54,6 +55,12 @@ class UserManagementsIndex extends Component
 
     #[Rule('required', message: 'RT harus diisi.')]
     public $rt;
+
+    #[On('closeModalAndReset')]
+    public function closeModalAndReset()
+    {
+        $this->resetPage();
+    }
 
     public function updatedSearch(){
         $this->resetPage();
