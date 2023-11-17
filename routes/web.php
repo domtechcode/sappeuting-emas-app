@@ -33,7 +33,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::group(['prefix' => 'admin-kota', 'middleware' => ['role:admin-kota']], function () {
         Route::get('/dashboard', DashboardKotaIndex::class)->name('dashboardAdminKota');
         Route::get('/admin-kota-database', DatabaseKotaIndex::class);
-        Route::get('/admin-kota-user', UserManagementsIndex::class);
+        Route::get('/admin-kota-user', UserManagementsIndex::class)->name('userManagements');
     });
 
     Route::group(['prefix' => 'admin-kader', 'middleware' => ['role:admin-kader']], function () {

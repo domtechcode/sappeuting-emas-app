@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <!-- META DATA -->
+
+<head>
+    <!-- META DATA -->
     <meta charset="UTF-8">
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Sash – Bootstrap 5  Admin & Dashboard Template">
     <meta name="author" content="Spruko Technologies Private Limited">
-    <meta name="keywords" content="admin,admin dashboard,admin panel,admin template,bootstrap,clean,dashboard,flat,jquery,modern,responsive,premium admin templates,responsive admin,ui,ui kit.">
+    <meta name="keywords"
+        content="admin,admin dashboard,admin panel,admin template,bootstrap,clean,dashboard,flat,jquery,modern,responsive,premium admin templates,responsive admin,ui,ui kit.">
 
     <!-- FAVICON -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/brand/favicon.ico') }}">
 
-        <!-- TITLE -->
+    <!-- TITLE -->
     <title>{{ $title ?? 'DP3AP2KB Kota Cimahi' }}</title>
 
     <!-- BOOTSTRAP CSS -->
     <link id="style" href="{{ asset('assets/plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- STYLE CSS -->
-     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
 
-	<!-- Plugins CSS -->
+    <!-- Plugins CSS -->
     <link href="{{ asset('assets/css/plugins.css') }}" rel="stylesheet">
 
     <!--- FONT-ICONS CSS -->
@@ -30,7 +32,7 @@
     <!-- INTERNAL Switcher css -->
     <link href="{{ asset('assets/switcher/css/switcher.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/switcher/demo.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <style>
         .select2-selection__arrow {
             display: none;
@@ -41,68 +43,87 @@
             height: 100vh;
         }
     </style>
-    </head>
-    <body class="app sidebar-mini ltr light-mode">
+    @livewireStyles
+</head>
 
-        <!-- GLOBAL-LOADER -->
-        <div id="global-loader">
-            <img src="{{ asset('assets/images/loader.svg') }}" class="loader-img" alt="Loader">
-        </div>
-        <!-- /GLOBAL-LOADER -->
+<body class="app sidebar-mini ltr light-mode">
 
-        <!-- PAGE -->
-        <div class="page">
-            <div class="page-main">
+    <!-- GLOBAL-LOADER -->
+    <div id="global-loader">
+        <img src="{{ asset('assets/images/loader.svg') }}" class="loader-img" alt="Loader">
+    </div>
+    <!-- /GLOBAL-LOADER -->
 
-                @include('components.section.navbar')
-                @include('components.section.menu')
-                {{-- @include('livewire.kader.components.dashboard-kader-index') --}}
+    <!-- PAGE -->
+    <div class="page">
+        <div class="page-main">
+
+            @include('components.section.navbar')
+            @include('components.section.menu')
+            {{-- @include('livewire.kader.components.dashboard-kader-index') --}}
 
 
-                {{ $slot }}
+            <!--app-content open-->
+            <div class="main-content app-content mt-0">
+                <div class="side-app">
+
+                    <!-- CONTAINER -->
+                    <div class="main-container container-fluid">
+
+                        {{ $slot }}
+
+                    </div>
+                    <!-- CONTAINER END -->
+                </div>
             </div>
+            <!--app-content close-->
 
-            @include('components.section.footer')
+
         </div>
 
-        <!-- BACK-TO-TOP -->
-        <a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+        @include('components.section.footer')
+    </div>
 
-        <!-- JQUERY JS -->
-        <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+    <!-- BACK-TO-TOP -->
+    <a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
 
-        <!-- INTERNAL SELECT2 JS -->
-        <script src="{{ asset('assets/plugins/select2/select2.full.min.js') }}"></script>
+    <!-- JQUERY JS -->
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
 
-        <!-- BOOTSTRAP JS -->
-        <script src="{{ asset('assets/plugins/bootstrap/js/popper.min.js') }}"></script>
-        <script src="{{ asset('assets/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
+    <!-- INTERNAL SELECT2 JS -->
+    <script src="{{ asset('assets/plugins/select2/select2.full.min.js') }}"></script>
 
-        <!-- Perfect SCROLLBAR JS-->
-        <script src="{{ asset('assets/plugins/p-scroll/perfect-scrollbar.js') }}"></script>
-        {{-- <script src="{{ asset('assets/plugins/p-scroll/pscroll-1.js') }}"></script> --}}
+    <!-- BOOTSTRAP JS -->
+    <script src="{{ asset('assets/plugins/bootstrap/js/popper.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
 
-        <!-- SIDE-MENU JS -->
-        <script src="{{ asset('assets/plugins/sidemenu/sidemenu.js') }}"></script>
+    <!-- Perfect SCROLLBAR JS-->
+    <script src="{{ asset('assets/plugins/p-scroll/perfect-scrollbar.js') }}"></script>
+    {{-- <script src="{{ asset('assets/plugins/p-scroll/pscroll-1.js') }}"></script> --}}
 
-        <!-- SIDEBAR JS -->
-        <script src="{{ asset('assets/plugins/sidebar/sidebar.js') }}"></script>
+    <!-- SIDE-MENU JS -->
+    <script src="{{ asset('assets/plugins/sidemenu/sidemenu.js') }}"></script>
 
-        <!-- Color Theme js -->
-        <script src="{{ asset('assets/js/themeColors.js') }}"></script>
+    <!-- SIDEBAR JS -->
+    <script src="{{ asset('assets/plugins/sidebar/sidebar.js') }}"></script>
 
-        <!-- Sticky js -->
-        <script src="{{ asset('assets/js/sticky.js') }}"></script>
+    <!-- Color Theme js -->
+    <script src="{{ asset('assets/js/themeColors.js') }}"></script>
 
-        <!-- CUSTOM JS -->
-        <script src="{{ asset('assets/js/custom.js') }}"></script>
+    <!-- Sticky js -->
+    <script src="{{ asset('assets/js/sticky.js') }}"></script>
 
-        <!-- Custom-switcher -->
-        <script src="{{ asset('assets/js/custom-swicher.js') }}"></script>
+    <!-- CUSTOM JS -->
+    <script src="{{ asset('assets/js/custom.js') }}"></script>
 
-        <!-- Switcher js -->
-        <script src="{{ asset('assets/switcher/js/switcher.js') }}"></script>
+    <!-- Custom-switcher -->
+    <script src="{{ asset('assets/js/custom-swicher.js') }}"></script>
 
+    <!-- Switcher js -->
+    <script src="{{ asset('assets/switcher/js/switcher.js') }}"></script>
 
-    </body>
+    @stack('scripts')
+    @livewireScripts
+</body>
+
 </html>
