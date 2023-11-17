@@ -9,7 +9,9 @@
                     </button>
                 </div>
                 <div class="modal-body">
-
+                    <x-forms.filepond wire:model="fileImport" allowFileTypeValidation allowFileSizeValidation
+                        acceptedFileTypes="['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.ms-excel']"
+                        maxFileSize="1024mb" />
                 </div>
                 <div class="modal-footer">
                     <button type="button" wire:click="import" class="btn btn-info">Import</button>
