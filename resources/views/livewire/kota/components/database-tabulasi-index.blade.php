@@ -125,7 +125,7 @@
                     <div class="card-title">Database KRS</div>
                     <div class="card-options">
                         <button @click="$dispatch('importSurveiKrs')" type="button" class="btn btn-icon btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#modalImportSurveiKrs"><i class="fe fe-plus"></i> Import</button>
-                        <button @click="$dispatch('exportSurveiKrs')" type="button" class="btn btn-icon btn-sm btn-info ms-2" data-bs-toggle="modal" data-bs-target="#modalExportSurveiKrs"><i class="fe fe-upload"></i> Export</button>
+                        <button type="button" class="btn btn-icon btn-sm btn-info ms-2" wire:click="exportDataSurveiKrs"><i class="fe fe-upload"></i> Export</button>
                     </div>
                 </div>
                 <div class="card-body">

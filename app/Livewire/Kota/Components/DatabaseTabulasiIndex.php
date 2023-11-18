@@ -12,7 +12,7 @@ use Livewire\WithPagination;
 use App\Models\DataSurveiKrs;
 use Livewire\Attributes\Rule;
 use Livewire\Attributes\Title;
-use App\Exports\DataPendudukExport;
+use App\Exports\DataSurveiKrsExport;
 use Maatwebsite\Excel\Facades\Excel;
 
 #[Title('Database Tabulasi - DP3AP2KB Kota Cimahi')]
@@ -86,6 +86,16 @@ class DatabaseTabulasiIndex extends Component
                 ->select('data_survei_krs.*')
                 ->paginate($this->perpage),
         ]);
+    }
+
+    public function exportDataSurveiKrs()
+    {
+        $kecamatan = $this->kecamatan;
+        $kelurahan = $this->kelurahan;
+        $rw = $this->rw;
+        $rt = $this->rt;
+
+        return Excel::download(new DataSurveiKrsExport($kecamatan, $kelurahan, $rw, $rt), 'data_survei_krs.xlsx');
     }
 
 

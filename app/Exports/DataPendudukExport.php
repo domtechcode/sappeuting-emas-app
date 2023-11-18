@@ -80,7 +80,6 @@ class DataPendudukExport implements FromCollection, WithHeadings, WithColumnForm
     {
         return [
             'B' => NumberFormat::FORMAT_NUMBER,
-            // Adjust the column letter ('B' in this case) based on your actual column order
         ];
     }
 }
