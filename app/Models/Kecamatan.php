@@ -10,6 +10,7 @@ class Kecamatan extends Model
 {
     use HasFactory, SoftDeletes;
 
+    protected $table = 'kecamatans';
     protected $fillable = [
         'nama_kecamatan'
     ];

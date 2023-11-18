@@ -3,10 +3,9 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-USE Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
-return new class extends Migration
-{
+return new class extends Migration {
     /**
      * Run the migrations.
      */
@@ -22,7 +21,8 @@ return new class extends Migration
             $table->string('kelurahan')->nullable();
             $table->string('rw')->nullable();
             $table->string('rt')->nullable();
-
+            $table->text('latitude')->nullable();
+            $table->text('longitude')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });

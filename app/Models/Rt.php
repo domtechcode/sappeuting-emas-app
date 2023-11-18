@@ -10,6 +10,7 @@ class Rt extends Model
 {
     use HasFactory, SoftDeletes;
 
+    protected $table = 'rts';
     protected $fillable = [
         'nomor_rt'
     ];

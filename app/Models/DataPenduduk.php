@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use App\Models\DataSurvei;
+use App\Models\DataSurveiKrs;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -11,14 +11,14 @@ class DataPenduduk extends Model
 {
     use HasFactory, SoftDeletes;
 
-
+    protected $table = 'data_penduduks';
     protected $fillable = [
-        'nomor_keluarga_indonesia', 'nama_kepala_keluarga', 'nama_istri', 'status_keluarga', 'kecamatan', 'kelurahan', 'rw', 'rt'
+        'nomor_keluarga_indonesia', 'nama_kepala_keluarga', 'nama_istri', 'status_keluarga', 'kecamatan', 'kelurahan', 'rw', 'rt', 'latitude', 'longitude'
     ];
 
-    public function dataSurveis()
+    public function dataSurveiKrs()
     {
-        return $this->hasMany(DataSurvei::class);
+        return $this->hasOne(DataSurveiKrs::class);
     }
 
     public function scopeSearch($query, $value)

@@ -10,6 +10,7 @@ class Kelurahan extends Model
 {
     use HasFactory, SoftDeletes;
 
+    protected $table = 'kelurahans';
     protected $fillable = [
         'nama_kelurahan'
     ];

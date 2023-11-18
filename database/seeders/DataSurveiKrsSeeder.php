@@ -2,11 +2,11 @@
 
 namespace Database\Seeders;
 
-use App\Models\DataSurvei;
+use App\Models\DataSurveiKrs;
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
-class DataSurveiSeeder extends Seeder
+class DataSurveiKrsSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -34,7 +34,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -55,7 +55,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -76,7 +76,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -97,7 +97,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -118,7 +118,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -139,7 +139,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -160,7 +160,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -181,7 +181,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -202,7 +202,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -223,7 +223,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -244,7 +244,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -265,7 +265,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -286,7 +286,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -307,7 +307,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -328,7 +328,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -349,7 +349,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -370,7 +370,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -391,7 +391,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -412,7 +412,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -433,7 +433,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -454,7 +454,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -475,7 +475,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -496,7 +496,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -517,7 +517,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -538,7 +538,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -559,7 +559,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -580,7 +580,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -601,7 +601,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -622,7 +622,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -643,7 +643,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -664,7 +664,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -685,7 +685,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -706,7 +706,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -727,7 +727,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -748,7 +748,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -769,7 +769,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -790,7 +790,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -811,7 +811,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -832,7 +832,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -853,7 +853,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -874,7 +874,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -895,7 +895,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -916,7 +916,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -937,7 +937,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -958,7 +958,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -979,7 +979,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -1000,7 +1000,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -1021,7 +1021,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1042,7 +1042,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -1063,7 +1063,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -1084,7 +1084,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -1105,7 +1105,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -1126,7 +1126,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -1147,7 +1147,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1168,7 +1168,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -1189,7 +1189,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -1210,7 +1210,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -1231,7 +1231,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -1252,7 +1252,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1273,7 +1273,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1294,7 +1294,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -1315,7 +1315,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -1336,7 +1336,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -1357,7 +1357,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -1378,7 +1378,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1399,7 +1399,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -1420,7 +1420,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1441,7 +1441,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -1462,7 +1462,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -1483,7 +1483,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -1504,7 +1504,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1525,7 +1525,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -1546,7 +1546,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1567,7 +1567,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1588,7 +1588,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1609,7 +1609,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1630,7 +1630,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1651,7 +1651,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1672,7 +1672,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -1693,7 +1693,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1714,7 +1714,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -1735,7 +1735,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -1756,7 +1756,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1777,7 +1777,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1798,7 +1798,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -1819,7 +1819,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1840,7 +1840,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -1861,7 +1861,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1882,7 +1882,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -1903,7 +1903,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1924,7 +1924,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -1945,7 +1945,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1966,7 +1966,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -1987,7 +1987,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -2008,7 +2008,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -2029,7 +2029,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -2050,7 +2050,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -2071,7 +2071,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -2092,7 +2092,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -2113,7 +2113,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -2134,7 +2134,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -2155,7 +2155,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -2176,7 +2176,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -2197,7 +2197,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -2218,7 +2218,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -2239,7 +2239,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -2260,7 +2260,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -2281,7 +2281,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -2302,7 +2302,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -2323,7 +2323,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -2344,7 +2344,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -2365,7 +2365,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -2386,7 +2386,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -2407,7 +2407,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -2428,7 +2428,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -2449,7 +2449,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -2470,7 +2470,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -2491,7 +2491,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -2512,7 +2512,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -2533,7 +2533,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -2554,7 +2554,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -2575,7 +2575,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -2596,7 +2596,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -2617,7 +2617,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -2638,7 +2638,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -2659,7 +2659,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -2680,7 +2680,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -2701,7 +2701,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -2722,7 +2722,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -2743,7 +2743,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -2764,7 +2764,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -2785,7 +2785,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -2806,7 +2806,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -2827,7 +2827,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -2848,7 +2848,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -2869,7 +2869,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -2890,7 +2890,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -2911,7 +2911,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -2932,7 +2932,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -2953,7 +2953,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -2974,7 +2974,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -2995,7 +2995,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -3016,7 +3016,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -3037,7 +3037,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -3058,7 +3058,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -3079,7 +3079,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -3100,7 +3100,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -3121,7 +3121,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -3142,7 +3142,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -3163,7 +3163,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -3184,7 +3184,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -3205,7 +3205,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -3226,7 +3226,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -3247,7 +3247,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -3268,7 +3268,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -3289,7 +3289,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -3310,7 +3310,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -3331,7 +3331,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -3352,7 +3352,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -3373,7 +3373,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -3394,7 +3394,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -3415,7 +3415,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -3436,7 +3436,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -3457,7 +3457,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -3478,7 +3478,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -3499,7 +3499,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -3520,7 +3520,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -3541,7 +3541,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -3562,7 +3562,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -3583,7 +3583,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -3604,7 +3604,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -3625,7 +3625,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -3646,7 +3646,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -3667,7 +3667,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -3688,7 +3688,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -3709,7 +3709,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -3730,7 +3730,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -3751,7 +3751,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -3772,7 +3772,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -3793,7 +3793,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -3814,7 +3814,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -3835,7 +3835,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -3856,7 +3856,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -3877,7 +3877,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -3898,7 +3898,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -3919,7 +3919,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -3940,7 +3940,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -3961,7 +3961,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -3982,7 +3982,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -4003,7 +4003,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -4024,7 +4024,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -4045,7 +4045,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -4066,7 +4066,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -4087,7 +4087,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -4108,7 +4108,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -4129,7 +4129,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -4150,7 +4150,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -4171,7 +4171,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -4192,7 +4192,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -4213,7 +4213,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -4234,7 +4234,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -4255,7 +4255,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -4276,7 +4276,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -4297,7 +4297,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -4318,7 +4318,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -4339,7 +4339,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -4360,7 +4360,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -4381,7 +4381,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -4402,7 +4402,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -4423,7 +4423,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -4444,7 +4444,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -4465,7 +4465,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -4486,7 +4486,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -4507,7 +4507,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -4528,7 +4528,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -4549,7 +4549,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -4570,7 +4570,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -4591,7 +4591,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -4612,7 +4612,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -4633,7 +4633,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -4654,7 +4654,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -4675,7 +4675,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -4696,7 +4696,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -4717,7 +4717,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -4738,7 +4738,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -4759,7 +4759,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -4780,7 +4780,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -4801,7 +4801,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -4822,7 +4822,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -4843,7 +4843,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -4864,7 +4864,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -4885,7 +4885,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -4906,7 +4906,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -4927,7 +4927,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -4948,7 +4948,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -4969,7 +4969,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -4990,7 +4990,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -5011,7 +5011,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -5032,7 +5032,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -5053,7 +5053,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -5074,7 +5074,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -5095,7 +5095,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -5116,7 +5116,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -5137,7 +5137,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -5158,7 +5158,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -5179,7 +5179,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -5200,7 +5200,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -5221,7 +5221,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -5242,7 +5242,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -5263,7 +5263,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -5284,7 +5284,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -5305,7 +5305,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -5326,7 +5326,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -5347,7 +5347,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -5368,7 +5368,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -5389,7 +5389,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -5410,7 +5410,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -5431,7 +5431,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -5452,7 +5452,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -5473,7 +5473,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -5494,7 +5494,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -5515,7 +5515,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -5536,7 +5536,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -5557,7 +5557,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -5578,7 +5578,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -5599,7 +5599,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -5620,7 +5620,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -5641,7 +5641,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -5662,7 +5662,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -5683,7 +5683,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -5704,7 +5704,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -5725,7 +5725,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '21',
@@ -5746,7 +5746,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -5767,7 +5767,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -5788,7 +5788,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -5809,7 +5809,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -5830,7 +5830,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -5851,7 +5851,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -5872,7 +5872,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -5893,7 +5893,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -5914,7 +5914,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -5935,7 +5935,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -5956,7 +5956,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -5977,7 +5977,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -5998,7 +5998,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -6019,7 +6019,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -6040,7 +6040,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -6061,7 +6061,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -6082,7 +6082,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -6103,7 +6103,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -6124,7 +6124,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -6145,7 +6145,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -6166,7 +6166,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -6187,7 +6187,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -6208,7 +6208,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -6229,7 +6229,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -6250,7 +6250,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -6271,7 +6271,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -6292,7 +6292,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -6313,7 +6313,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -6334,7 +6334,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -6355,7 +6355,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -6376,7 +6376,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -6397,7 +6397,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -6418,7 +6418,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -6439,7 +6439,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -6460,7 +6460,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -6481,7 +6481,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -6502,7 +6502,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -6523,7 +6523,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -6544,7 +6544,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -6565,7 +6565,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -6586,7 +6586,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -6607,7 +6607,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -6628,7 +6628,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -6649,7 +6649,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -6670,7 +6670,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -6691,7 +6691,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -6712,7 +6712,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -6733,7 +6733,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -6754,7 +6754,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -6775,7 +6775,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -6796,7 +6796,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -6817,7 +6817,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -6838,7 +6838,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -6859,7 +6859,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -6880,7 +6880,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -6901,7 +6901,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -6922,7 +6922,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -6943,7 +6943,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -6964,7 +6964,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -6985,7 +6985,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -7006,7 +7006,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -7027,7 +7027,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -7048,7 +7048,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -7069,7 +7069,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -7090,7 +7090,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -7111,7 +7111,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -7132,7 +7132,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -7153,7 +7153,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -7174,7 +7174,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -7195,7 +7195,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -7216,7 +7216,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -7237,7 +7237,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -7258,7 +7258,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -7279,7 +7279,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -7300,7 +7300,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -7321,7 +7321,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -7342,7 +7342,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -7363,7 +7363,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -7384,7 +7384,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -7405,7 +7405,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -7426,7 +7426,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -7447,7 +7447,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -7468,7 +7468,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -7489,7 +7489,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -7510,7 +7510,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -7531,7 +7531,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -7552,7 +7552,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -7573,7 +7573,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -7594,7 +7594,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -7615,7 +7615,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -7636,7 +7636,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -7657,7 +7657,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -7678,7 +7678,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -7699,7 +7699,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -7720,7 +7720,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -7741,7 +7741,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -7762,7 +7762,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -7783,7 +7783,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -7804,7 +7804,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -7825,7 +7825,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -7846,7 +7846,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -7867,7 +7867,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -7888,7 +7888,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -7909,7 +7909,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -7930,7 +7930,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -7951,7 +7951,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -7972,7 +7972,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -7993,7 +7993,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -8014,7 +8014,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -8035,7 +8035,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -8056,7 +8056,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -8077,7 +8077,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -8098,7 +8098,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -8119,7 +8119,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -8140,7 +8140,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -8161,7 +8161,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -8182,7 +8182,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -8203,7 +8203,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -8224,7 +8224,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -8245,7 +8245,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -8266,7 +8266,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -8287,7 +8287,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -8308,7 +8308,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -8329,7 +8329,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -8350,7 +8350,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -8371,7 +8371,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -8392,7 +8392,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -8413,7 +8413,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -8434,7 +8434,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -8455,7 +8455,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -8476,7 +8476,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -8497,7 +8497,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -8518,7 +8518,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -8539,7 +8539,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -8560,7 +8560,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -8581,7 +8581,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -8602,7 +8602,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -8623,7 +8623,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -8644,7 +8644,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -8665,7 +8665,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -8686,7 +8686,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -8707,7 +8707,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -8728,7 +8728,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -8749,7 +8749,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -8770,7 +8770,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -8791,7 +8791,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -8812,7 +8812,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -8833,7 +8833,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -8854,7 +8854,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -8875,7 +8875,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -8896,7 +8896,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -8917,7 +8917,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -8938,7 +8938,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -8959,7 +8959,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -8980,7 +8980,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -9001,7 +9001,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -9022,7 +9022,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -9043,7 +9043,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -9064,7 +9064,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -9085,7 +9085,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -9106,7 +9106,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -9127,7 +9127,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -9148,7 +9148,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -9169,7 +9169,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -9190,7 +9190,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -9211,7 +9211,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -9232,7 +9232,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -9253,7 +9253,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -9274,7 +9274,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -9295,7 +9295,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -9316,7 +9316,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -9337,7 +9337,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -9358,7 +9358,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -9379,7 +9379,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -9400,7 +9400,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -9421,7 +9421,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -9442,7 +9442,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '8',
@@ -9463,7 +9463,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -9484,7 +9484,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -9505,7 +9505,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -9526,7 +9526,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -9547,7 +9547,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -9568,7 +9568,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '20',
@@ -9589,7 +9589,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -9610,7 +9610,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -9631,7 +9631,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -9652,7 +9652,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -9673,7 +9673,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -9694,7 +9694,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -9715,7 +9715,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -9736,7 +9736,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -9757,7 +9757,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -9778,7 +9778,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -9799,7 +9799,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -9820,7 +9820,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -9841,7 +9841,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -9862,7 +9862,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -9883,7 +9883,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -9904,7 +9904,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -9925,7 +9925,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -9946,7 +9946,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -9967,7 +9967,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -9988,7 +9988,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -10009,7 +10009,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -10030,7 +10030,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -10051,7 +10051,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -10072,7 +10072,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -10093,7 +10093,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -10114,7 +10114,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -10135,7 +10135,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -10156,7 +10156,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -10177,7 +10177,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -10198,7 +10198,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -10219,7 +10219,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10240,7 +10240,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -10261,7 +10261,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10282,7 +10282,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10303,7 +10303,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -10324,7 +10324,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10345,7 +10345,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10366,7 +10366,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10387,7 +10387,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10408,7 +10408,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10429,7 +10429,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10450,7 +10450,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10471,7 +10471,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10492,7 +10492,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10513,7 +10513,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -10534,7 +10534,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10555,7 +10555,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -10576,7 +10576,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -10597,7 +10597,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -10618,7 +10618,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10639,7 +10639,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -10660,7 +10660,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -10681,7 +10681,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10702,7 +10702,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -10723,7 +10723,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10744,7 +10744,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -10765,7 +10765,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -10786,7 +10786,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -10807,7 +10807,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10828,7 +10828,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -10849,7 +10849,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -10870,7 +10870,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10891,7 +10891,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10912,7 +10912,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10933,7 +10933,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10954,7 +10954,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10975,7 +10975,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -10996,7 +10996,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -11017,7 +11017,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -11038,7 +11038,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -11059,7 +11059,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -11080,7 +11080,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -11101,7 +11101,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -11122,7 +11122,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -11143,7 +11143,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -11164,7 +11164,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -11185,7 +11185,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -11206,7 +11206,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -11227,7 +11227,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -11248,7 +11248,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -11269,7 +11269,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -11290,7 +11290,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -11311,7 +11311,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -11332,7 +11332,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -11353,7 +11353,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -11374,7 +11374,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -11395,7 +11395,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -11416,7 +11416,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -11437,7 +11437,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -11458,7 +11458,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -11479,7 +11479,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -11500,7 +11500,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '23',
@@ -11521,7 +11521,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -11542,7 +11542,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -11563,7 +11563,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -11584,7 +11584,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -11605,7 +11605,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -11626,7 +11626,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -11647,7 +11647,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -11668,7 +11668,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -11689,7 +11689,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -11710,7 +11710,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -11731,7 +11731,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -11752,7 +11752,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -11773,7 +11773,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -11794,7 +11794,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -11815,7 +11815,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -11836,7 +11836,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -11857,7 +11857,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -11878,7 +11878,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -11899,7 +11899,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -11920,7 +11920,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -11941,7 +11941,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -11962,7 +11962,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -11983,7 +11983,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -12004,7 +12004,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12025,7 +12025,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12046,7 +12046,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12067,7 +12067,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -12088,7 +12088,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12109,7 +12109,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12130,7 +12130,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12151,7 +12151,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12172,7 +12172,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12193,7 +12193,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12214,7 +12214,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12235,7 +12235,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -12256,7 +12256,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -12277,7 +12277,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12298,7 +12298,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -12319,7 +12319,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -12340,7 +12340,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -12361,7 +12361,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12382,7 +12382,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -12403,7 +12403,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12424,7 +12424,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -12445,7 +12445,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12466,7 +12466,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -12487,7 +12487,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12508,7 +12508,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -12529,7 +12529,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -12550,7 +12550,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12571,7 +12571,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -12592,7 +12592,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12613,7 +12613,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -12634,7 +12634,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12655,7 +12655,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -12676,7 +12676,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12697,7 +12697,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -12718,7 +12718,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -12739,7 +12739,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12760,7 +12760,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12781,7 +12781,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -12802,7 +12802,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -12823,7 +12823,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12844,7 +12844,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -12865,7 +12865,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12886,7 +12886,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -12907,7 +12907,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -12928,7 +12928,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -12949,7 +12949,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -12970,7 +12970,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -12991,7 +12991,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -13012,7 +13012,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -13033,7 +13033,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -13054,7 +13054,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -13075,7 +13075,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -13096,7 +13096,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -13117,7 +13117,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -13138,7 +13138,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -13159,7 +13159,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -13180,7 +13180,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -13201,7 +13201,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -13222,7 +13222,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -13243,7 +13243,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -13264,7 +13264,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -13285,7 +13285,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -13306,7 +13306,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -13327,7 +13327,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -13348,7 +13348,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -13369,7 +13369,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -13390,7 +13390,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -13411,7 +13411,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -13432,7 +13432,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -13453,7 +13453,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -13474,7 +13474,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -13495,7 +13495,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -13516,7 +13516,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -13537,7 +13537,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -13558,7 +13558,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -13579,7 +13579,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -13600,7 +13600,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -13621,7 +13621,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -13642,7 +13642,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -13663,7 +13663,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -13684,7 +13684,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -13705,7 +13705,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -13726,7 +13726,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -13747,7 +13747,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -13768,7 +13768,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -13789,7 +13789,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -13810,7 +13810,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -13831,7 +13831,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -13852,7 +13852,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -13873,7 +13873,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -13894,7 +13894,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -13915,7 +13915,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -13936,7 +13936,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -13957,7 +13957,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -13978,7 +13978,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -13999,7 +13999,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -14020,7 +14020,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -14041,7 +14041,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -14062,7 +14062,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -14083,7 +14083,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -14104,7 +14104,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -14125,7 +14125,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -14146,7 +14146,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -14167,7 +14167,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -14188,7 +14188,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -14209,7 +14209,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -14230,7 +14230,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -14251,7 +14251,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -14272,7 +14272,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -14293,7 +14293,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -14314,7 +14314,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -14335,7 +14335,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -14356,7 +14356,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -14377,7 +14377,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -14398,7 +14398,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -14419,7 +14419,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -14440,7 +14440,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -14461,7 +14461,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -14482,7 +14482,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '19',
@@ -14503,7 +14503,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -14524,7 +14524,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -14545,7 +14545,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -14566,7 +14566,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -14587,7 +14587,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -14608,7 +14608,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -14629,7 +14629,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '7',
@@ -14650,7 +14650,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -14671,7 +14671,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -14692,7 +14692,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -14713,7 +14713,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -14734,7 +14734,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -14755,7 +14755,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -14776,7 +14776,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -14797,7 +14797,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -14818,7 +14818,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -14839,7 +14839,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -14860,7 +14860,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -14881,7 +14881,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -14902,7 +14902,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -14923,7 +14923,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -14944,7 +14944,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -14965,7 +14965,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -14986,7 +14986,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -15007,7 +15007,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -15028,7 +15028,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -15049,7 +15049,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -15070,7 +15070,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -15091,7 +15091,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -15112,7 +15112,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -15133,7 +15133,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -15154,7 +15154,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -15175,7 +15175,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -15196,7 +15196,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '31',
@@ -15217,7 +15217,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -15238,7 +15238,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -15259,7 +15259,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -15280,7 +15280,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -15301,7 +15301,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -15322,7 +15322,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -15343,7 +15343,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -15364,7 +15364,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -15385,7 +15385,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -15406,7 +15406,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -15427,7 +15427,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -15448,7 +15448,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -15469,7 +15469,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -15490,7 +15490,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -15511,7 +15511,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -15532,7 +15532,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -15553,7 +15553,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -15574,7 +15574,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -15595,7 +15595,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -15616,7 +15616,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -15637,7 +15637,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -15658,7 +15658,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -15679,7 +15679,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -15700,7 +15700,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -15721,7 +15721,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -15742,7 +15742,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -15763,7 +15763,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -15784,7 +15784,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -15805,7 +15805,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -15826,7 +15826,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -15847,7 +15847,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -15868,7 +15868,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -15889,7 +15889,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -15910,7 +15910,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -15931,7 +15931,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -15952,7 +15952,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -15973,7 +15973,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -15994,7 +15994,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -16015,7 +16015,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -16036,7 +16036,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -16057,7 +16057,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -16078,7 +16078,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -16099,7 +16099,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -16120,7 +16120,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -16141,7 +16141,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -16162,7 +16162,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -16183,7 +16183,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -16204,7 +16204,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -16225,7 +16225,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -16246,7 +16246,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -16267,7 +16267,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -16288,7 +16288,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -16309,7 +16309,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -16330,7 +16330,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -16351,7 +16351,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -16372,7 +16372,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -16393,7 +16393,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -16414,7 +16414,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -16435,7 +16435,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -16456,7 +16456,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -16477,7 +16477,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -16498,7 +16498,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -16519,7 +16519,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -16540,7 +16540,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -16561,7 +16561,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -16582,7 +16582,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -16603,7 +16603,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -16624,7 +16624,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -16645,7 +16645,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -16666,7 +16666,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -16687,7 +16687,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -16708,7 +16708,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -16729,7 +16729,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -16750,7 +16750,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -16771,7 +16771,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -16792,7 +16792,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -16813,7 +16813,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -16834,7 +16834,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -16855,7 +16855,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -16876,7 +16876,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -16897,7 +16897,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -16918,7 +16918,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -16939,7 +16939,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -16960,7 +16960,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -16981,7 +16981,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -17002,7 +17002,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -17023,7 +17023,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -17044,7 +17044,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -17065,7 +17065,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -17086,7 +17086,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -17107,7 +17107,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -17128,7 +17128,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -17149,7 +17149,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -17170,7 +17170,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -17191,7 +17191,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '36',
@@ -17212,7 +17212,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -17233,7 +17233,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -17254,7 +17254,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -17275,7 +17275,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -17296,7 +17296,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -17317,7 +17317,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -17338,7 +17338,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -17359,7 +17359,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -17380,7 +17380,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -17401,7 +17401,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -17422,7 +17422,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -17443,7 +17443,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -17464,7 +17464,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -17485,7 +17485,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -17506,7 +17506,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -17527,7 +17527,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -17548,7 +17548,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -17569,7 +17569,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -17590,7 +17590,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -17611,7 +17611,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -17632,7 +17632,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -17653,7 +17653,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -17674,7 +17674,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -17695,7 +17695,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -17716,7 +17716,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -17737,7 +17737,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -17758,7 +17758,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -17779,7 +17779,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -17800,7 +17800,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -17821,7 +17821,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -17842,7 +17842,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -17863,7 +17863,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -17884,7 +17884,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -17905,7 +17905,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -17926,7 +17926,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -17947,7 +17947,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -17968,7 +17968,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -17989,7 +17989,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -18010,7 +18010,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -18031,7 +18031,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -18052,7 +18052,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -18073,7 +18073,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -18094,7 +18094,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -18115,7 +18115,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -18136,7 +18136,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -18157,7 +18157,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -18178,7 +18178,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -18199,7 +18199,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -18220,7 +18220,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -18241,7 +18241,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -18262,7 +18262,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -18283,7 +18283,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -18304,7 +18304,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -18325,7 +18325,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -18346,7 +18346,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -18367,7 +18367,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -18388,7 +18388,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -18409,7 +18409,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -18430,7 +18430,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -18451,7 +18451,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -18472,7 +18472,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -18493,7 +18493,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -18514,7 +18514,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -18535,7 +18535,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -18556,7 +18556,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -18577,7 +18577,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -18598,7 +18598,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -18619,7 +18619,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -18640,7 +18640,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -18661,7 +18661,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -18682,7 +18682,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -18703,7 +18703,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -18724,7 +18724,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -18745,7 +18745,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -18766,7 +18766,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -18787,7 +18787,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -18808,7 +18808,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -18829,7 +18829,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -18850,7 +18850,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -18871,7 +18871,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -18892,7 +18892,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -18913,7 +18913,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -18934,7 +18934,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -18955,7 +18955,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -18976,7 +18976,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -18997,7 +18997,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -19018,7 +19018,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -19039,7 +19039,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -19060,7 +19060,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -19081,7 +19081,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -19102,7 +19102,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -19123,7 +19123,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -19144,7 +19144,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -19165,7 +19165,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -19186,7 +19186,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -19207,7 +19207,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -19228,7 +19228,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -19249,7 +19249,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -19270,7 +19270,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -19291,7 +19291,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -19312,7 +19312,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -19333,7 +19333,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -19354,7 +19354,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -19375,7 +19375,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -19396,7 +19396,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -19417,7 +19417,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -19438,7 +19438,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -19459,7 +19459,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -19480,7 +19480,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -19501,7 +19501,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -19522,7 +19522,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -19543,7 +19543,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -19564,7 +19564,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -19585,7 +19585,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -19606,7 +19606,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -19627,7 +19627,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -19648,7 +19648,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -19669,7 +19669,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -19690,7 +19690,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -19711,7 +19711,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -19732,7 +19732,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -19753,7 +19753,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -19774,7 +19774,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -19795,7 +19795,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -19816,7 +19816,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -19837,7 +19837,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -19858,7 +19858,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -19879,7 +19879,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -19900,7 +19900,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -19921,7 +19921,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -19942,7 +19942,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -19963,7 +19963,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -19984,7 +19984,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -20005,7 +20005,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -20026,7 +20026,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -20047,7 +20047,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -20068,7 +20068,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -20089,7 +20089,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -20110,7 +20110,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -20131,7 +20131,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -20152,7 +20152,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -20173,7 +20173,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -20194,7 +20194,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -20215,7 +20215,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -20236,7 +20236,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -20257,7 +20257,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -20278,7 +20278,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -20299,7 +20299,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -20320,7 +20320,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -20341,7 +20341,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -20362,7 +20362,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -20383,7 +20383,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -20404,7 +20404,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -20425,7 +20425,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -20446,7 +20446,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -20467,7 +20467,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -20488,7 +20488,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -20509,7 +20509,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -20530,7 +20530,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -20551,7 +20551,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -20572,7 +20572,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -20593,7 +20593,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -20614,7 +20614,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '38',
@@ -20635,7 +20635,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -20656,7 +20656,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -20677,7 +20677,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -20698,7 +20698,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '22',
@@ -20719,7 +20719,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -20740,7 +20740,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -20761,7 +20761,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -20782,7 +20782,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -20803,7 +20803,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -20824,7 +20824,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -20845,7 +20845,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -20866,7 +20866,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -20887,7 +20887,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -20908,7 +20908,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -20929,7 +20929,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -20950,7 +20950,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -20971,7 +20971,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -20992,7 +20992,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -21013,7 +21013,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -21034,7 +21034,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -21055,7 +21055,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -21076,7 +21076,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -21097,7 +21097,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -21118,7 +21118,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -21139,7 +21139,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -21160,7 +21160,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -21181,7 +21181,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -21202,7 +21202,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -21223,7 +21223,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -21244,7 +21244,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -21265,7 +21265,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -21286,7 +21286,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -21307,7 +21307,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -21328,7 +21328,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -21349,7 +21349,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -21370,7 +21370,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -21391,7 +21391,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -21412,7 +21412,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -21433,7 +21433,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -21454,7 +21454,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -21475,7 +21475,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -21496,7 +21496,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -21517,7 +21517,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -21538,7 +21538,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -21559,7 +21559,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -21580,7 +21580,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -21601,7 +21601,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -21622,7 +21622,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -21643,7 +21643,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -21664,7 +21664,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -21685,7 +21685,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -21706,7 +21706,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -21727,7 +21727,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -21748,7 +21748,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -21769,7 +21769,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '40',
@@ -21790,7 +21790,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -21811,7 +21811,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -21832,7 +21832,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -21853,7 +21853,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -21874,7 +21874,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -21895,7 +21895,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -21916,7 +21916,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -21937,7 +21937,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -21958,7 +21958,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -21979,7 +21979,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -22000,7 +22000,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -22021,7 +22021,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -22042,7 +22042,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -22063,7 +22063,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -22084,7 +22084,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -22105,7 +22105,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -22126,7 +22126,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -22147,7 +22147,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -22168,7 +22168,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -22189,7 +22189,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -22210,7 +22210,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -22231,7 +22231,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -22252,7 +22252,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -22273,7 +22273,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -22294,7 +22294,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -22315,7 +22315,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -22336,7 +22336,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -22357,7 +22357,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -22378,7 +22378,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -22399,7 +22399,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -22420,7 +22420,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -22441,7 +22441,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -22462,7 +22462,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -22483,7 +22483,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -22504,7 +22504,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -22525,7 +22525,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -22546,7 +22546,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -22567,7 +22567,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -22588,7 +22588,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -22609,7 +22609,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -22630,7 +22630,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -22651,7 +22651,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -22672,7 +22672,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -22693,7 +22693,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -22714,7 +22714,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '28',
@@ -22735,7 +22735,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -22756,7 +22756,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -22777,7 +22777,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -22798,7 +22798,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -22819,7 +22819,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -22840,7 +22840,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -22861,7 +22861,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -22882,7 +22882,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -22903,7 +22903,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -22924,7 +22924,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -22945,7 +22945,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -22966,7 +22966,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -22987,7 +22987,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -23008,7 +23008,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -23029,7 +23029,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -23050,7 +23050,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -23071,7 +23071,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -23092,7 +23092,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -23113,7 +23113,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -23134,7 +23134,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -23155,7 +23155,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -23176,7 +23176,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -23197,7 +23197,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -23218,7 +23218,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -23239,7 +23239,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -23260,7 +23260,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -23281,7 +23281,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -23302,7 +23302,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -23323,7 +23323,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -23344,7 +23344,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -23365,7 +23365,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -23386,7 +23386,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -23407,7 +23407,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -23428,7 +23428,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -23449,7 +23449,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -23470,7 +23470,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -23491,7 +23491,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -23512,7 +23512,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -23533,7 +23533,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -23554,7 +23554,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -23575,7 +23575,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -23596,7 +23596,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -23617,7 +23617,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -23638,7 +23638,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -23659,7 +23659,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -23680,7 +23680,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -23701,7 +23701,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -23722,7 +23722,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -23743,7 +23743,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -23764,7 +23764,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -23785,7 +23785,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -23806,7 +23806,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -23827,7 +23827,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -23848,7 +23848,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -23869,7 +23869,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -23890,7 +23890,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -23911,7 +23911,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -23932,7 +23932,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -23953,7 +23953,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -23974,7 +23974,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -23995,7 +23995,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -24016,7 +24016,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -24037,7 +24037,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -24058,7 +24058,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24079,7 +24079,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -24100,7 +24100,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -24121,7 +24121,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24142,7 +24142,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24163,7 +24163,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -24184,7 +24184,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24205,7 +24205,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -24226,7 +24226,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24247,7 +24247,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -24268,7 +24268,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24289,7 +24289,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24310,7 +24310,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -24331,7 +24331,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24352,7 +24352,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -24373,7 +24373,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -24394,7 +24394,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24415,7 +24415,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '29',
@@ -24436,7 +24436,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24457,7 +24457,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24478,7 +24478,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -24499,7 +24499,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -24520,7 +24520,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24541,7 +24541,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -24562,7 +24562,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24583,7 +24583,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -24604,7 +24604,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24625,7 +24625,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -24646,7 +24646,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24667,7 +24667,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24688,7 +24688,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -24709,7 +24709,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -24730,7 +24730,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24751,7 +24751,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24772,7 +24772,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -24793,7 +24793,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -24814,7 +24814,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24835,7 +24835,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -24856,7 +24856,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24877,7 +24877,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -24898,7 +24898,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24919,7 +24919,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -24940,7 +24940,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24961,7 +24961,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '25',
@@ -24982,7 +24982,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -25003,7 +25003,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -25024,7 +25024,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -25045,7 +25045,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -25066,7 +25066,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -25087,7 +25087,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -25108,7 +25108,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -25129,7 +25129,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -25150,7 +25150,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -25171,7 +25171,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -25192,7 +25192,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -25213,7 +25213,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -25234,7 +25234,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -25255,7 +25255,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -25276,7 +25276,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -25297,7 +25297,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -25318,7 +25318,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -25339,7 +25339,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -25360,7 +25360,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -25381,7 +25381,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -25402,7 +25402,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -25423,7 +25423,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -25444,7 +25444,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -25465,7 +25465,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -25486,7 +25486,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '17',
@@ -25507,7 +25507,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -25528,7 +25528,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -25549,7 +25549,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -25570,7 +25570,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -25591,7 +25591,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -25612,7 +25612,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -25633,7 +25633,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -25654,7 +25654,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -25675,7 +25675,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -25696,7 +25696,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -25717,7 +25717,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -25738,7 +25738,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -25759,7 +25759,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -25780,7 +25780,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -25801,7 +25801,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -25822,7 +25822,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -25843,7 +25843,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -25864,7 +25864,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -25885,7 +25885,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -25906,7 +25906,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -25927,7 +25927,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -25948,7 +25948,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -25969,7 +25969,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -25990,7 +25990,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -26011,7 +26011,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -26032,7 +26032,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -26053,7 +26053,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -26074,7 +26074,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '32',
@@ -26095,7 +26095,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -26116,7 +26116,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -26137,7 +26137,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -26158,7 +26158,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -26179,7 +26179,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -26200,7 +26200,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -26221,7 +26221,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -26242,7 +26242,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -26263,7 +26263,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -26284,7 +26284,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -26305,7 +26305,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -26326,7 +26326,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -26347,7 +26347,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -26368,7 +26368,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -26389,7 +26389,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -26410,7 +26410,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -26431,7 +26431,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -26452,7 +26452,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -26473,7 +26473,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -26494,7 +26494,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -26515,7 +26515,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -26536,7 +26536,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -26557,7 +26557,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -26578,7 +26578,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -26599,7 +26599,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -26620,7 +26620,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -26641,7 +26641,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -26662,7 +26662,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '27',
@@ -26683,7 +26683,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -26704,7 +26704,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -26725,7 +26725,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -26746,7 +26746,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -26767,7 +26767,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -26788,7 +26788,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -26809,7 +26809,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -26830,7 +26830,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -26851,7 +26851,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -26872,7 +26872,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -26893,7 +26893,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -26914,7 +26914,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -26935,7 +26935,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -26956,7 +26956,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -26977,7 +26977,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -26998,7 +26998,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -27019,7 +27019,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -27040,7 +27040,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -27061,7 +27061,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -27082,7 +27082,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -27103,7 +27103,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -27124,7 +27124,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -27145,7 +27145,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -27166,7 +27166,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -27187,7 +27187,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '13',
@@ -27208,7 +27208,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -27229,7 +27229,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -27250,7 +27250,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -27271,7 +27271,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -27292,7 +27292,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -27313,7 +27313,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -27334,7 +27334,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -27355,7 +27355,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -27376,7 +27376,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -27397,7 +27397,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -27418,7 +27418,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -27439,7 +27439,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -27460,7 +27460,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -27481,7 +27481,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -27502,7 +27502,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -27523,7 +27523,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -27544,7 +27544,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -27565,7 +27565,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -27586,7 +27586,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -27607,7 +27607,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -27628,7 +27628,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -27649,7 +27649,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -27670,7 +27670,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -27691,7 +27691,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -27712,7 +27712,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -27733,7 +27733,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -27754,7 +27754,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -27775,7 +27775,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -27796,7 +27796,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -27817,7 +27817,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -27838,7 +27838,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -27859,7 +27859,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -27880,7 +27880,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -27901,7 +27901,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -27922,7 +27922,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -27943,7 +27943,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '12',
@@ -27964,7 +27964,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -27985,7 +27985,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -28006,7 +28006,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '3',
@@ -28027,7 +28027,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -28048,7 +28048,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -28069,7 +28069,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -28090,7 +28090,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -28111,7 +28111,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -28132,7 +28132,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -28153,7 +28153,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '9',
@@ -28174,7 +28174,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -28195,7 +28195,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -28216,7 +28216,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -28237,7 +28237,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -28258,7 +28258,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -28279,7 +28279,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -28300,7 +28300,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -28321,7 +28321,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -28342,7 +28342,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -28363,7 +28363,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -28384,7 +28384,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -28405,7 +28405,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '35',
@@ -28426,7 +28426,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -28447,7 +28447,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -28468,7 +28468,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -28489,7 +28489,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '2',
@@ -28510,7 +28510,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -28531,7 +28531,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -28552,7 +28552,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -28573,7 +28573,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -28594,7 +28594,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -28615,7 +28615,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -28636,7 +28636,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -28657,7 +28657,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -28678,7 +28678,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -28699,7 +28699,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '34',
@@ -28720,7 +28720,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -28741,7 +28741,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -28762,7 +28762,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -28783,7 +28783,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -28804,7 +28804,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -28825,7 +28825,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -28846,7 +28846,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '5',
@@ -28867,7 +28867,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -28888,7 +28888,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -28909,7 +28909,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -28930,7 +28930,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -28951,7 +28951,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -28972,7 +28972,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -28993,7 +28993,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -29014,7 +29014,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -29035,7 +29035,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -29056,7 +29056,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -29077,7 +29077,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -29098,7 +29098,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -29119,7 +29119,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -29140,7 +29140,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -29161,7 +29161,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -29182,7 +29182,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -29203,7 +29203,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -29224,7 +29224,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -29245,7 +29245,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -29266,7 +29266,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -29287,7 +29287,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -29308,7 +29308,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -29329,7 +29329,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -29350,7 +29350,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -29371,7 +29371,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -29392,7 +29392,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -29413,7 +29413,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -29434,7 +29434,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -29455,7 +29455,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -29476,7 +29476,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -29497,7 +29497,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -29518,7 +29518,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -29539,7 +29539,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -29560,7 +29560,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -29581,7 +29581,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -29602,7 +29602,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -29623,7 +29623,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -29644,7 +29644,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -29665,7 +29665,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -29686,7 +29686,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -29707,7 +29707,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -29728,7 +29728,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -29749,7 +29749,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -29770,7 +29770,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -29791,7 +29791,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -29812,7 +29812,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -29833,7 +29833,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -29854,7 +29854,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -29875,7 +29875,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -29896,7 +29896,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -29917,7 +29917,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -29938,7 +29938,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -29959,7 +29959,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -29980,7 +29980,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -30001,7 +30001,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -30022,7 +30022,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -30043,7 +30043,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -30064,7 +30064,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -30085,7 +30085,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -30106,7 +30106,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -30127,7 +30127,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -30148,7 +30148,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -30169,7 +30169,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -30190,7 +30190,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -30211,7 +30211,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -30232,7 +30232,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -30253,7 +30253,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -30274,7 +30274,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -30295,7 +30295,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -30316,7 +30316,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -30337,7 +30337,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '18',
@@ -30358,7 +30358,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '15',
@@ -30379,7 +30379,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30400,7 +30400,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30421,7 +30421,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30442,7 +30442,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '16',
@@ -30463,7 +30463,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '14',
@@ -30484,7 +30484,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30505,7 +30505,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30526,7 +30526,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30547,7 +30547,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30568,7 +30568,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30589,7 +30589,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30610,7 +30610,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30631,7 +30631,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30652,7 +30652,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30673,7 +30673,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30694,7 +30694,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30715,7 +30715,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30736,7 +30736,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30757,7 +30757,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30778,7 +30778,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30799,7 +30799,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30820,7 +30820,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30841,7 +30841,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30862,7 +30862,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30883,7 +30883,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30904,7 +30904,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '39',
@@ -30925,7 +30925,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -30946,7 +30946,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -30967,7 +30967,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -30988,7 +30988,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31009,7 +31009,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31030,7 +31030,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31051,7 +31051,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31072,7 +31072,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31093,7 +31093,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31114,7 +31114,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31135,7 +31135,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31156,7 +31156,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31177,7 +31177,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31198,7 +31198,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31219,7 +31219,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31240,7 +31240,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31261,7 +31261,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31282,7 +31282,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31303,7 +31303,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31324,7 +31324,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31345,7 +31345,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31366,7 +31366,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31387,7 +31387,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31408,7 +31408,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31429,7 +31429,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31450,7 +31450,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31471,7 +31471,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31492,7 +31492,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31513,7 +31513,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31534,7 +31534,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31555,7 +31555,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31576,7 +31576,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31597,7 +31597,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31618,7 +31618,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31639,7 +31639,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31660,7 +31660,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31681,7 +31681,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '6',
@@ -31702,7 +31702,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '4',
@@ -31723,7 +31723,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -31744,7 +31744,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -31765,7 +31765,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -31786,7 +31786,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -31807,7 +31807,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -31828,7 +31828,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -31849,7 +31849,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -31870,7 +31870,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -31891,7 +31891,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -31912,7 +31912,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -31933,7 +31933,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -31954,7 +31954,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -31975,7 +31975,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -31996,7 +31996,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32017,7 +32017,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -32038,7 +32038,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32059,7 +32059,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '41',
@@ -32080,7 +32080,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -32101,7 +32101,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -32122,7 +32122,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32143,7 +32143,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -32164,7 +32164,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -32185,7 +32185,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32206,7 +32206,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -32227,7 +32227,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -32248,7 +32248,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32269,7 +32269,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32290,7 +32290,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -32311,7 +32311,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -32332,7 +32332,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -32353,7 +32353,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -32374,7 +32374,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -32395,7 +32395,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -32416,7 +32416,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -32437,7 +32437,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -32458,7 +32458,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32479,7 +32479,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -32500,7 +32500,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32521,7 +32521,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -32542,7 +32542,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -32563,7 +32563,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '37',
@@ -32584,7 +32584,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32605,7 +32605,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32626,7 +32626,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32647,7 +32647,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32668,7 +32668,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32689,7 +32689,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32710,7 +32710,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32731,7 +32731,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32752,7 +32752,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32773,7 +32773,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32794,7 +32794,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32815,7 +32815,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32836,7 +32836,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32857,7 +32857,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32878,7 +32878,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32899,7 +32899,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32920,7 +32920,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32941,7 +32941,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32962,7 +32962,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -32983,7 +32983,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -33004,7 +33004,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -33025,7 +33025,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -33046,7 +33046,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -33067,7 +33067,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -33088,7 +33088,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -33109,7 +33109,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -33130,7 +33130,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -33151,7 +33151,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '11',
@@ -33172,7 +33172,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33193,7 +33193,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33214,7 +33214,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33235,7 +33235,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33256,7 +33256,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33277,7 +33277,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33298,7 +33298,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33319,7 +33319,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33340,7 +33340,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33361,7 +33361,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33382,7 +33382,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33403,7 +33403,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33424,7 +33424,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33445,7 +33445,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33466,7 +33466,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33487,7 +33487,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33508,7 +33508,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33529,7 +33529,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33550,7 +33550,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33571,7 +33571,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33592,7 +33592,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33613,7 +33613,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33634,7 +33634,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33655,7 +33655,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33676,7 +33676,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33697,7 +33697,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33718,7 +33718,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33739,7 +33739,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33760,7 +33760,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33781,7 +33781,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33802,7 +33802,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -33823,7 +33823,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33844,7 +33844,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33865,7 +33865,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33886,7 +33886,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33907,7 +33907,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33928,7 +33928,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33949,7 +33949,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33970,7 +33970,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -33991,7 +33991,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -34012,7 +34012,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -34033,7 +34033,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -34054,7 +34054,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -34075,7 +34075,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -34096,7 +34096,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -34117,7 +34117,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -34138,7 +34138,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '10',
@@ -34159,7 +34159,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -34180,7 +34180,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -34201,7 +34201,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -34222,7 +34222,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -34243,7 +34243,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -34264,7 +34264,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -34285,7 +34285,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -34306,7 +34306,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -34327,7 +34327,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -34348,7 +34348,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -34369,7 +34369,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -34390,7 +34390,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -34411,7 +34411,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -34432,7 +34432,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -34453,7 +34453,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -34474,7 +34474,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -34495,7 +34495,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -34516,7 +34516,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '33',
@@ -34537,7 +34537,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '30',
@@ -34558,7 +34558,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '30',
@@ -34579,7 +34579,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '30',
@@ -34600,7 +34600,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '30',
@@ -34621,7 +34621,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '30',
@@ -34642,7 +34642,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '30',
@@ -34663,7 +34663,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '30',
@@ -34684,7 +34684,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '30',
@@ -34705,7 +34705,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '30',
@@ -34726,7 +34726,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '30',
@@ -34747,7 +34747,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '30',
@@ -34768,7 +34768,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '30',
@@ -34789,7 +34789,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '30',
@@ -34810,7 +34810,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '30',
@@ -34831,7 +34831,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '30',
@@ -34852,7 +34852,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -34873,7 +34873,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '30',
@@ -34894,7 +34894,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -34915,7 +34915,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '30',
@@ -34936,7 +34936,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -34957,7 +34957,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -34978,7 +34978,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -34999,7 +34999,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '26',
@@ -35020,7 +35020,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '30',
@@ -35041,7 +35041,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '30',
@@ -35062,7 +35062,7 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Tervalidasi',
                 'state' => 'Kota',
-                
+
                 ],
                 [
                 'user_id' => '30',
@@ -35083,13 +35083,13 @@ class DataSurveiSeeder extends Seeder
                 'answer_14' => NULL,
                 'status' => 'Pending',
                 'state' => 'Kota',
-                
+
                 ],
         ];
 
         // Simpan data ke dalam tabel user
         foreach ($datasurveis as $datasurvei) {
-            DataSurvei::create($datasurvei);
+            DataSurveiKrs::create($datasurvei);
         }
     }
 }

@@ -11,7 +11,7 @@ use Database\Seeders\KecamatanSeeder;
 use Database\Seeders\KelurahanSeeder;
 use Database\Seeders\PertanyaanSeeder;
 use Database\Seeders\DataPendudukSeeder;
-use Database\Seeders\DataSurveiSeeder;
+use Database\Seeders\DataSurveiKrsSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -34,6 +34,6 @@ class DatabaseSeeder extends Seeder
         $this->call(RwSeeder::class);
         $this->call(PertanyaanSeeder::class);
         $this->call(DataPendudukSeeder::class);
-        $this->call(DataSurveiSeeder::class);
+        $this->call(DataSurveiKrsSeeder::class);
     }
 }

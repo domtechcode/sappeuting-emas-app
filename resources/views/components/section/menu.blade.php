@@ -88,9 +88,9 @@
                                 <div class="tab-content">
                                     <div class="tab-pane active" id="side1">
                                         <ul class="sidemenu-list">
-                                            <li class="side-menu-label1"><a href="javascript:void(0)">Database</a>
-                                            </li>
+                                            <li class="side-menu-label1"><a href="javascript:void(0)">Database</a></li>
                                             <li><a href="{{ route('databasePenduduk') }}" class="slide-item ">Data Penduduk</a></li>
+                                            <li><a href="{{ route('databaseTabulasi') }}" class="slide-item ">Tabulasi</a></li>
                                         </ul>
                                     </div>
                                 </div>
