@@ -1,5 +1,5 @@
 <div>
-    <div class="modal fade" wire:ignore.self id="modalEditUser" tabindex="-1" role="dialog">
+    <div class="modal fade" wire:ignore.self id="modalEditPenduduk" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -34,52 +34,45 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="form-label">Nama</label>
-                                <input name="namaEdit" type="text"
-                                    class="form-control @error('namaEdit') is-invalid @enderror" placeholder="Nama"
-                                    autocomplete="off" wire:model="namaEdit">
+                                <label class="form-label">Nomor Keluarga Indonesia</label>
+                                <input name="nomor_keluarga_indonesiaEdit" type="text"
+                                    class="form-control @error('nomor_keluarga_indonesiaEdit') is-invalid @enderror" placeholder="Nomor Keluarga Indonesia"
+                                    autocomplete="off" wire:model="nomor_keluarga_indonesiaEdit">
                             </div>
-                            @error('namaEdit')
+                            @error('nomor_keluarga_indonesiaEdit')
                                 <div><span class="text-danger">{{ $message }}</span></div>
                             @enderror
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="form-label">Role User</label>
-                                <select name="roleEdit" wire:model="roleEdit"
-                                    class="form-control form-select @error('roleEdit') is-invalid @enderror">
-                                    <option label="Pilih Role User"></option>
-                                    <option value="admin-kota">Admin Kota</option>
-                                    <option value="admin-kecamatan">Admin Kecamatan</option>
-                                    <option value="admin-kelurahan">Admin Kelurahan</option>
-                                    <option value="admin-kader">Admin Kader</option>
-                                </select>
+                                <label class="form-label">Nama Kepala Keluarga</label>
+                                <input name="nama_kepala_keluargaEdit" type="text"
+                                    class="form-control @error('nama_kepala_keluargaEdit') is-invalid @enderror" placeholder="Nama Kepala Keluarga"
+                                    autocomplete="off" wire:model="nama_kepala_keluargaEdit">
                             </div>
-                            @error('roleEdit')
+                            @error('nama_kepala_keluargaEdit')
                                 <div><span class="text-danger">{{ $message }}</span></div>
                             @enderror
                         </div>
-
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="form-label">Username</label>
-                                <input name="usernameEdit" wire:model.defer="usernameEdit" type="text"
-                                    class="form-control @error('usernameEdit') is-invalid @enderror"
-                                    placeholder="Username" autocomplete="off">
+                                <label class="form-label">Nama Istri</label>
+                                <input name="nama_istriEdit" type="text"
+                                    class="form-control @error('nama_istriEdit') is-invalid @enderror" placeholder="Nama Istri"
+                                    autocomplete="off" wire:model="nama_istriEdit">
                             </div>
-                            @error('usernameEdit')
+                            @error('nama_istriEdit')
                                 <div><span class="text-danger">{{ $message }}</span></div>
                             @enderror
                         </div>
-
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="form-label">Password</label>
-                                <input name="passwordEdit" wire:model.defer="passwordEdit" type="password"
-                                    class="form-control @error('passwordEdit') is-invalid @enderror"
-                                    placeholder="Password" autocomplete="off">
+                                <label class="form-label">Status Keluarga</label>
+                                <input name="nama_istriEdit" type="text"
+                                    class="form-control @error('status_keluargaEdit') is-invalid @enderror" placeholder="Status Keluarga"
+                                    autocomplete="off" wire:model="status_keluargaEdit">
                             </div>
-                            @error('passwordEdit')
+                            @error('status_keluargaEdit')
                                 <div><span class="text-danger">{{ $message }}</span></div>
                             @enderror
                         </div>
@@ -164,28 +157,9 @@
 </div>
 
 @push('scripts')
-    {{-- <script>
-    $(function() {
-        // Inisialisasi Select2
-        $('#roleEdit').select2({
-            placeholder: 'Pilih Role User',
-        });
-
-        // Set nilai awal
-        $('#roleEdit').val(@json($roleEdit));
-
-        // Trigger perubahan
-        $('#roleEdit').trigger('change');
-
-        // Menangani perubahan
-        $('#roleEdit').on('change', function() {
-            @this.set('roleEdit', $(this).val());
-        });
-    });
-</script> --}}
     <script>
         window.addEventListener('closeModalAndReset', event => {
-            $('#modalEditUser').modal('hide');
+            $('#modalEditPenduduk').modal('hide');
         });
     </script>
 @endpush

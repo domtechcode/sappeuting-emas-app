@@ -14,8 +14,8 @@ class KecamatanSeeder extends Seeder
     public function run(): void
     {
         // Seed kecamatan
-        Kecamatan::create(['nama_kecamatan' => 'Cimahi Selatan']);
-        Kecamatan::create(['nama_kecamatan' => 'Cimahi Tengah']);
-        Kecamatan::create(['nama_kecamatan' => 'Cimahi Utara']);
+        Kecamatan::create(['nama_kecamatan' => 'CIMAHI SELATAN']);
+        Kecamatan::create(['nama_kecamatan' => 'CIMAHI TENGAH']);
+        Kecamatan::create(['nama_kecamatan' => 'CIMAHI UTARA']);
     }
 }

@@ -116,14 +116,24 @@
         </div>
     </div>
 
+    @if (session()->has('successPenduduk'))
+        <!--notif submit-->
+        <div class="alert alert-success alert-dismissible fade show mb-2" role="alert">
+            <span class="alert-inner--icon"><i class="fe fe-check-circle"></i></span>
+            <span class="alert-inner--text">{{ session('successPenduduk') }}</span>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+        </div>
+    @endif
 
     <div class="row">
         <div class="col-lg-12">
             <div class="card">
                 <div class="card-header">
-                    <div class="card-title">Database User</div>
+                    <div class="card-title">Database Penduduk</div>
                     <div class="card-options">
-                        <button @click="$dispatch('importUser')" type="button" class="btn btn-icon btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#modalImportUser"><i class="fe fe-plus"></i>Import</button>
+                        <button @click="$dispatch('importPenduduk')" type="button" class="btn btn-icon btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#modalImportPenduduk"><i class="fe fe-plus"></i>Import</button>
                     </div>
                 </div>
                 <div class="card-body">
@@ -197,7 +207,7 @@
                                                 <td>{{ $data->rt }}</td>
                                                 <td>
                                                     <div class="btn-list">
-                                                        <button @click="$dispatch('edit', {id:{{ $data->id }}})" type="button" class="btn btn-icon btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#modalEditUser"><i class="fe fe-eye"></i></button>
+                                                        <button @click="$dispatch('edit', {id:{{ $data->id }}})" type="button" class="btn btn-icon btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#modalEditPenduduk"><i class="fe fe-eye"></i></button>
                                                         {{-- <button type="button" class="btn btn-icon btn-sm btn-danger" href="deleteuser/'.$data->id.'"><i class="fe fe-x"></i></button> --}}
                                                     </div>
                                                 </td>
@@ -218,4 +228,5 @@
         <!-- COL-END -->
     </div>
 
+    <livewire:kota.components.modal-edit-penduduk-index>
 </div>

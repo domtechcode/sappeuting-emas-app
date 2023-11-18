@@ -43,6 +43,13 @@ class DatabasePendudukIndex extends Component
     #[Rule('required', message: 'RT harus diisi.')]
     public $rt;
 
+    #[On('closeModalAndReset')]
+    public function closeModalAndReset()
+    {
+        $this->resetPage();
+        session()->flash('successPenduduk', 'Data Penduduk berhasil disimpan.');
+    }
+
     public function updatedSearch()
     {
         $this->resetPage();
