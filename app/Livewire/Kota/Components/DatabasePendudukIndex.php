@@ -7,6 +7,7 @@ use App\Models\Rw;
 use Livewire\Component;
 use App\Models\Kecamatan;
 use App\Models\Kelurahan;
+use Livewire\Attributes\On;
 use App\Models\DataPenduduk;
 use Livewire\WithPagination;
 use Livewire\Attributes\Rule;

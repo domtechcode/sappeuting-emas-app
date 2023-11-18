@@ -85,7 +85,6 @@ class ModalEditUserIndex extends Component
             $user->save();
 
             DB::commit();
-            session()->flash('success', 'Data user berhasil disimpan.');
             $this->dispatch('closeModalAndReset');
         } catch (\Throwable $th) {
             DB::rollBack();

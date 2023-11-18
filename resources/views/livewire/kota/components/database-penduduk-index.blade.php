@@ -229,4 +229,5 @@
     </div>
 
     <livewire:kota.components.modal-edit-penduduk-index>
+    <livewire:kota.components.modal-import-penduduk-index>
 </div>

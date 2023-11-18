@@ -1,5 +1,5 @@
 <div>
-    <div class="modal fade" wire:ignore.self id="modalImportUser" tabindex="-1" role="dialog">
+    <div class="modal fade" wire:ignore.self id="modalImportPenduduk" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -25,7 +25,7 @@
 @push('scripts')
     <script>
         window.addEventListener('closeModalAndReset', event => {
-            $('#modalImportUser').modal('hide');
+            $('#modalImportPenduduk').modal('hide');
         });
     </script>
 @endpush
