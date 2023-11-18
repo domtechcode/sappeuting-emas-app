@@ -21,4 +21,17 @@ class DataPenduduk extends Model
         return $this->hasMany(DataSurvei::class);
     }
 
+    public function scopeSearch($query, $value)
+    {
+        $query
+            ->where('nomor_keluarga_indonesia', 'like', "%{$value}%")
+            ->orWhere('nama_kepala_keluarga', 'like', "%{$value}%")
+            ->orWhere('nama_istri', 'like', "%{$value}%")
+            ->orWhere('status_keluarga', 'like', "%{$value}%")
+            ->orWhere('kecamatan', 'like', "%{$value}%")
+            ->orWhere('kelurahan', 'like', "%{$value}%")
+            ->orWhere('rw', 'like', "%{$value}%")
+            ->orWhere('rt', 'like', "%{$value}%");
+    }
+
 }

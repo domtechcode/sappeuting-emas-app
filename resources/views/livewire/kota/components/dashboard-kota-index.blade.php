@@ -2,10 +2,10 @@
         <!--app-content open-->
         <div class="main-content app-content mt-0">
             <div class="side-app">
-    
+
                 <!-- CONTAINER -->
                 <div class="main-container container-fluid">
-    
+
                     <!-- PAGE-HEADER -->
                     <div class="page-header">
                         <h1 class="page-title">Dashboard</h1>
@@ -17,7 +17,7 @@
                         </div>
                     </div>
                     <!-- PAGE-HEADER END -->
-    
+
                     <!-- ROW-1 -->
                     <div class="row">
                         <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
@@ -75,7 +75,7 @@
                         </div>
                     </div>
                     <!-- ROW-1 END -->
-    
+
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="card">
@@ -126,10 +126,10 @@
                             </div>
                         </div>
                     </div>
-    
+
                     <!-- ROW-1 OPEN -->
                     <div class="row">
-                        <div class="col-lg-6 col-md-12">
+                        <div class="col-lg-4 col-md-4">
                             <div class="card">
                                 <div class="card-header">
                                     <h3 class="card-title">Keluarga Tervalidasi</h3>
@@ -139,7 +139,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-12">
+                        <div class="col-lg-4 col-md-4">
                             <div class="card">
                                 <div class="card-header">
                                     <h3 class="card-title">Jumlah PUS</h3>
@@ -149,12 +149,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- ROW-1 CLOSE -->
-    
-                    <!-- ROW-1 OPEN -->
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12">
+                        <div class="col-lg-4 col-md-4">
                             <div class="card">
                                 <div class="card-header">
                                     <h3 class="card-title">PUS 4 Terlalu</h3>
@@ -164,7 +159,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-12">
+                        <div class="col-lg-4 col-md-4">
                             <div class="card">
                                 <div class="card-header">
                                     <h3 class="card-title">Penapisan</h3>
@@ -174,12 +169,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- ROW-1 CLOSE -->
-    
-                    <!-- ROW-1 OPEN -->
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-4 col-md-4">
                             <div class="card">
                                 <div class="card-header">
                                     <h3 class="card-title">Peringkat Kesejahteraan</h3>
@@ -189,7 +179,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-4 col-md-4">
                             <div class="card">
                                 <div class="card-header">
                                     <h3 class="card-title">Keluarga Beresiko Stunting</h3>
@@ -201,7 +191,8 @@
                         </div>
                     </div>
                     <!-- ROW-1 CLOSE -->
-    
+
+
                     <!--notif submit-->
                     <div class="row row-sm mb-3">
                         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
@@ -214,7 +205,7 @@
                                 </button>
                             </div>
                             @endif
-    
+
                             @if (session()->has('error'))
                             <div class="alert alert-danger alert-dismissible fade show mb-0" role="alert">
                                 <span class="alert-inner--icon"><i class="fe fe-slash"></i></span>
@@ -227,8 +218,8 @@
                         </div>
                     </div>
                     <!--notif submit end-->
-    
-    
+
+
                     <div class="row">
                         <div class="col-lg-12">
                             <!--Row-->
@@ -260,7 +251,7 @@
                                 </div>
                             </div>
                             <!--Row End-->
-    
+
                             <!--Row -->
                             <div class="panel-body tabs-menu-body">
                                 <div class="tab-content">
@@ -274,7 +265,7 @@
                                                         <h3 class="card-title">Data</h3>
                                                     </div>
                                                     <div class="card-body">
-    
+
                                                         <div class="row row-sm mt-3">
                                                             <div class="col-md-12">
                                                                 <div class="table-responsive">
@@ -310,7 +301,7 @@
                                         </div>
                                         <!-- ROW-2 END -->
                                     </div>
-    
+
                                     <div class="tab-pane" id="tab2">
                                         <!-- ROW-2-->
                                         <div class="row">
@@ -321,7 +312,7 @@
                                                         <h3 class="card-title">Permintaan Validasi Data</h3>
                                                     </div>
                                                     <div class="card-body">
-    
+
                                                         <div class="row row-sm mt-3">
                                                             <div class="col-md-12">
                                                                 <div class="table-responsive">
@@ -357,7 +348,7 @@
                                         </div>
                                         <!-- ROW-2 END -->
                                     </div>
-    
+
                                     <div class="tab-pane" id="tab3">
                                         <!-- ROW-2-->
                                         <div class="row row-sm">
@@ -392,19 +383,19 @@
                                         </div>
                                         <!-- ROW-2 END -->
                                     </div>
-    
+
                                 </div>
                             </div>
                             <!--End Row-->
                         </div>
                     </div>
-    
-    
+
+
                 </div>
                 <!-- CONTAINER CLOSED -->
             </div>
         </div>
         <!--app-content closed-->
-    
-        
+
+
 </div>

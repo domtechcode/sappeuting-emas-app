@@ -29,6 +29,7 @@ class UserManagementsIndex extends Component
 
     #[Url(history:true)]
     public $sortDir = 'ASC';
+
     #[Url()]
     public $perpage = 10;
 
@@ -60,9 +61,11 @@ class UserManagementsIndex extends Component
     public function closeModalAndReset()
     {
         $this->resetPage();
+        session()->flash('successUser', 'Data user berhasil disimpan.');
     }
 
-    public function updatedSearch(){
+    public function updatedSearch()
+    {
         $this->resetPage();
     }
 

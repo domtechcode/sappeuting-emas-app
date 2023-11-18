@@ -3,10 +3,10 @@
 use App\Livewire\Auth\LoginIndex;
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Kader\Components\SurveiKaderIndex;
-use App\Livewire\Kota\Components\DatabaseKotaIndex;
 use App\Livewire\Kota\Components\DashboardKotaIndex;
 use App\Livewire\Kader\Components\DashboardKaderIndex;
 use App\Livewire\Kota\Components\UserManagementsIndex;
+use App\Livewire\Kota\Components\DatabasePendudukIndex;
 use App\Livewire\Kelurahan\Components\SurveiKelurahanIndex;
 use App\Livewire\Kecamatan\Components\DashboardKecamatanIndex;
 use App\Livewire\Kelurahan\Components\DashboardKelurahanIndex;
@@ -32,7 +32,7 @@ Route::post('/logout', [LoginIndex::class, 'logout'])->name('logoutProcess');
 Route::group(['middleware' => ['auth']], function () {
     Route::group(['prefix' => 'admin-kota', 'middleware' => ['role:admin-kota']], function () {
         Route::get('/dashboard', DashboardKotaIndex::class)->name('dashboardAdminKota');
-        Route::get('/admin-kota-database', DatabaseKotaIndex::class);
+        Route::get('/admin-kota-database', DatabasePendudukIndex::class)->name('databasePenduduk');
         Route::get('/admin-kota-user', UserManagementsIndex::class)->name('userManagements');
     });
 

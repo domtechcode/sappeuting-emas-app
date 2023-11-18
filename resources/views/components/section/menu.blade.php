@@ -90,7 +90,7 @@
                                         <ul class="sidemenu-list">
                                             <li class="side-menu-label1"><a href="javascript:void(0)">Database</a>
                                             </li>
-                                            <li><a href="" class="slide-item ">Data</a></li>
+                                            <li><a href="{{ route('databasePenduduk') }}" class="slide-item ">Data Penduduk</a></li>
                                         </ul>
                                     </div>
                                 </div>
