@@ -11,8 +11,8 @@ use App\Models\DataPenduduk;
 use Livewire\WithPagination;
 use Livewire\Attributes\Rule;
 use Livewire\Attributes\Title;
-use Maatwebsite\Excel\Facades\Excel;
 use App\Exports\DataPendudukExport;
+use Maatwebsite\Excel\Facades\Excel;
 
 #[Title('Database Penduduk - DP3AP2KB Kota Cimahi')]
 class DatabasePendudukIndex extends Component

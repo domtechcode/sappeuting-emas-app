@@ -10,6 +10,8 @@ use Database\Seeders\UserSeeder;
 use Database\Seeders\KecamatanSeeder;
 use Database\Seeders\KelurahanSeeder;
 use Database\Seeders\PertanyaanSeeder;
+use Database\Seeders\DataPendudukSeeder;
+use Database\Seeders\DataSurveiSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -31,5 +33,7 @@ class DatabaseSeeder extends Seeder
         $this->call(RtSeeder::class);
         $this->call(RwSeeder::class);
         $this->call(PertanyaanSeeder::class);
+        $this->call(DataPendudukSeeder::class);
+        $this->call(DataSurveiSeeder::class);
     }
 }

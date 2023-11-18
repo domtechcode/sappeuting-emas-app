@@ -1,13 +1,4 @@
 <div>
-{{--
-    @foreach ($pertanyaan as $data)
-    [<br>
-                'nomor_keluarga_indonesia' => '{{ $data->deskripsi }}', <br>
-                'kategori' => '{{ $data->kategori }}',<br>
-            ],
-
-    @endforeach --}}
-
     <!--app-content open-->
     <div class="main-content app-content mt-0">
         <div class="side-app">

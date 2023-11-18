@@ -1,5 +1,6 @@
 <div>
     {{-- If you look to others for fulfillment, you will never truly be fulfilled. --}}
+
     <!-- PAGE-HEADER -->
     <div class="page-header">
         <h1 class="page-title">Data Penduduk</h1>
