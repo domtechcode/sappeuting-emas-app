@@ -466,6 +466,16 @@ class UserSeeder extends Seeder
                 'rw' => '0001',
                 'rt' => '0001',
             ],
+            [
+                'nama' => 'test',
+                'role' => 'admin-kader',
+                'username' => 'domdom',
+                'password' => Hash::make('domdom'),
+                'kecamatan' => 'CIMAHI TENGAH',
+                'kelurahan' => 'KARANGMEKAR',
+                'rw' => '0001',
+                'rt' => '0001',
+            ],
         ];
 
         // Simpan data ke dalam tabel user

@@ -2,33 +2,93 @@
 
 namespace App\Livewire\Kader\Components;
 
+use App\Models\Rt;
+use App\Models\Rw;
 use App\Models\User;
 use Livewire\Component;
-use App\Models\DataSurvei;
+use App\Models\Kecamatan;
+use App\Models\Kelurahan;
 use App\Models\DataPenduduk;
+use App\Models\DataSurveiKrs;
+use Livewire\Attributes\Rule;
 use Livewire\Attributes\Title;
 
 #[Title('Dashboard - DP3AP2KB Kota Cimahi')]
 class DashboardKaderIndex extends Component
 {
-    public $dataAll;
-    public $dataValidasi;
-    public $dataNonValidasi;
+    public $nomor_keluarga_indonesia_search;
 
-    public function mount()
-    {
-        $this->dataAll = DataPenduduk::count();
-        $this->dataValidasi = DataSurvei::where('status', 'Tervalidasi')->where('state', 'Kota')->count();
-        $this->dataNonValidasi = $this->dataAll - $this->dataValidasi;
-    }
+    #[Rule('required', message: 'Nomor Keluarga Indonesia harus diisi.')]
+    public $nomor_keluarga_indonesia;
+
+    #[Rule('required', message: 'Nama Kepala Keluarga harus diisi.')]
+    public $nama_kepala_keluarga;
+
+    #[Rule('required', message: 'Nama Istri harus diisi.')]
+    public $nama_istri;
+
+    #[Rule('required', message: 'Status Keluarga harus diisi.')]
+    public $status_keluarga;
+
+    #[Rule('required', message: 'Kecamatan harus diisi.')]
+    public $kecamatan;
+
+    #[Rule('required', message: 'Kelurahan harus diisi.')]
+    public $kelurahan;
+
+    #[Rule('required', message: 'RW harus diisi.')]
+    public $rw;
+
+    #[Rule('required', message: 'RT harus diisi.')]
+    public $rt;
+
+    public $data;
+    public $showSecondForm = false;
 
     public function render()
     {
-        return view('livewire.kader.components.dashboard-kader-index');
+        return view('livewire.kader.components.dashboard-kader-index',[
+            'dataKecamatan' => Kecamatan::all(),
+            'dataKelurahan' => Kelurahan::all(),
+            'dataRw' => Rw::all(),
+            'dataRt' => Rt::all(),
+        ]);
     }
 
     public function searchSurvei()
     {
+        $this->validate([
+            'nomor_keluarga_indonesia_search' => 'required',
+        ], [
+            'nomor_keluarga_indonesia_search.required' => 'Nomor Keluarga Indonesia harus diisi.',
+        ]);
+
+        $this->data = DataPenduduk::where('nomor_keluarga_indonesia', $this->nomor_keluarga_indonesia_search)->first();
+
+        if ($this->data) {
+            $this->showSecondForm = false;
+        } else {
+            $this->showSecondForm = true;
+            $this->nomor_keluarga_indonesia = $this->nomor_keluarga_indonesia_search;
+            session()->flash('error', 'Data tidak ada mohon untuk mengisi data keluarga.');
+        }
+    }
+
+    public function newSurvei()
+    {
+        $this->validate();
+
+        $dataPenduduk = DataPenduduk::create([
+            'nomor_keluarga_indonesia' => $this->nomor_keluarga_indonesia,
+            'nama_kepala_keluarga' => $this->nama_kepala_keluarga,
+            'nama_istri' => $this->nama_istri,
+            'status_keluarga' => $this->status_keluarga,
+            'kecamatan' => $this->kecamatan,
+            'kelurahan' => $this->kelurahan,
+            'rw' => $this->rw,
+            'rt' => $this->rt,
+        ]);
+
 
     }
 }

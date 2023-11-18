@@ -1,273 +1,251 @@
 <div>
     <!--app-content open-->
-    <div class="main-content app-content mt-0">
-        <div class="side-app">
+    <!-- PAGE-HEADER -->
+    <div class="page-header">
+        <h1 class="page-title">Dashboard</h1>
+        <div>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Dashboard</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+        </div>
+    </div>
+    <!-- PAGE-HEADER END -->
 
-            <!-- CONTAINER -->
-            <div class="main-container container-fluid">
+    <livewire:includes.statistik>
 
-                <!-- PAGE-HEADER -->
-                <div class="page-header">
-                    <h1 class="page-title">Dashboard</h1>
-                    <div>
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="javascript:void(0)">Dashboard</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Home</li>
-                        </ol>
-                    </div>
-                </div>
-                <!-- PAGE-HEADER END -->
-
-
-                <!-- ROW-1 -->
-                <div class="row">
-                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                        <div class="card bg-info img-card box-primary-shadow">
-                            <div class="card-body">
-                                <div class="d-flex">
-                                    <div class="text-white">
-                                        <h2 class="mb-0 number-font">{{ $dataAll }}</h2>
-                                        <p class="text-white mb-0">Total Data</p>
-                                    </div>
-                                    <div class="ms-auto"> <i class="fe fe-file-text text-white fs-40 me-2 mt-2"></i>
-                                    </div>
-                                </div>
+        @if ($showSecondForm)
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="{{ asset('assets/images/brand/undraw_Customer_survey_re_v9cj.png') }}"
+                                    class="card-img-left" alt="img">
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                        <div class="card bg-success img-card box-primary-shadow">
-                            <div class="card-body">
-                                <div class="d-flex">
-                                    <div class="text-white">
-                                        <h2 class="mb-0 number-font">{{ $dataValidasi }}</h2>
-                                        <p class="text-white mb-0">Data Validasi</p>
-                                    </div>
-                                    <div class="ms-auto"> <i class="fe fe-check-square text-white fs-40 me-2 mt-2"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                        <div class="card bg-danger img-card box-primary-shadow">
-                            <div class="card-body">
-                                <div class="d-flex">
-                                    <div class="text-white">
-                                        <h2 class="mb-0 number-font">{{ $dataNonValidasi }}</h2>
-                                        <p class="text-white mb-0">Data Non-Validasi</p>
-                                    </div>
-                                    <div class="ms-auto"> <i class="fe fe-x-square text-white fs-40 me-2 mt-2"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ROW-1 END -->
-
-                <!--notif submit-->
-                <div class="row row-sm mb-3">
-                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                        {{-- @if (session()->has('success')) --}}
-                        <div class="alert alert-success alert-dismissible fade show" role="alert">
-                            <span class="alert-inner--icon"><i class="fe fe-check-circle"></i></span>
-                            <span class="alert-inner--text"><strong>Berhasil !</strong> Data berhasil disimpan...</span>
-                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
-                                <span aria-hidden="true">×</span>
-                            </button>
-                        </div>
-                        {{-- @endif --}}
-
-                        {{-- @if (session()->has('error')) --}}
-                        <div class="alert alert-danger alert-dismissible fade show mb-0" role="alert">
-                            <span class="alert-inner--icon"><i class="fe fe-slash"></i></span>
-                            <span class="alert-inner--text"><strong>Gagal !</strong> {{ session('error') }}</span>
-                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
-                                <span aria-hidden="true">×</span>
-                            </button>
-                        </div>
-                        {{-- @endif --}}
-                    </div>
-                </div>
-                <!--notif submit end-->
-
-                {{-- @if (session()->has('notfound')) --}}
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="card">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="{{ asset('assets/images/brand/undraw_Customer_survey_re_v9cj.png') }}" class="card-img-left" alt="img">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    @if (session()->has('error'))
                                         <div class="alert alert-danger alert-dismissible fade show mb-0" role="alert">
                                             <span class="alert-inner--icon"><i class="fe fe-slash"></i></span>
-                                            <span class="alert-inner--text"></span>
+                                            <span class="alert-inner--text">{{ session('error') }}</span>
                                             <button type="button" class="btn-close" data-bs-dismiss="alert"
                                                 aria-label="Close">
                                                 <span aria-hidden="true">×</span>
                                             </button>
                                         </div>
-                                        <form method="POST" action="">
-                                            @csrf
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label class="form-label">Nomor Kartu Keluarga</label>
-                                                        <input name="nomor_keluarga_indonesia" type="text"
-                                                            class="form-control" placeholder="Nomor Kartu Keluarga"
-                                                            autocomplete="off" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label class="form-label">Nama Kepala Keluarga</label>
-                                                        <input name="nama_kepala_keluarga" type="text"
-                                                            class="form-control" placeholder="Nama Kepala Keluarga"
-                                                            autocomplete="off" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label class="form-label">Nama Istri</label>
-                                                        <input name="nama_istri" type="text" class="form-control"
-                                                            placeholder="Nama Istri" autocomplete="off" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label class="form-label">Status Keluarga</label>
-                                                        <input name="status_keluarga" type="text"
-                                                            class="form-control" placeholder="Status Keluarga"
-                                                            autocomplete="off">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label class="form-label">Kecamatan</label>
-                                                        <select name="kecamatan"
-                                                            class="form-control form-select select2-show-search filter-select"
-                                                            id="kecamatan" required>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label class="form-label">Kelurahan</label>
-                                                        <select name="kelurahan"
-                                                            class="form-control form-select select2-show-search filter-select"
-                                                            id="kelurahan" required>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label class="form-label">RW</label>
-                                                        <select name="rw"
-                                                            class="form-control form-select select2-show-search filter-select"
-                                                            id="rw" required>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label class="form-label">RT</label>
-                                                        <select name="rt"
-                                                            class="form-control form-select select2-show-search filter-select"
-                                                            id="rt" required>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                    @endif
+                                    <div class="row">
+                                        <div class="col-md-6">
                                             <div class="form-group">
-                                                <button type="submit" class="btn btn-dark"><i
-                                                        class="fe fe-search me-2"></i>Mulai Validasi</button>
+                                                <label class="form-label">Nomor Kartu Keluarga</label>
+                                                <input name="nomor_keluarga_indonesia"
+                                                    wire:model.defer="nomor_keluarga_indonesia" type="text"
+                                                    class="form-control" placeholder="Nomor Kartu Keluarga"
+                                                    autocomplete="off">
+                                                @error('nomor_keluarga_indonesia')
+                                                    <div><span class="text-danger">{{ $message }}</span></div>
+                                                @enderror
                                             </div>
-                                        </form>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="form-label">Nama Kepala Keluarga</label>
+                                                <input name="nama_kepala_keluarga"
+                                                    wire:model.defer="nama_kepala_keluarga" type="text"
+                                                    class="form-control" placeholder="Nama Kepala Keluarga"
+                                                    autocomplete="off">
+                                                @error('nama_kepala_keluarga')
+                                                    <div><span class="text-danger">{{ $message }}</span></div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="form-label">Nama Istri</label>
+                                                <input name="nama_istri" wire:model.defer="nama_istri" type="text"
+                                                    class="form-control" placeholder="Nama Istri" autocomplete="off">
+                                                @error('nama_istri')
+                                                    <div><span class="text-danger">{{ $message }}</span></div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="form-label">Status Keluarga</label>
+                                                <input name="status_keluarga" wire:model.defer="status_keluarga"
+                                                    type="text" class="form-control" placeholder="Status Keluarga"
+                                                    autocomplete="off">
+                                                @error('status_keluarga')
+                                                    <div><span class="text-danger">{{ $message }}</span></div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6" wire:ignore>
+                                            <div class="form-group">
+                                                <label class="form-label">Kecamatan</label>
+                                                <select x-init="$($el).select2({
+                                                    placeholder: 'Pilih Kecamatan',
+                                                    allowClear: true,
+                                                });
+                                                $($el).on('change', function() {
+                                                    @this.set('kecamatan', $($el).val())
+                                                })" name="kecamatan"
+                                                    wire:model.live="kecamatan"
+                                                    class="form-control form-select select2-show-search filter-select"
+                                                    id="kecamatan">
+                                                    <option label="Pilih Kecamatan"></option>
+                                                    @foreach ($dataKecamatan as $kecamatan)
+                                                        <option value="{{ $kecamatan->nama_kecamatan }}">
+                                                            {{ $kecamatan->nama_kecamatan }}</option>
+                                                    @endforeach
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6" wire:ignore>
+                                            <div class="form-group">
+                                                <label class="form-label">Kelurahan</label>
+                                                <select x-init="$($el).select2({
+                                                    placeholder: 'Pilih Kelurahan',
+                                                    allowClear: true,
+                                                });
+                                                $($el).on('change', function() {
+                                                    @this.set('kelurahan', $($el).val())
+                                                })" name="kelurahan"
+                                                    wire:model.live="kelurahan"
+                                                    class="form-control form-select select2-show-search filter-select"
+                                                    id="kelurahan">
+                                                    <option label="Pilih Kelurahan"></option>
+                                                    @foreach ($dataKelurahan as $kelurahan)
+                                                        <option value="{{ $kelurahan->nama_kelurahan }}">
+                                                            {{ $kelurahan->nama_kelurahan }}</option>
+                                                    @endforeach
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6" wire:ignore>
+                                            <div class="form-group">
+                                                <label class="form-label">RW</label>
+                                                <select x-init="$($el).select2({
+                                                    placeholder: 'Pilih RW',
+                                                    allowClear: true,
+                                                });
+                                                $($el).on('change', function() {
+                                                    @this.set('rw', $($el).val())
+                                                })" name="rw" wire:model.live="rw"
+                                                    class="form-control form-select select2-show-search filter-select"
+                                                    id="rw">
+                                                    <option label="Pilih RW"></option>
+                                                    @foreach ($dataRw as $rw)
+                                                        <option value="{{ $rw->nomor_rw }}">
+                                                            {{ $rw->nomor_rw }}</option>
+                                                    @endforeach
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6" wire:ignore>
+                                            <div class="form-group">
+                                                <label class="form-label">RT</label>
+                                                <select x-init="$($el).select2({
+                                                    placeholder: 'Pilih RT',
+                                                    allowClear: true,
+                                                });
+                                                $($el).on('change', function() {
+                                                    @this.set('rt', $($el).val())
+                                                })" name="rt" wire:model.live="rt"
+                                                    class="form-control form-select select2-show-search filter-select"
+                                                    id="rt">
+                                                    <option label="Pilih RT"></option>
+                                                    @foreach ($dataRt as $rt)
+                                                        <option value="{{ $rt->nomor_rt }}">
+                                                            {{ $rt->nomor_rt }}</option>
+                                                    @endforeach
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" wire:click="newSurvei" class="btn btn-dark"><i
+                                                class="fe fe-search me-2"></i>Mulai Validasi</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                {{-- @else --}}
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="card">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="{{ asset('assets/images/brand/undraw_Customer_survey_re_v9cj.png') }}" class="card-img-left" alt="img">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Nomor Kartu Keluarga Indonesia
-                                        </h5>
-                                        <div class="form-group">
-                                            <input name="nomor_keluarga_indonesia" type="text"
-                                                class="form-control"
-                                                placeholder="Nomor Kartu Keluarga Indonesia / Nama Kepala Keluarga"
-                                                autocomplete="off">
-                                        </div>
-                                        <div class="form-group">
-                                            <button type="submit" class="btn btn-dark"><i
-                                                    class="fe fe-search me-2"></i>Cari</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {{-- @endif --}}
-
-                <!-- ROW-2-->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="card">
-                            <div class="card-status bg-primary br-te-7 br-ts-7"></div>
-                            <div class="card-header">
-                                <h3 class="card-title">Data Survei</h3>
-                            </div>
-                            <div class="card-body">
-                                <div class="row row-sm mt-3">
-                                    <div class="col-md-12">
-                                        <div class="table-responsive">
-                                            <table id="example2"
-                                                class="table table-bordered text-nowrap border-bottom">
-                                                <thead>
-                                                    <tr>
-                                                        <th class="border-bottom-0">No</th>
-                                                        <th class="border-bottom-0">Nama</th>
-                                                        <th class="border-bottom-0">No Kartu
-                                                            Keluarga
-                                                            Indonesia</th>
-                                                        <th class="border-bottom-0">Kepala Keluarga
-                                                        </th>
-                                                        <th class="border-bottom-0">Nama Istri</th>
-                                                        <th class="border-bottom-0">Status Keluarga
-                                                        </th>
-                                                        <th class="border-bottom-0">Keterangan</th>
-                                                        <th class="border-bottom-0">State</th>
-                                                        <th class="border-bottom-0">Action</th>
-                                                    </tr>
-                                                </thead>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ROW-2 END -->
-
-
             </div>
-            <!-- CONTAINER CLOSED -->
+        @else
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="{{ asset('assets/images/brand/undraw_Customer_survey_re_v9cj.png') }}"
+                                    class="card-img-left" alt="img">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nomor Kartu Keluarga Indonesia
+                                    </h5>
+                                    <div class="form-group">
+                                        <input name="nomor_keluarga_indonesia_search"
+                                            wire:model.defer="nomor_keluarga_indonesia_search" type="text"
+                                            class="form-control" placeholder="Nomor Kartu Kepala Keluarga"
+                                            autocomplete="off">
+                                        @error('nomor_keluarga_indonesia_search')
+                                            <div><span class="text-danger">{{ $message }}</span></div>
+                                        @enderror
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" wire:click="searchSurvei" class="btn btn-dark"><i
+                                                class="fe fe-search me-2"></i>Cari</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        @endif
+
+        <!-- ROW-2-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-status bg-primary br-te-7 br-ts-7"></div>
+                    <div class="card-header">
+                        <h3 class="card-title">Data Survei</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="row row-sm mt-3">
+                            <div class="col-md-12">
+                                <div class="table-responsive">
+                                    <table id="example2" class="table table-bordered text-nowrap border-bottom">
+                                        <thead>
+                                            <tr>
+                                                <th class="border-bottom-0">No</th>
+                                                <th class="border-bottom-0">Nama</th>
+                                                <th class="border-bottom-0">No Kartu
+                                                    Keluarga
+                                                    Indonesia</th>
+                                                <th class="border-bottom-0">Kepala Keluarga
+                                                </th>
+                                                <th class="border-bottom-0">Nama Istri</th>
+                                                <th class="border-bottom-0">Status Keluarga
+                                                </th>
+                                                <th class="border-bottom-0">Keterangan</th>
+                                                <th class="border-bottom-0">State</th>
+                                                <th class="border-bottom-0">Action</th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <!--app-content closed-->
+        <!-- ROW-2 END -->
 
 </div>
