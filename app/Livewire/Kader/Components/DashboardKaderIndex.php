@@ -11,6 +11,7 @@ use App\Models\Kelurahan;
 use App\Models\DataPenduduk;
 use App\Models\DataSurveiKrs;
 use Livewire\Attributes\Rule;
+use App\Models\DataSurveiP3ke;
 use Livewire\Attributes\Title;
 
 #[Title('Dashboard - DP3AP2KB Kota Cimahi')]
@@ -43,6 +44,8 @@ class DashboardKaderIndex extends Component
     public $rt;
 
     public $data;
+    public $dataSurveiKrs;
+    public $dataSurveiP3ke;
     public $showSecondForm = false;
 
     public function render()
@@ -64,9 +67,23 @@ class DashboardKaderIndex extends Component
         ]);
 
         $this->data = DataPenduduk::where('nomor_keluarga_indonesia', $this->nomor_keluarga_indonesia_search)->first();
+        $this->dataSurveiKrs = DataSurveiKrs::where('data_penduduk_id', $this->data)->first();
+        $this->dataSurveiP3ke = DataSurveiP3ke::where('data_penduduk_id', $this->data)->first();
 
         if ($this->data) {
             $this->showSecondForm = false;
+
+            if ($this->dataSurveiKrs && $this->dataSurveiP3ke) {
+                $state = 'new';
+            } elseif (!$this->dataSurveiKrs && $this->dataSurveiP3ke) {
+                $state = 'new';
+            } elseif ($this->dataSurveiKrs && !$this->dataSurveiP3ke) {
+                $state = 'update';
+            } else {
+                $state = 'new';
+            }
+
+            return redirect()->route('surveiKader', ['state' => $state, 'id' => $this->data->id]);
         } else {
             $this->showSecondForm = true;
             $this->nomor_keluarga_indonesia = $this->nomor_keluarga_indonesia_search;

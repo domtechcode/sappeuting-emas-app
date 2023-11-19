@@ -33,7 +33,7 @@
     <link href="{{ asset('assets/switcher/css/switcher.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/switcher/demo.css') }}" rel="stylesheet">
 
-    {{-- <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <style>
         .select2-selection__arrow {
             display: none;
@@ -41,12 +41,11 @@
 
         #map {
             width: 100%;
-            height: 100vh;
+            height: 100%;
         }
-    </style> --}}
+    </style>
     @livewireStyles
     @stack('styles')
-    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
 </head>
 
 <body class="app sidebar-mini ltr light-mode">
@@ -60,11 +59,8 @@
     <!-- PAGE -->
     <div class="page">
         <div class="page-main">
-
             @include('components.section.navbar')
             @include('components.section.menu')
-            {{-- @include('livewire.kader.components.dashboard-kader-index') --}}
-
 
             <!--app-content open-->
             <div class="main-content app-content mt-0">
@@ -81,9 +77,7 @@
             </div>
             <!--app-content close-->
 
-
         </div>
-
         @include('components.section.footer')
     </div>
 

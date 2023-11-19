@@ -4,6 +4,7 @@ namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 use App\Models\DataSurveiKrs;
+use App\Models\DataSurveiP3ke;
 use Laravel\Sanctum\HasApiTokens;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -40,7 +41,12 @@ class User extends Authenticatable
 
     public function dataSurveiKrs()
     {
-        return $this->hasMany(DataSurveiKrs::class);
+        return $this->hasOne(DataSurveiKrs::class);
+    }
+
+    public function dataSurveiP3ke()
+    {
+        return $this->hasOne(DataSurveiP3ke::class);
     }
 
     public function scopeSearch($query, $value)

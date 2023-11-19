@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Models\DataSurveiKrs;
+use App\Models\DataSurveiP3ke;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -19,6 +20,11 @@ class DataPenduduk extends Model
     public function dataSurveiKrs()
     {
         return $this->hasOne(DataSurveiKrs::class);
+    }
+
+    public function dataSurveiP3ke()
+    {
+        return $this->hasOne(DataSurveiP3ke::class);
     }
 
     public function scopeSearch($query, $value)

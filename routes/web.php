@@ -40,7 +40,7 @@ Route::group(['middleware' => ['auth']], function () {
 
     Route::group(['prefix' => 'admin-kader', 'middleware' => ['role:admin-kader']], function () {
         Route::get('/admin-kader', DashboardKaderIndex::class)->name('dashboardAdminKader');
-        Route::get('/admin-kader-survei', SurveiKaderIndex::class)->name('surveiKader');
+        Route::get('/admin-kader-survei/{state}/{id}', SurveiKaderIndex::class)->name('surveiKader');
     });
 
     Route::group(['prefix' => 'admin-kelurahan', 'middleware' => ['role:admin-kelurahan']], function () {
