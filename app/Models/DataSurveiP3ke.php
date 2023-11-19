@@ -15,7 +15,14 @@ class DataSurveiP3ke extends Model
     protected $table = 'data_survei_p3kes';
     protected $guarded = [];
     protected $attributes = [
-        'bpnt' => '-',
+        'bpnt' => '2',
+        'bpum' => '2',
+        'bst' => '2',
+        'pkh' => '2',
+        'sembako' => '2',
+        'pra_kerja' => '2',
+        'kur' => '2',
+        'sumber_penghasilan' => '-',
     ];
 
     public function user()
