@@ -15,7 +15,7 @@ class SurveiKaderIndex extends Component
     public $nomor_keluarga_indonesia;
     public $nama_kepala_keluarga;
     public $nama_istri;
-
+    public $status_keluarga;
     public $latitude;
     public $longitude;
 
@@ -68,8 +68,8 @@ class SurveiKaderIndex extends Component
 
     public $kepemilikanRumah = [];
 
-    #[Rule('required', message: 'Status Keluarga harus diisi.')]
-    public $status_keluarga;
+    public $dataSurveiKrs;
+    public $dataSurveiP3ke;
 
     public function mount($state, $id)
     {
@@ -81,151 +81,171 @@ class SurveiKaderIndex extends Component
         $this->nama_kepala_keluarga = $dataPenduduk->nama_kepala_keluarga;
         $this->nama_istri = $dataPenduduk->nama_istri;
         $this->status_keluarga = $dataPenduduk->status_keluarga;
+        $this->latitude = $dataPenduduk->latitude;
+        $this->longitude = $dataPenduduk->longitude;
 
-        $dataSurveiKrs = DataSurveiKrs::where('data_penduduk_id', $dataPenduduk->id)->first();
+        $this->dataSurveiKrs = DataSurveiKrs::where('data_penduduk_id', $dataPenduduk->id)->first();
 
-        if (isset($dataSurveiKrs)) {
-            $this->answer_1 = $dataSurveiKrs->answer_1;
-            $this->answer_2 = $dataSurveiKrs->answer_2;
-            $this->answer_3 = $dataSurveiKrs->answer_3;
-            $this->answer_4 = $dataSurveiKrs->answer_4;
-            $this->answer_5 = $dataSurveiKrs->answer_5;
-            $this->answer_6 = $dataSurveiKrs->answer_6;
-            $this->answer_7 = $dataSurveiKrs->answer_7;
-            $this->answer_8 = $dataSurveiKrs->answer_8;
-            $this->answer_9 = $dataSurveiKrs->answer_9;
-            $this->answer_10 = $dataSurveiKrs->answer_10;
-            $this->answer_11 = $dataSurveiKrs->answer_11;
-            $this->answer_12 = $dataSurveiKrs->answer_12;
-            $this->answer_13 = $dataSurveiKrs->answer_13;
-            $this->answer_14 = $dataSurveiKrs->answer_14;
-            $this->answer_15 = $dataSurveiKrs->answer_15;
-            $this->answer_16 = $dataSurveiKrs->answer_16;
-            $this->answer_17 = $dataSurveiKrs->answer_17;
-            $this->answer_18 = $dataSurveiKrs->answer_18;
+        if (isset($this->dataSurveiKrs)) {
+            $this->answer_1 = $this->dataSurveiKrs->answer_1;
+            $this->answer_2 = $this->dataSurveiKrs->answer_2;
+            $this->answer_3 = $this->dataSurveiKrs->answer_3;
+            $this->answer_4 = $this->dataSurveiKrs->answer_4;
+            $this->answer_5 = $this->dataSurveiKrs->answer_5;
+            $this->answer_6 = $this->dataSurveiKrs->answer_6;
+            $this->answer_7 = $this->dataSurveiKrs->answer_7;
+            $this->answer_8 = $this->dataSurveiKrs->answer_8;
+            $this->answer_9 = $this->dataSurveiKrs->answer_9;
+            $this->answer_10 = $this->dataSurveiKrs->answer_10;
+            $this->answer_11 = $this->dataSurveiKrs->answer_11;
+            $this->answer_12 = $this->dataSurveiKrs->answer_12;
+            $this->answer_13 = $this->dataSurveiKrs->answer_13;
+            $this->answer_14 = $this->dataSurveiKrs->answer_14;
+            $this->answer_15 = $this->dataSurveiKrs->answer_15;
+            $this->answer_16 = $this->dataSurveiKrs->answer_16;
+            $this->answer_17 = $this->dataSurveiKrs->answer_17;
+            $this->answer_18 = $this->dataSurveiKrs->answer_18;
+        } else {
+            $this->answer_1 = '-';
+            $this->answer_2 = '-';
+            $this->answer_3 = '-';
+            $this->answer_4 = '-';
+            $this->answer_5 = '-';
+            $this->answer_6 = '-';
+            $this->answer_7 = '-';
+            $this->answer_8 = '-';
+            $this->answer_9 = '-';
+            $this->answer_10 = '-';
+            $this->answer_11 = '-';
+            $this->answer_12 = '-';
+            $this->answer_13 = '-';
+            $this->answer_14 = '-';
+            $this->answer_15 = '-';
+            $this->answer_16 = '-';
+            $this->answer_17 = '-';
+            $this->answer_18 = '-';
         }
 
-        $dataSurveiP3ke = DataSurveiP3ke::where('data_penduduk_id', $dataPenduduk->id)->first();
+        $this->dataSurveiP3ke = DataSurveiP3ke::where('data_penduduk_id', $dataPenduduk->id)->first();
 
-        if (isset($dataSurveiP3ke)) {
+        if (isset($this->dataSurveiP3ke)) {
             $this->penerimaanBantuan = [
-                'bpnt' => $dataSurveiP3ke->bpnt,
-                'bpum' => $dataSurveiP3ke->bpum,
-                'bst' => $dataSurveiP3ke->bst,
-                'pkh' => $dataSurveiP3ke->pkh,
-                'sembako' => $dataSurveiP3ke->sembako,
-                'pra_kerja' => $dataSurveiP3ke->pra_kerja,
-                'kur' => $dataSurveiP3ke->kur,
+                'bpnt' => $this->dataSurveiP3ke->bpnt,
+                'bpum' => $this->dataSurveiP3ke->bpum,
+                'bst' => $this->dataSurveiP3ke->bst,
+                'pkh' => $this->dataSurveiP3ke->pkh,
+                'sembako' => $this->dataSurveiP3ke->sembako,
+                'pra_kerja' => $this->dataSurveiP3ke->pra_kerja,
+                'kur' => $this->dataSurveiP3ke->kur,
             ];
 
-            $this->sumber_penghasilan = $dataSurveiP3ke->sumber_penghasilan;
-            $this->aset = $dataSurveiP3ke->aset;
+            $this->sumber_penghasilan = $this->dataSurveiP3ke->sumber_penghasilan;
+            $this->aset = $this->dataSurveiP3ke->aset;
 
             $this->jenisAset = [
-                'tabungan' => $dataSurveiP3ke->tabungan,
-                'ac' => $dataSurveiP3ke->ac,
-                'televisi_layar_datar' => $dataSurveiP3ke->televisi_layar_datar,
-                'lemari_es_kulkas' => $dataSurveiP3ke->lemari_es_kulkas,
-                'komputer_laptop' => $dataSurveiP3ke->komputer_laptop,
-                'sepeda_motor' => $dataSurveiP3ke->sepeda_motor,
-                'mobil' => $dataSurveiP3ke->mobil,
-                'kapal_perahu_motor_perahu' => $dataSurveiP3ke->kapal_perahu_motor_perahu,
-                'emas_perhiasan' => $dataSurveiP3ke->emas_perhiasan,
-                'hewan_ternak' => $dataSurveiP3ke->hewan_ternak,
-                'lahan' => $dataSurveiP3ke->lahan,
-                'rumah_ditempat_lain' => $dataSurveiP3ke->rumah_ditempat_lain,
+                'tabungan' => $this->dataSurveiP3ke->tabungan,
+                'ac' => $this->dataSurveiP3ke->ac,
+                'televisi_layar_datar' => $this->dataSurveiP3ke->televisi_layar_datar,
+                'lemari_es_kulkas' => $this->dataSurveiP3ke->lemari_es_kulkas,
+                'komputer_laptop' => $this->dataSurveiP3ke->komputer_laptop,
+                'sepeda_motor' => $this->dataSurveiP3ke->sepeda_motor,
+                'mobil' => $this->dataSurveiP3ke->mobil,
+                'kapal_perahu_motor_perahu' => $this->dataSurveiP3ke->kapal_perahu_motor_perahu,
+                'emas_perhiasan' => $this->dataSurveiP3ke->emas_perhiasan,
+                'hewan_ternak' => $this->dataSurveiP3ke->hewan_ternak,
+                'lahan' => $this->dataSurveiP3ke->lahan,
+                'rumah_ditempat_lain' => $this->dataSurveiP3ke->rumah_ditempat_lain,
             ];
 
             $this->jenisAtapRumah = [
-                'beton' => $dataSurveiP3ke->beton,
-                'genteng' => $dataSurveiP3ke->genteng,
-                'seng_atap' => $dataSurveiP3ke->seng_atap,
-                'asbes_seng' => $dataSurveiP3ke->asbes_seng,
-                'kayu_sirap' => $dataSurveiP3ke->kayu_sirap,
-                'bambu_atap' => $dataSurveiP3ke->bambu_atap,
-                'jerami_ijuk_rumbia_daun_daunan' => $dataSurveiP3ke->jerami_ijuk_rumbia_daun_daunan,
-                'atap_rumah_lainnya' => $dataSurveiP3ke->atap_rumah_lainnya,
+                'beton' => $this->dataSurveiP3ke->beton,
+                'genteng' => $this->dataSurveiP3ke->genteng,
+                'seng_atap' => $this->dataSurveiP3ke->seng_atap,
+                'asbes_seng' => $this->dataSurveiP3ke->asbes_seng,
+                'kayu_sirap' => $this->dataSurveiP3ke->kayu_sirap,
+                'bambu_atap' => $this->dataSurveiP3ke->bambu_atap,
+                'jerami_ijuk_rumbia_daun_daunan' => $this->dataSurveiP3ke->jerami_ijuk_rumbia_daun_daunan,
+                'atap_rumah_lainnya' => $this->dataSurveiP3ke->atap_rumah_lainnya,
             ];
 
-            $this->kondisi_atap_rumah = $dataSurveiP3ke->kondisi_atap_rumah;
+            $this->kondisi_atap_rumah = $this->dataSurveiP3ke->kondisi_atap_rumah;
 
             $this->jenisDindingRumah = [
-                'tembok' => $dataSurveiP3ke->tembok,
-                'plasteran_anyaman_bambu_kawat' => $dataSurveiP3ke->plasteran_anyaman_bambu_kawat,
-                'kayu_papan_dinding' => $dataSurveiP3ke->kayu_papan_dinding,
-                'anyaman_bambu' => $dataSurveiP3ke->anyaman_bambu,
-                'batang_kayu' => $dataSurveiP3ke->batang_kayu,
-                'bambu_dinding' => $dataSurveiP3ke->bambu_dinding,
-                'seng_dinding' => $dataSurveiP3ke->seng_dinding,
-                'dinding_rumah_lainnya' => $dataSurveiP3ke->dinding_rumah_lainnya,
+                'tembok' => $this->dataSurveiP3ke->tembok,
+                'plasteran_anyaman_bambu_kawat' => $this->dataSurveiP3ke->plasteran_anyaman_bambu_kawat,
+                'kayu_papan_dinding' => $this->dataSurveiP3ke->kayu_papan_dinding,
+                'anyaman_bambu' => $this->dataSurveiP3ke->anyaman_bambu,
+                'batang_kayu' => $this->dataSurveiP3ke->batang_kayu,
+                'bambu_dinding' => $this->dataSurveiP3ke->bambu_dinding,
+                'seng_dinding' => $this->dataSurveiP3ke->seng_dinding,
+                'dinding_rumah_lainnya' => $this->dataSurveiP3ke->dinding_rumah_lainnya,
             ];
 
-            $this->kondisi_dinding_rumah = $dataSurveiP3ke->kondisi_dinding_rumah;
+            $this->kondisi_dinding_rumah = $this->dataSurveiP3ke->kondisi_dinding_rumah;
 
             $this->jenisLantaiRumah = [
-                'keramik_granit_marmer_ubin_tegel_teraso' => $dataSurveiP3ke->keramik_granit_marmer_ubin_tegel_teraso,
-                'keramik' => $dataSurveiP3ke->keramik,
-                'parket_vinil_karpet' => $dataSurveiP3ke->parket_vinil_karpet,
-                'ubin_tegel_teraso' => $dataSurveiP3ke->ubin_tegel_teraso,
-                'kayu_papan_lantai' => $dataSurveiP3ke->kayu_papan_lantai,
-                'semen' => $dataSurveiP3ke->semen,
-                'bambu_lantai' => $dataSurveiP3ke->bambu_lantai,
-                'tanah' => $dataSurveiP3ke->tanah,
-                'lantai_rumah_lainnya' => $dataSurveiP3ke->lantai_rumah_lainnya,
+                'keramik_granit_marmer_ubin_tegel_teraso' => $this->dataSurveiP3ke->keramik_granit_marmer_ubin_tegel_teraso,
+                'keramik' => $this->dataSurveiP3ke->keramik,
+                'parket_vinil_karpet' => $this->dataSurveiP3ke->parket_vinil_karpet,
+                'ubin_tegel_teraso' => $this->dataSurveiP3ke->ubin_tegel_teraso,
+                'kayu_papan_lantai' => $this->dataSurveiP3ke->kayu_papan_lantai,
+                'semen' => $this->dataSurveiP3ke->semen,
+                'bambu_lantai' => $this->dataSurveiP3ke->bambu_lantai,
+                'tanah' => $this->dataSurveiP3ke->tanah,
+                'lantai_rumah_lainnya' => $this->dataSurveiP3ke->lantai_rumah_lainnya,
             ];
 
-            $this->kondisi_lantai_rumah = $dataSurveiP3ke->kondisi_lantai_rumah;
+            $this->kondisi_lantai_rumah = $this->dataSurveiP3ke->kondisi_lantai_rumah;
 
             $this->jenisSumberPeneranganUtama = [
-                'listrik_pln_meteran' => $dataSurveiP3ke->listrik_pln_meteran,
-                'listrik_pln_non_meteran' => $dataSurveiP3ke->listrik_pln_non_meteran,
-                'listrik_non_pln' => $dataSurveiP3ke->listrik_non_pln,
-                'bukan_listrik' => $dataSurveiP3ke->bukan_listrik,
+                'listrik_pln_meteran' => $this->dataSurveiP3ke->listrik_pln_meteran,
+                'listrik_pln_non_meteran' => $this->dataSurveiP3ke->listrik_pln_non_meteran,
+                'listrik_non_pln' => $this->dataSurveiP3ke->listrik_non_pln,
+                'bukan_listrik' => $this->dataSurveiP3ke->bukan_listrik,
             ];
 
-            $this->watt_listrik = $dataSurveiP3ke->watt_listrik;
+            $this->watt_listrik = $this->dataSurveiP3ke->watt_listrik;
 
             $this->jenisSumberAirMinum = [
-                'air_kemasan_isi_ulang' => $dataSurveiP3ke->air_kemasan_isi_ulang,
-                'ledeng_pam' => $dataSurveiP3ke->ledeng_pam,
-                'sumur_bor' => $dataSurveiP3ke->sumur_bor,
-                'sumur_terlindung' => $dataSurveiP3ke->sumur_terlindung,
-                'sumur_tidak_terlindung' => $dataSurveiP3ke->sumur_tidak_terlindung,
-                'mata_air_terlindung' => $dataSurveiP3ke->mata_air_terlindung,
-                'air_permukaan_sungai_danau_dll' => $dataSurveiP3ke->air_permukaan_sungai_danau_dll,
-                'air_hujan' => $dataSurveiP3ke->air_hujan,
-                'air_minum_lainnya' => $dataSurveiP3ke->air_minum_lainnya,
+                'air_kemasan_isi_ulang' => $this->dataSurveiP3ke->air_kemasan_isi_ulang,
+                'ledeng_pam' => $this->dataSurveiP3ke->ledeng_pam,
+                'sumur_bor' => $this->dataSurveiP3ke->sumur_bor,
+                'sumur_terlindung' => $this->dataSurveiP3ke->sumur_terlindung,
+                'sumur_tidak_terlindung' => $this->dataSurveiP3ke->sumur_tidak_terlindung,
+                'mata_air_terlindung' => $this->dataSurveiP3ke->mata_air_terlindung,
+                'air_permukaan_sungai_danau_dll' => $this->dataSurveiP3ke->air_permukaan_sungai_danau_dll,
+                'air_hujan' => $this->dataSurveiP3ke->air_hujan,
+                'air_minum_lainnya' => $this->dataSurveiP3ke->air_minum_lainnya,
             ];
 
             $this->fasilitasBuangAirBesar = [
-                'milik_sendiri_fasilitas_buang_air_besar' => $dataSurveiP3ke->milik_sendiri_fasilitas_buang_air_besar,
-                'umum_bersama' => $dataSurveiP3ke->umum_bersama,
-                'fasilitas_buang_air_besar_lainnya' => $dataSurveiP3ke->fasilitas_buang_air_besar_lainnya,
-                'fasilitas_buang_air_besar_kosong' => $dataSurveiP3ke->fasilitas_buang_air_besar_kosong,
-                'tidak_ada_fasilitas_buang_air_besar' => $dataSurveiP3ke->tidak_ada_fasilitas_buang_air_besar,
+                'milik_sendiri_fasilitas_buang_air_besar' => $this->dataSurveiP3ke->milik_sendiri_fasilitas_buang_air_besar,
+                'umum_bersama' => $this->dataSurveiP3ke->umum_bersama,
+                'fasilitas_buang_air_besar_lainnya' => $this->dataSurveiP3ke->fasilitas_buang_air_besar_lainnya,
+                'fasilitas_buang_air_besar_kosong' => $this->dataSurveiP3ke->fasilitas_buang_air_besar_kosong,
+                'tidak_ada_fasilitas_buang_air_besar' => $this->dataSurveiP3ke->tidak_ada_fasilitas_buang_air_besar,
             ];
 
-            $this->luas_rumah = $dataSurveiP3ke->luas_rumah;
-            $this->jumlah_orang_dirumah = $dataSurveiP3ke->jumlah_orang_dirumah;
+            $this->luas_rumah = $this->dataSurveiP3ke->luas_rumah;
+            $this->jumlah_orang_dirumah = $this->dataSurveiP3ke->jumlah_orang_dirumah;
 
             $this->jenisBahanBakar = [
-                'listrik' => $dataSurveiP3ke->listrik,
-                'gas_12kg' => $dataSurveiP3ke->gas_12kg,
-                'gas_5_5kg' => $dataSurveiP3ke->gas_5_5kg,
-                'gas_3kg' => $dataSurveiP3ke->gas_3kg,
-                'minyak_tanah' => $dataSurveiP3ke->minyak_tanah,
-                'briket_kayu_arang' => $dataSurveiP3ke->briket_kayu_arang,
-                'bahan_bakar_utama_lainnya' => $dataSurveiP3ke->bahan_bakar_utama_lainnya,
+                'listrik' => $this->dataSurveiP3ke->listrik,
+                'gas_12kg' => $this->dataSurveiP3ke->gas_12kg,
+                'gas_5_5kg' => $this->dataSurveiP3ke->gas_5_5kg,
+                'gas_3kg' => $this->dataSurveiP3ke->gas_3kg,
+                'minyak_tanah' => $this->dataSurveiP3ke->minyak_tanah,
+                'briket_kayu_arang' => $this->dataSurveiP3ke->briket_kayu_arang,
+                'bahan_bakar_utama_lainnya' => $this->dataSurveiP3ke->bahan_bakar_utama_lainnya,
             ];
 
             $this->kepemilikanRumah = [
-                'bebas_sewa_menumpang' => $dataSurveiP3ke->bebas_sewa_menumpang,
-                'kontrak_sewa' => $dataSurveiP3ke->kontrak_sewa,
-                'milik_sendiri' => $dataSurveiP3ke->milik_sendiri,
-                'dinas' => $dataSurveiP3ke->dinas,
-                'kepemilikan_rumah_lainnya' => $dataSurveiP3ke->kepemilikan_rumah_lainnya,
+                'bebas_sewa_menumpang' => $this->dataSurveiP3ke->bebas_sewa_menumpang,
+                'kontrak_sewa' => $this->dataSurveiP3ke->kontrak_sewa,
+                'milik_sendiri' => $this->dataSurveiP3ke->milik_sendiri,
+                'dinas' => $this->dataSurveiP3ke->dinas,
+                'kepemilikan_rumah_lainnya' => $this->dataSurveiP3ke->kepemilikan_rumah_lainnya,
             ];
-
         } else {
             $this->penerimaanBantuan = [
                 'bpnt' => '2',
@@ -354,52 +374,64 @@ class SurveiKaderIndex extends Component
 
     public function save()
     {
-        // $this->validate(
-        //     [
-        //         'answer_1' => 'required',
-        //         'answer_2' => 'required',
-        //         'answer_3' => 'required',
-        //         'answer_4' => 'required',
-        //         'answer_5' => 'required',
-        //         'answer_6' => 'required',
-        //         'answer_7' => 'required',
-        //         'answer_8' => 'required',
-        //         'answer_9' => 'required',
-        //         'answer_10' => 'required',
-        //         'answer_11' => 'required',
-        //         'answer_12' => 'required',
-        //         'answer_13' => 'required',
-        //         'answer_14' => 'required',
-        //         'answer_15' => 'required',
-        //         'answer_16' => 'required',
-        //         'answer_17' => 'required',
-        //         'answer_18' => 'required',
-        //     ],
-        //     [
-        //         'answer_1.required' => 'Harus diisi.',
-        //         'answer_2.required' => 'Harus diisi.',
-        //         'answer_3.required' => 'Harus diisi.',
-        //         'answer_4.required' => 'Harus diisi.',
-        //         'answer_5.required' => 'Harus diisi.',
-        //         'answer_6.required' => 'Harus diisi.',
-        //         'answer_7.required' => 'Harus diisi.',
-        //         'answer_8.required' => 'Harus diisi.',
-        //         'answer_9.required' => 'Harus diisi.',
-        //         'answer_10.required' => 'Harus diisi.',
-        //         'answer_11.required' => 'Harus diisi.',
-        //         'answer_12.required' => 'Harus diisi.',
-        //         'answer_13.required' => 'Harus diisi.',
-        //         'answer_14.required' => 'Harus diisi.',
-        //         'answer_15.required' => 'Harus diisi.',
-        //         'answer_16.required' => 'Harus diisi.',
-        //         'answer_17.required' => 'Harus diisi.',
-        //         'answer_18.required' => 'Harus diisi.',
-        //     ],
-        // );
+        $this->validate(
+            [
+                'nomor_keluarga_indonesia' => 'required',
+                'nama_kepala_keluarga' => 'required',
+                'nama_istri' => 'required',
+                'status_keluarga' => 'required',
+                'latitude' => 'required',
+                'longitude' => 'required',
 
-        $dataPenerimaanBantuan = array_fill_keys($this->penerimaanBantuan, 1);
+                'answer_1' => 'required',
+                'answer_2' => 'required',
+                'answer_3' => 'required',
+                'answer_4' => 'required',
+                'answer_5' => 'required',
+                'answer_6' => 'required',
+                'answer_7' => 'required',
+                'answer_8' => 'required',
+                'answer_9' => 'required',
+                'answer_10' => 'required',
+                'answer_11' => 'required',
+                'answer_12' => 'required',
+                'answer_13' => 'required',
+                'answer_14' => 'required',
+                'answer_15' => 'required',
+                'answer_16' => 'required',
+                'answer_17' => 'required',
+                'answer_18' => 'required',
+            ],
+            [
+                'nomor_keluarga_indonesia' => 'Harus diisi.',
+                'nama_kepala_keluarga' => 'Harus diisi.',
+                'nama_istri' => 'Harus diisi.',
+                'status_keluarga' => 'Harus diisi.',
+                'latitude' => 'Harus diisi.',
+                'longitude' => 'Harus diisi.',
 
-        $dataJenisdataPenerimaanBantuanAset = [
+                'answer_1.required' => 'Harus diisi.',
+                'answer_2.required' => 'Harus diisi.',
+                'answer_3.required' => 'Harus diisi.',
+                'answer_4.required' => 'Harus diisi.',
+                'answer_5.required' => 'Harus diisi.',
+                'answer_6.required' => 'Harus diisi.',
+                'answer_7.required' => 'Harus diisi.',
+                'answer_8.required' => 'Harus diisi.',
+                'answer_9.required' => 'Harus diisi.',
+                'answer_10.required' => 'Harus diisi.',
+                'answer_11.required' => 'Harus diisi.',
+                'answer_12.required' => 'Harus diisi.',
+                'answer_13.required' => 'Harus diisi.',
+                'answer_14.required' => 'Harus diisi.',
+                'answer_15.required' => 'Harus diisi.',
+                'answer_16.required' => 'Harus diisi.',
+                'answer_17.required' => 'Harus diisi.',
+                'answer_18.required' => 'Harus diisi.',
+            ],
+        );
+
+        $dataJenisPenerimaanBantuan = [
             'bpnt' => $this->penerimaanBantuan['bpnt'] === true ? 1 : 2,
             'bpum' => $this->penerimaanBantuan['bpum'] === true ? 1 : 2,
             'bst' => $this->penerimaanBantuan['bst'] === true ? 1 : 2,
@@ -503,30 +535,239 @@ class SurveiKaderIndex extends Component
             'kepemilikan_rumah_lainnya' => $this->kepemilikanRumah['kepemilikan_rumah_lainnya'] === true ? 5 : '-',
         ];
 
-        $createDataSurveiP3ke = DataSurveiP3ke::create(
-            [
+        if ($this->dataSurveiKrs && $this->dataSurveiP3ke) {
+            $updateDataPenduduk = DataPenduduk::where('id', $this->id)->update([
+                'status_keluarga' => $this->status_keluarga,
+                'latitude' => $this->latitude,
+                'longitude' => $this->longitude,
+            ]);
+
+            $updateDataSurveiKrs = DataSurveiKrs::where('data_penduduk_id', $this->id)->update([
                 'user_id' => Auth()->user()->id,
                 'data_penduduk_id' => $this->id,
-                'sumber_penghasilan' => $this->sumber_penghasilan,
-                'aset' => $this->aset,
-                'kondisi_atap_rumah' => $this->kondisi_atap_rumah,
-                'kondisi_dinding_rumah' => $this->kondisi_dinding_rumah,
-                'watt_listrik' => $this->watt_listrik,
-                'luas_rumah' => $this->luas_rumah,
-                'jumlah_orang_dirumah' => $this->jumlah_orang_dirumah,
+                'answer_1' => $this->answer_1,
+                'answer_2' => $this->answer_2,
+                'answer_3' => $this->answer_3,
+                'answer_4' => $this->answer_4,
+                'answer_5' => $this->answer_5,
+                'answer_6' => $this->answer_6,
+                'answer_7' => $this->answer_7,
+                'answer_8' => $this->answer_8,
+                'answer_9' => $this->answer_9,
+                'answer_10' => $this->answer_10,
+                'answer_11' => $this->answer_11,
+                'answer_12' => $this->answer_12,
+                'answer_13' => $this->answer_13,
+                'answer_14' => $this->answer_14,
+                'answer_15' => $this->answer_15,
+                'answer_16' => $this->answer_16,
+                'answer_17' => $this->answer_17,
+                'answer_18' => $this->answer_18,
                 'status' => 'Pending',
                 'state' => 'Kelurahan',
-            ] +
-                $dataPenerimaanBantuan +
-                $dataJenisAset +
-                $dataJenisAtapRumah +
-                $dataJenisDindingRumah +
-                $dataJenisLantaiRumah +
-                $dataJenisSumberPeneranganUtama +
-                $dataJenisSumberAirMinum +
-                $dataFasilitasBuangAirBesar +
-                $dataJenisBahanBakar +
-                $dataKepemilikanRumah,
-        );
+            ]);
+
+            $updateDataSurveiP3ke = DataSurveiP3ke::where('data_penduduk_id', $this->id)->update(
+                [
+                    'user_id' => Auth()->user()->id,
+                    'data_penduduk_id' => $this->id,
+                    'sumber_penghasilan' => $this->sumber_penghasilan,
+                    'aset' => $this->aset,
+                    'kondisi_atap_rumah' => $this->kondisi_atap_rumah,
+                    'kondisi_dinding_rumah' => $this->kondisi_dinding_rumah,
+                    'kondisi_lantai_rumah' => $this->kondisi_lantai_rumah,
+                    'watt_listrik' => $this->watt_listrik,
+                    'luas_rumah' => $this->luas_rumah,
+                    'jumlah_orang_dirumah' => $this->jumlah_orang_dirumah,
+                    'status' => 'Pending',
+                    'state' => 'Kelurahan',
+                ] +
+                    $dataJenisPenerimaanBantuan +
+                    $dataJenisAset +
+                    $dataJenisAtapRumah +
+                    $dataJenisDindingRumah +
+                    $dataJenisLantaiRumah +
+                    $dataJenisSumberPeneranganUtama +
+                    $dataJenisSumberAirMinum +
+                    $dataFasilitasBuangAirBesar +
+                    $dataJenisBahanBakar +
+                    $dataKepemilikanRumah,
+            );
+        } elseif (!$this->dataSurveiKrs && $this->dataSurveiP3ke) {
+            $updateDataPenduduk = DataPenduduk::where('id', $this->id)->update([
+                'status_keluarga' => $this->status_keluarga,
+                'latitude' => $this->latitude,
+                'longitude' => $this->longitude,
+            ]);
+
+            $createDataSurveiKrs = DataSurveiKrs::create([
+                'user_id' => Auth()->user()->id,
+                'data_penduduk_id' => $this->id,
+                'answer_1' => $this->answer_1,
+                'answer_2' => $this->answer_2,
+                'answer_3' => $this->answer_3,
+                'answer_4' => $this->answer_4,
+                'answer_5' => $this->answer_5,
+                'answer_6' => $this->answer_6,
+                'answer_7' => $this->answer_7,
+                'answer_8' => $this->answer_8,
+                'answer_9' => $this->answer_9,
+                'answer_10' => $this->answer_10,
+                'answer_11' => $this->answer_11,
+                'answer_12' => $this->answer_12,
+                'answer_13' => $this->answer_13,
+                'answer_14' => $this->answer_14,
+                'answer_15' => $this->answer_15,
+                'answer_16' => $this->answer_16,
+                'answer_17' => $this->answer_17,
+                'answer_18' => $this->answer_18,
+                'status' => 'Pending',
+                'state' => 'Kelurahan',
+            ]);
+
+            $updateDataSurveiP3ke = DataSurveiP3ke::where('data_penduduk_id', $this->id)->update(
+                [
+                    'user_id' => Auth()->user()->id,
+                    'data_penduduk_id' => $this->id,
+                    'sumber_penghasilan' => $this->sumber_penghasilan,
+                    'aset' => $this->aset,
+                    'kondisi_atap_rumah' => $this->kondisi_atap_rumah,
+                    'kondisi_dinding_rumah' => $this->kondisi_dinding_rumah,
+                    'kondisi_lantai_rumah' => $this->kondisi_lantai_rumah,
+                    'watt_listrik' => $this->watt_listrik,
+                    'luas_rumah' => $this->luas_rumah,
+                    'jumlah_orang_dirumah' => $this->jumlah_orang_dirumah,
+                    'status' => 'Pending',
+                    'state' => 'Kelurahan',
+                ] +
+                    $dataJenisPenerimaanBantuan +
+                    $dataJenisAset +
+                    $dataJenisAtapRumah +
+                    $dataJenisDindingRumah +
+                    $dataJenisLantaiRumah +
+                    $dataJenisSumberPeneranganUtama +
+                    $dataJenisSumberAirMinum +
+                    $dataFasilitasBuangAirBesar +
+                    $dataJenisBahanBakar +
+                    $dataKepemilikanRumah,
+            );
+        } elseif ($this->dataSurveiKrs && !$this->dataSurveiP3ke) {
+            $updateDataPenduduk = DataPenduduk::where('id', $this->id)->update([
+                'status_keluarga' => $this->status_keluarga,
+                'latitude' => $this->latitude,
+                'longitude' => $this->longitude,
+            ]);
+
+            $updateDataSurveiKrs = DataSurveiKrs::where('data_penduduk_id', $this->id)->update([
+                'user_id' => Auth()->user()->id,
+                'data_penduduk_id' => $this->id,
+                'answer_1' => $this->answer_1,
+                'answer_2' => $this->answer_2,
+                'answer_3' => $this->answer_3,
+                'answer_4' => $this->answer_4,
+                'answer_5' => $this->answer_5,
+                'answer_6' => $this->answer_6,
+                'answer_7' => $this->answer_7,
+                'answer_8' => $this->answer_8,
+                'answer_9' => $this->answer_9,
+                'answer_10' => $this->answer_10,
+                'answer_11' => $this->answer_11,
+                'answer_12' => $this->answer_12,
+                'answer_13' => $this->answer_13,
+                'answer_14' => $this->answer_14,
+                'answer_15' => $this->answer_15,
+                'answer_16' => $this->answer_16,
+                'answer_17' => $this->answer_17,
+                'answer_18' => $this->answer_18,
+                'status' => 'Pending',
+                'state' => 'Kelurahan',
+            ]);
+
+            $createDataSurveiP3ke = DataSurveiP3ke::create(
+                [
+                    'user_id' => Auth()->user()->id,
+                    'data_penduduk_id' => $this->id,
+                    'sumber_penghasilan' => $this->sumber_penghasilan,
+                    'aset' => $this->aset,
+                    'kondisi_atap_rumah' => $this->kondisi_atap_rumah,
+                    'kondisi_dinding_rumah' => $this->kondisi_dinding_rumah,
+                    'kondisi_lantai_rumah' => $this->kondisi_lantai_rumah,
+                    'watt_listrik' => $this->watt_listrik,
+                    'luas_rumah' => $this->luas_rumah,
+                    'jumlah_orang_dirumah' => $this->jumlah_orang_dirumah,
+                    'status' => 'Pending',
+                    'state' => 'Kelurahan',
+                ] +
+                    $dataJenisPenerimaanBantuan +
+                    $dataJenisAset +
+                    $dataJenisAtapRumah +
+                    $dataJenisDindingRumah +
+                    $dataJenisLantaiRumah +
+                    $dataJenisSumberPeneranganUtama +
+                    $dataJenisSumberAirMinum +
+                    $dataFasilitasBuangAirBesar +
+                    $dataJenisBahanBakar +
+                    $dataKepemilikanRumah,
+            );
+        } else {
+            $updateDataPenduduk = DataPenduduk::where('id', $this->id)->update([
+                'status_keluarga' => $this->status_keluarga,
+                'latitude' => $this->latitude,
+                'longitude' => $this->longitude,
+            ]);
+
+            $createDataSurveiKrs = DataSurveiKrs::create([
+                'user_id' => Auth()->user()->id,
+                'data_penduduk_id' => $this->id,
+                'answer_1' => $this->answer_1,
+                'answer_2' => $this->answer_2,
+                'answer_3' => $this->answer_3,
+                'answer_4' => $this->answer_4,
+                'answer_5' => $this->answer_5,
+                'answer_6' => $this->answer_6,
+                'answer_7' => $this->answer_7,
+                'answer_8' => $this->answer_8,
+                'answer_9' => $this->answer_9,
+                'answer_10' => $this->answer_10,
+                'answer_11' => $this->answer_11,
+                'answer_12' => $this->answer_12,
+                'answer_13' => $this->answer_13,
+                'answer_14' => $this->answer_14,
+                'answer_15' => $this->answer_15,
+                'answer_16' => $this->answer_16,
+                'answer_17' => $this->answer_17,
+                'answer_18' => $this->answer_18,
+                'status' => 'Pending',
+                'state' => 'Kelurahan',
+            ]);
+
+            $createDataSurveiP3ke = DataSurveiP3ke::create(
+                [
+                    'user_id' => Auth()->user()->id,
+                    'data_penduduk_id' => $this->id,
+                    'sumber_penghasilan' => $this->sumber_penghasilan,
+                    'aset' => $this->aset,
+                    'kondisi_atap_rumah' => $this->kondisi_atap_rumah,
+                    'kondisi_dinding_rumah' => $this->kondisi_dinding_rumah,
+                    'kondisi_lantai_rumah' => $this->kondisi_lantai_rumah,
+                    'kondisi_lantai_rumah' => $this->kondisi_lantai_rumah,
+                    'watt_listrik' => $this->watt_listrik,
+                    'luas_rumah' => $this->luas_rumah,
+                    'jumlah_orang_dirumah' => $this->jumlah_orang_dirumah,
+                    'status' => 'Pending',
+                    'state' => 'Kelurahan',
+                ] +
+                    $dataJenisPenerimaanBantuan +
+                    $dataJenisAset +
+                    $dataJenisAtapRumah +
+                    $dataJenisDindingRumah +
+                    $dataJenisLantaiRumah +
+                    $dataJenisSumberPeneranganUtama +
+                    $dataJenisSumberAirMinum +
+                    $dataFasilitasBuangAirBesar +
+                    $dataJenisBahanBakar +
+                    $dataKepemilikanRumah,
+            );
+        }
     }
 }

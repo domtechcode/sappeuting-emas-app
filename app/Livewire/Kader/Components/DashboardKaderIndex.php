@@ -74,13 +74,13 @@ class DashboardKaderIndex extends Component
             $this->showSecondForm = false;
 
             if ($this->dataSurveiKrs && $this->dataSurveiP3ke) {
-                $state = 'new';
+                $state = 'krs+p3ke';
             } elseif (!$this->dataSurveiKrs && $this->dataSurveiP3ke) {
-                $state = 'new';
+                $state = 'krs+p3ke';
             } elseif ($this->dataSurveiKrs && !$this->dataSurveiP3ke) {
-                $state = 'update';
+                $state = 'krs';
             } else {
-                $state = 'new';
+                $state = 'krscreate+p3kecreate';
             }
 
             return redirect()->route('surveiKader', ['state' => $state, 'id' => $this->data->id]);
