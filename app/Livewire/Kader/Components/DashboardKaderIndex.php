@@ -106,6 +106,8 @@ class DashboardKaderIndex extends Component
             'rt' => $this->rt,
         ]);
 
+        return redirect()->route('surveiKader', ['state' => 'krscreate+p3kecreate', 'id' => $dataPenduduk->id]);
+
 
     }
 }

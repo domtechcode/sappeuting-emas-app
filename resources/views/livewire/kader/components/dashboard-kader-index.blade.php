@@ -20,7 +20,7 @@
                     <div class="card">
                         <div class="row">
                             <div class="col-md-4">
-                                <img src="{{ asset('assets/images/brand/undraw_Customer_survey_re_v9cj.png') }}"
+                                <img src="{{ asset('assets/images/brand/undraw_undraw_undraw_undraw_undraw_search_engines_041x_-2-_cl95_o7o8_pigd_wbm3.png') }}"
                                     class="card-img-left" alt="img">
                             </div>
                             <div class="col-md-8">
@@ -180,7 +180,7 @@
                     <div class="card">
                         <div class="row">
                             <div class="col-md-4">
-                                <img src="{{ asset('assets/images/brand/undraw_Customer_survey_re_v9cj.png') }}"
+                                <img src="{{ asset('assets/images/brand/undraw_undraw_undraw_undraw_undraw_search_engines_041x_-2-_cl95_o7o8_pigd_wbm3.png') }}"
                                     class="card-img-left" alt="img">
                             </div>
                             <div class="col-md-8">
