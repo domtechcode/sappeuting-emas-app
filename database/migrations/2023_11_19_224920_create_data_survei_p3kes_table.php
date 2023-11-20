@@ -92,6 +92,7 @@ return new class extends Migration
             $table->text('milik_sendiri_fasilitas_buang_air_besar')->nullable();
             $table->text('umum_bersama')->nullable();
             $table->text('fasilitas_buang_air_besar_lainnya')->nullable();
+            $table->text('fasilitas_buang_air_besar_kosong')->nullable();
             $table->text('tidak_ada_fasilitas_buang_air_besar')->nullable();
 
             $table->text('luas_rumah')->nullable();

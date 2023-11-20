@@ -721,8 +721,8 @@
                                     <div class="example">
                                         <div class="d-flex justify-content-center">
                                             <img class="mb-4"
-                                            src="{{ asset('assets/images/brand/undraw_Onboarding_re_6osc.png') }}"
-                                            alt="Generic placeholder image" style="width:50%; height: 50%;">
+                                                src="{{ asset('assets/images/brand/undraw_Onboarding_re_6osc.png') }}"
+                                                alt="Generic placeholder image" style="width:50%; height: 50%;">
                                         </div>
 
                                         <div class="media media-lg mt-0">
@@ -735,7 +735,10 @@
                                                                 <label class="custom-control custom-checkbox-md">
                                                                     <input type="checkbox"
                                                                         class="custom-control-input"
-                                                                        name="penerimaanBantuan" wire:model="penerimaanBantuan" value="bpnt">
+                                                                        name="penerimaanBantuan[]"
+                                                                        wire:model="penerimaanBantuan.bpnt"
+                                                                        value="1"
+                                                                        {{ $penerimaanBantuan['bpnt'] == '1' ? 'checked' : '' }}>
                                                                     <span class="custom-control-label">BPNT</span>
                                                                 </label>
                                                             </div>
@@ -743,7 +746,10 @@
                                                                 <label class="custom-control custom-checkbox-md">
                                                                     <input type="checkbox"
                                                                         class="custom-control-input"
-                                                                        name="penerimaanBantuan" wire:model="penerimaanBantuan" value="bpum">
+                                                                        name="penerimaanBantuan[]"
+                                                                        wire:model="penerimaanBantuan.bpum"
+                                                                        value="1"
+                                                                        {{ $penerimaanBantuan['bpum'] == '1' ? 'checked' : '' }}>
                                                                     <span class="custom-control-label">BPUM</span>
                                                                 </label>
                                                             </div>
@@ -751,7 +757,10 @@
                                                                 <label class="custom-control custom-checkbox-md">
                                                                     <input type="checkbox"
                                                                         class="custom-control-input"
-                                                                        name="penerimaanBantuan" wire:model="penerimaanBantuan" value="bst">
+                                                                        name="penerimaanBantuan[]"
+                                                                        wire:model="penerimaanBantuan.bst"
+                                                                        value="1"
+                                                                        {{ $penerimaanBantuan['bst'] == '1' ? 'checked' : '' }}>
                                                                     <span class="custom-control-label">BST</span>
                                                                 </label>
                                                             </div>
@@ -759,10 +768,14 @@
                                                                 <label class="custom-control custom-checkbox-md">
                                                                     <input type="checkbox"
                                                                         class="custom-control-input"
-                                                                        name="penerimaanBantuan" wire:model="penerimaanBantuan" value="pkh">
+                                                                        name="penerimaanBantuan[]"
+                                                                        wire:model="penerimaanBantuan.pkh"
+                                                                        value="1"
+                                                                        {{ $penerimaanBantuan['pkh'] == '1' ? 'checked' : '' }}>
                                                                     <span class="custom-control-label">PKH</span>
                                                                 </label>
                                                             </div>
+
                                                         </div>
                                                     </div>
                                                     <div class="col-6 d-flex justify-content-center">
@@ -771,7 +784,10 @@
                                                                 <label class="custom-control custom-checkbox-md">
                                                                     <input type="checkbox"
                                                                         class="custom-control-input"
-                                                                        name="penerimaanBantuan" wire:model="penerimaanBantuan" value="sembako">
+                                                                        name="penerimaanBantuan[]"
+                                                                        wire:model="penerimaanBantuan.sembako"
+                                                                        value="1"
+                                                                        {{ $penerimaanBantuan['sembako'] == '1' ? 'checked' : '' }}>
                                                                     <span class="custom-control-label">Sembako</span>
                                                                 </label>
                                                             </div>
@@ -779,7 +795,10 @@
                                                                 <label class="custom-control custom-checkbox-md">
                                                                     <input type="checkbox"
                                                                         class="custom-control-input"
-                                                                        name="penerimaanBantuan" wire:model="penerimaanBantuan" value="pra_kerja">
+                                                                        name="penerimaanBantuan[]"
+                                                                        wire:model="penerimaanBantuan.pra_kerja"
+                                                                        value="1"
+                                                                        {{ $penerimaanBantuan['pra_kerja'] == '1' ? 'checked' : '' }}>
                                                                     <span class="custom-control-label">Pra Kerja</span>
                                                                 </label>
                                                             </div>
@@ -787,7 +806,10 @@
                                                                 <label class="custom-control custom-checkbox-md">
                                                                     <input type="checkbox"
                                                                         class="custom-control-input"
-                                                                        name="penerimaanBantuan" wire:model="penerimaanBantuan" value="kur">
+                                                                        name="penerimaanBantuan[]"
+                                                                        wire:model="penerimaanBantuan.kur"
+                                                                        value="1"
+                                                                        {{ $penerimaanBantuan['kur'] == '1' ? 'checked' : '' }}>
                                                                     <span class="custom-control-label">KUR</span>
                                                                 </label>
                                                             </div>
@@ -802,35 +824,1258 @@
                                     <div class="example">
                                         <div class="d-flex justify-content-center">
                                             <img class="mb-4"
-                                            src="{{ asset('assets/images/brand/undraw_Onboarding_re_6osc.png') }}"
-                                            alt="Generic placeholder image" style="width:50%; height: 50%;">
+                                                src="{{ asset('assets/images/brand/undraw_Revenue_re_2bmg.png') }}"
+                                                alt="Generic placeholder image" style="width:50%; height: 50%;">
                                         </div>
 
                                         <div class="media media-lg mt-0">
                                             <div class="media-body">
-                                                <h4 class="mt-0 text-center">Selama 6 (enam) bulan terakhir, terdapat paling sedikit 1 (satu), anggota keluarga memiliki sumber penghasilan untuk memenuhi kebutuhan pokok per bulan</h4>
+                                                <h4 class="mt-0 text-center">Selama 6 (enam) bulan terakhir, terdapat
+                                                    paling sedikit 1 (satu), anggota keluarga memiliki sumber
+                                                    penghasilan untuk memenuhi kebutuhan pokok per bulan</h4>
                                                 <div class="form-row">
                                                     <div class="col-12 d-flex justify-content-center">
                                                         <div class="form-group">
                                                             <label class="custom-switch form-switch me-5">
                                                                 <input type="radio" name="sumber_penghasilan"
-                                                                    wire:model.defer="sumber_penghasilan" class="custom-switch-input"
-                                                                    value="1">
+                                                                    wire:model.defer="sumber_penghasilan"
+                                                                    class="custom-switch-input" value="1">
                                                                 <span
                                                                     class="custom-switch-indicator custom-switch-indicator-md"></span>
                                                                 <span class="custom-switch-description">Ya</span>
                                                             </label>
                                                             <label class="custom-switch form-switch">
                                                                 <input type="radio" name="sumber_penghasilan"
-                                                                    wire:model.defer="sumber_penghasilan" class="custom-switch-input"
-                                                                    value="2">
+                                                                    wire:model.defer="sumber_penghasilan"
+                                                                    class="custom-switch-input" value="2">
                                                                 <span
                                                                     class="custom-switch-indicator custom-switch-indicator-md"></span>
                                                                 <span class="custom-switch-description">Tidak</span>
                                                             </label>
                                                             @error('sumber_penghasilan')
-                                                                <div><span class="text-danger">{{ $message }}</span></div>
+                                                                <div><span class="text-danger">{{ $message }}</span>
+                                                                </div>
                                                             @enderror
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 mb-3">
+                                    <div class="example">
+                                        <div class="d-flex justify-content-center">
+                                            <img class="mb-4"
+                                                src="{{ asset('assets/images/brand/undraw_order_a_car_3tww.png') }}"
+                                                alt="Generic placeholder image" style="width:50%; height: 50%;">
+                                        </div>
+
+                                        <div class="media media-lg mt-0">
+                                            <div class="media-body">
+                                                <h4 class="mt-0 text-center">Keluarga memiliki aset</h4>
+                                                <div class="form-row">
+                                                    <div class="col-12 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <label class="custom-switch form-switch me-5">
+                                                                <input type="radio" name="aset"
+                                                                    wire:model.defer="aset"
+                                                                    class="custom-switch-input" value="1">
+                                                                <span
+                                                                    class="custom-switch-indicator custom-switch-indicator-md"></span>
+                                                                <span class="custom-switch-description">Ya</span>
+                                                            </label>
+                                                            <label class="custom-switch form-switch">
+                                                                <input type="radio" name="aset"
+                                                                    wire:model.defer="aset"
+                                                                    class="custom-switch-input" value="2">
+                                                                <span
+                                                                    class="custom-switch-indicator custom-switch-indicator-md"></span>
+                                                                <span class="custom-switch-description">Tidak</span>
+                                                            </label>
+                                                            @error('aset')
+                                                                <div><span class="text-danger">{{ $message }}</span>
+                                                                </div>
+                                                            @enderror
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <h4 class="mt-0 text-center">Jika Ya, Aset apa yang dimiliki</h4>
+                                                <div class="form-row">
+                                                    <div class="col-6 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisAset[]"
+                                                                        wire:model="jenisAset.tabungan"
+                                                                        value="tabungan"
+                                                                        {{ $jenisAset['tabungan'] == '1' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Tabungan</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisAset[]" wire:model="jenisAset.ac"
+                                                                        value="ac"
+                                                                        {{ $jenisAset['ac'] == '2' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">AC</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisAset[]"
+                                                                        wire:model="jenisAset.televisi_layar_datar"
+                                                                        value="televisi_layar_datar"
+                                                                        {{ $jenisAset['televisi_layar_datar'] == '3' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Televisi layar
+                                                                        datar</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisAset[]"
+                                                                        wire:model="jenisAset.lemari_es_kulkas"
+                                                                        value="lemari_es_kulkas"
+                                                                        {{ $jenisAset['lemari_es_kulkas'] == '4' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Lemari Es</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisAset[]"
+                                                                        wire:model="jenisAset.komputer_laptop"
+                                                                        value="komputer_laptop"
+                                                                        {{ $jenisAset['komputer_laptop'] == '5' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Komputer
+                                                                        Laptop</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisAset[]"
+                                                                        wire:model="jenisAset.sepeda_motor"
+                                                                        value="sepeda_motor"
+                                                                        {{ $jenisAset['sepeda_motor'] == '6' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Sepeda
+                                                                        Motor</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisAset[]"
+                                                                        wire:model="jenisAset.mobil" value="mobil"
+                                                                        {{ $jenisAset['mobil'] == '7' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Mobil</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisAset[]"
+                                                                        wire:model="jenisAset.kapal_perahu_motor_perahu"
+                                                                        value="kapal_perahu_motor_perahu"
+                                                                        {{ $jenisAset['kapal_perahu_motor_perahu'] == '8' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Kapal/Perahu
+                                                                        Motor/Perahu</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisAset[]"
+                                                                        wire:model="jenisAset.emas_perhiasan"
+                                                                        value="emas_perhiasan"
+                                                                        {{ $jenisAset['emas_perhiasan'] == '9' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Emas / perhiasan
+                                                                        (minimal 10 gram)</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisAset[]"
+                                                                        wire:model="jenisAset.hewan_ternak"
+                                                                        value="hewan_ternak"
+                                                                        {{ $jenisAset['hewan_ternak'] == '10' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Hewan
+                                                                        Ternak</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisAset[]"
+                                                                        wire:model="jenisAset.lahan" value="lahan"
+                                                                        {{ $jenisAset['lahan'] == '11' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Lahan</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisAset[]"
+                                                                        wire:model="jenisAset.rumah_ditempat_lain"
+                                                                        value="rumah_ditempat_lain"
+                                                                        {{ $jenisAset['rumah_ditempat_lain'] == '12' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Rumah di tempat
+                                                                        lain</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 mb-3">
+                                    <div class="example">
+                                        <div class="d-flex justify-content-center">
+                                            <img class="mb-4"
+                                                src="{{ asset('assets/images/brand/undraw_sweet_home_dkhr.png') }}"
+                                                alt="Generic placeholder image" style="width:50%; height: 50%;">
+                                        </div>
+
+                                        <div class="media media-lg mt-0">
+                                            <div class="media-body">
+                                                <h4 class="mt-0 text-center">Jenis atap rumah terluas</h4>
+                                                <div class="form-row">
+                                                    <div class="col-6 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisAtapRumah[]"
+                                                                        wire:model="jenisAtapRumah.beton"
+                                                                        value="beton"
+                                                                        {{ $jenisAtapRumah['beton'] == '1' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Beton</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisAtapRumah[]"
+                                                                        wire:model="jenisAtapRumah.genteng"
+                                                                        value="genteng"
+                                                                        {{ $jenisAtapRumah['genteng'] == '2' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Genteng</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisAtapRumah[]"
+                                                                        wire:model="jenisAtapRumah.seng_atap"
+                                                                        value="seng_atap"
+                                                                        {{ $jenisAtapRumah['seng_atap'] == '3' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Seng</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisAtapRumah[]"
+                                                                        wire:model="jenisAtapRumah.asbes_seng"
+                                                                        value="asbes_seng"
+                                                                        {{ $jenisAtapRumah['asbes_seng'] == '4' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Asbes /
+                                                                        Seng</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisAtapRumah[]"
+                                                                        wire:model="jenisAtapRumah.kayu_sirap"
+                                                                        value="kayu_sirap"
+                                                                        {{ $jenisAtapRumah['kayu_sirap'] == '5' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Kayu
+                                                                        Sirap</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisAtapRumah[]"
+                                                                        wire:model="jenisAtapRumah.bambu_atap"
+                                                                        value="bambu_atap"
+                                                                        {{ $jenisAtapRumah['bambu_atap'] == '6' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Bambu</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisAtapRumah[]"
+                                                                        wire:model="jenisAtapRumah.jerami_ijuk_rumbia_daun_daunan"
+                                                                        value="jerami_ijuk_rumbia_daun_daunan"
+                                                                        {{ $jenisAtapRumah['jerami_ijuk_rumbia_daun_daunan'] == '7' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Jerami / Ijuk /
+                                                                        Rumbia / Daun-daunan</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisAtapRumah[]"
+                                                                        wire:model="jenisAtapRumah.atap_rumah_lainnya"
+                                                                        value="atap_rumah_lainnya"
+                                                                        {{ $jenisAtapRumah['atap_rumah_lainnya'] == '8' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Lainnya</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <h4 class="mt-0 text-center">Kondisi atap</h4>
+                                                <div class="form-row">
+                                                    <div class="col-12 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <label class="custom-switch form-switch me-5">
+                                                                <input type="radio" name="kondisi_atap_rumah"
+                                                                    wire:model.defer="kondisi_atap_rumah"
+                                                                    class="custom-switch-input" value="1">
+                                                                <span
+                                                                    class="custom-switch-indicator custom-switch-indicator-md"></span>
+                                                                <span class="custom-switch-description">Bagus</span>
+                                                            </label>
+                                                            <label class="custom-switch form-switch">
+                                                                <input type="radio" name="kondisi_atap_rumah"
+                                                                    wire:model.defer="kondisi_atap_rumah"
+                                                                    class="custom-switch-input" value="2">
+                                                                <span
+                                                                    class="custom-switch-indicator custom-switch-indicator-md"></span>
+                                                                <span class="custom-switch-description">Jelek</span>
+                                                            </label>
+                                                            @error('kondisi_atap_rumah')
+                                                                <div><span class="text-danger">{{ $message }}</span>
+                                                                </div>
+                                                            @enderror
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 mb-3">
+                                    <div class="example">
+                                        <div class="d-flex justify-content-center">
+                                            <img class="mb-4"
+                                                src="{{ asset('assets/images/brand/undraw_House_searching_re_stk8.png') }}"
+                                                alt="Generic placeholder image" style="width:50%; height: 50%;">
+                                        </div>
+
+                                        <div class="media media-lg mt-0">
+                                            <div class="media-body">
+                                                <h4 class="mt-0 text-center">Jenis dinding rumah terluas</h4>
+                                                <div class="form-row">
+                                                    <div class="col-6 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisDindingRumah[]"
+                                                                        wire:model="jenisDindingRumah.tembok"
+                                                                        value="tembok"
+                                                                        {{ $jenisDindingRumah['tembok'] == '1' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Tembok</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisDindingRumah[]"
+                                                                        wire:model="jenisDindingRumah.plasteran_anyaman_bambu_kawat"
+                                                                        value="plasteran_anyaman_bambu_kawat"
+                                                                        {{ $jenisDindingRumah['plasteran_anyaman_bambu_kawat'] == '2' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Plasteran</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisDindingRumah[]"
+                                                                        wire:model="jenisDindingRumah.kayu_papan_dinding"
+                                                                        value="kayu_papan_dinding"
+                                                                        {{ $jenisDindingRumah['kayu_papan_dinding'] == '3' ? 'checked' : '' }}>
+                                                                    <span
+                                                                        class="custom-control-label">Kayu/Papan</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisDindingRumah[]"
+                                                                        wire:model="jenisDindingRumah.anyaman_bambu"
+                                                                        value="anyaman_bambu"
+                                                                        {{ $jenisDindingRumah['anyaman_bambu'] == '4' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Anyaman
+                                                                        Bambu</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisDindingRumah[]"
+                                                                        wire:model="jenisDindingRumah.batang_kayu"
+                                                                        value="batang_kayu"
+                                                                        {{ $jenisDindingRumah['batang_kayu'] == '5' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Batang
+                                                                        Kayu</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisDindingRumah[]"
+                                                                        wire:model="jenisDindingRumah.bambu_dinding"
+                                                                        value="bambu_dinding"
+                                                                        {{ $jenisDindingRumah['bambu_dinding'] == '6' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Bambu</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisDindingRumah[]"
+                                                                        wire:model="jenisDindingRumah.seng_dinding"
+                                                                        value="seng_dinding"
+                                                                        {{ $jenisDindingRumah['seng_dinding'] == '7' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Send</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisDindingRumah[]"
+                                                                        wire:model="jenisDindingRumah.dinding_rumah_lainnya"
+                                                                        value="dinding_rumah_lainnya"
+                                                                        {{ $jenisDindingRumah['dinding_rumah_lainnya'] == '8' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Lainnya</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <h4 class="mt-0 text-center">Kondisi dinding</h4>
+                                                <div class="form-row">
+                                                    <div class="col-12 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <label class="custom-switch form-switch me-5">
+                                                                <input type="radio" name="kondisi_dinding_rumah"
+                                                                    wire:model.defer="kondisi_dinding_rumah"
+                                                                    class="custom-switch-input" value="1">
+                                                                <span
+                                                                    class="custom-switch-indicator custom-switch-indicator-md"></span>
+                                                                <span class="custom-switch-description">Bagus</span>
+                                                            </label>
+                                                            <label class="custom-switch form-switch">
+                                                                <input type="radio" name="kondisi_dinding_rumah"
+                                                                    wire:model.defer="kondisi_dinding_rumah"
+                                                                    class="custom-switch-input" value="2">
+                                                                <span
+                                                                    class="custom-switch-indicator custom-switch-indicator-md"></span>
+                                                                <span class="custom-switch-description">Jelek</span>
+                                                            </label>
+                                                            @error('kondisi_dinding_rumah')
+                                                                <div><span class="text-danger">{{ $message }}</span>
+                                                                </div>
+                                                            @enderror
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 mb-3">
+                                    <div class="example">
+                                        <div class="d-flex justify-content-center">
+                                            <img class="mb-4"
+                                                src="{{ asset('assets/images/brand/undraw_Abstract_re_l9xy.png') }}"
+                                                alt="Generic placeholder image" style="width:50%; height: 50%;">
+                                        </div>
+
+                                        <div class="media media-lg mt-0">
+                                            <div class="media-body">
+                                                <h4 class="mt-0 text-center">Jenis lantai rumah terluas</h4>
+                                                <div class="form-row">
+                                                    <div class="col-6 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisLantaiRumah[]"
+                                                                        wire:model="jenisLantaiRumah.keramik_granit_marmer_ubin_tegel_teraso"
+                                                                        value="keramik_granit_marmer_ubin_tegel_teraso"
+                                                                        {{ $jenisLantaiRumah['keramik_granit_marmer_ubin_tegel_teraso'] == '1' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Marmer /
+                                                                        granit</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisLantaiRumah[]"
+                                                                        wire:model="jenisLantaiRumah.keramik"
+                                                                        value="keramik"
+                                                                        {{ $jenisLantaiRumah['keramik'] == '2' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Keramik</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisLantaiRumah[]"
+                                                                        wire:model="jenisLantaiRumah.parket_vinil_karpet"
+                                                                        value="parket_vinil_karpet"
+                                                                        {{ $jenisLantaiRumah['parket_vinil_karpet'] == '3' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Parket / Vinil
+                                                                        / Karpet</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisLantaiRumah[]"
+                                                                        wire:model="jenisLantaiRumah.ubin_tegel_teraso"
+                                                                        value="ubin_tegel_teraso"
+                                                                        {{ $jenisLantaiRumah['ubin_tegel_teraso'] == '4' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Ubin / Tegel /
+                                                                        Teraso</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisLantaiRumah[]"
+                                                                        wire:model="jenisLantaiRumah.kayu_papan_lantai"
+                                                                        value="kayu_papan_lantai"
+                                                                        {{ $jenisLantaiRumah['kayu_papan_lantai'] == '5' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Kayu /
+                                                                        Papan</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisLantaiRumah[]"
+                                                                        wire:model="jenisLantaiRumah.semen"
+                                                                        value="semen"
+                                                                        {{ $jenisLantaiRumah['semen'] == '6' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Semen / Bata
+                                                                        Merah</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisLantaiRumah[]"
+                                                                        wire:model="jenisLantaiRumah.bambu_lantai"
+                                                                        value="bambu_lantai"
+                                                                        {{ $jenisLantaiRumah['bambu_lantai'] == '7' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Bambu</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisLantaiRumah[]"
+                                                                        wire:model="jenisLantaiRumah.tanah"
+                                                                        value="tanah"
+                                                                        {{ $jenisLantaiRumah['tanah'] == '8' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Tanah</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisLantaiRumah[]"
+                                                                        wire:model="jenisLantaiRumah.lantai_rumah_lainnya"
+                                                                        value="lantai_rumah_lainnya"
+                                                                        {{ $jenisLantaiRumah['lantai_rumah_lainnya'] == '9' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Lainnya</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <h4 class="mt-0 text-center">Kondisi lantai rumah</h4>
+                                                <div class="form-row">
+                                                    <div class="col-12 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <label class="custom-switch form-switch me-5">
+                                                                <input type="radio" name="kondisi_lantai_rumah"
+                                                                    wire:model.defer="kondisi_lantai_rumah"
+                                                                    class="custom-switch-input" value="1">
+                                                                <span
+                                                                    class="custom-switch-indicator custom-switch-indicator-md"></span>
+                                                                <span class="custom-switch-description">Bagus</span>
+                                                            </label>
+                                                            <label class="custom-switch form-switch">
+                                                                <input type="radio" name="kondisi_lantai_rumah"
+                                                                    wire:model.defer="kondisi_lantai_rumah"
+                                                                    class="custom-switch-input" value="2">
+                                                                <span
+                                                                    class="custom-switch-indicator custom-switch-indicator-md"></span>
+                                                                <span class="custom-switch-description">Jelek</span>
+                                                            </label>
+                                                            @error('kondisi_lantai_rumah')
+                                                                <div><span class="text-danger">{{ $message }}</span>
+                                                                </div>
+                                                            @enderror
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 mb-3">
+                                    <div class="example">
+                                        <div class="d-flex justify-content-center">
+                                            <img class="mb-4"
+                                                src="{{ asset('assets/images/brand/undraw_electricity_k2ft.png') }}"
+                                                alt="Generic placeholder image" style="width:50%; height: 50%;">
+                                        </div>
+
+                                        <div class="media media-lg mt-0">
+                                            <div class="media-body">
+                                                <h4 class="mt-0 text-center">Sumber penerangan utama</h4>
+                                                <div class="form-row">
+                                                    <div class="col-12 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisSumberPeneranganUtama[]"
+                                                                        wire:model="jenisSumberPeneranganUtama.listrik_pln_meteran"
+                                                                        value="listrik_pln_meteran"
+                                                                        {{ $jenisSumberPeneranganUtama['listrik_pln_meteran'] == '1' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Listrik PLN
+                                                                        meteran</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisSumberPeneranganUtama[]"
+                                                                        wire:model="jenisSumberPeneranganUtama.listrik_pln_non_meteran"
+                                                                        value="listrik_pln_non_meteran"
+                                                                        {{ $jenisSumberPeneranganUtama['listrik_pln_non_meteran'] == '2' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Listrik PLN non
+                                                                        meteran</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisSumberPeneranganUtama[]"
+                                                                        wire:model="jenisSumberPeneranganUtama.listrik_non_pln"
+                                                                        value="listrik_non_pln"
+                                                                        {{ $jenisSumberPeneranganUtama['listrik_non_pln'] == '3' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Listrik
+                                                                        non-PLN</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisSumberPeneranganUtama[]"
+                                                                        wire:model="jenisSumberPeneranganUtama.bukan_listrik"
+                                                                        value="bukan_listrik"
+                                                                        {{ $jenisSumberPeneranganUtama['bukan_listrik'] == '4' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Bukan
+                                                                        Listrik</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <h4 class="mt-0 text-center">Jika Listrik PLN Meteran, daya terpasang?
+                                                </h4>
+                                                <div class="form-row">
+                                                    <div class="col-12 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <label class="custom-switch form-switch me-5">
+                                                                <input type="radio" name="watt_listrik"
+                                                                    wire:model.defer="watt_listrik"
+                                                                    class="custom-switch-input" value="1">
+                                                                <span
+                                                                    class="custom-switch-indicator custom-switch-indicator-md"></span>
+                                                                <span class="custom-switch-description">=< 900
+                                                                        watt</span>
+                                                            </label>
+                                                            <label class="custom-switch form-switch">
+                                                                <input type="radio" name="watt_listrik"
+                                                                    wire:model.defer="watt_listrik"
+                                                                    class="custom-switch-input" value="2">
+                                                                <span
+                                                                    class="custom-switch-indicator custom-switch-indicator-md"></span>
+                                                                <span class="custom-switch-description">> 900
+                                                                    watt</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="col-12 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <label class="custom-switch form-switch me-5">
+                                                                <input type="radio" name="watt_listrik"
+                                                                    wire:model.defer="watt_listrik"
+                                                                    class="custom-switch-input" value="3">
+                                                                <span
+                                                                    class="custom-switch-indicator custom-switch-indicator-md"></span>
+                                                                <span class="custom-switch-description">Kosong</span>
+                                                            </label>
+                                                            <label class="custom-switch form-switch">
+                                                                <input type="radio" name="watt_listrik"
+                                                                    wire:model.defer="watt_listrik"
+                                                                    class="custom-switch-input" value="4">
+                                                                <span
+                                                                    class="custom-switch-indicator custom-switch-indicator-md"></span>
+                                                                <span class="custom-switch-description">> 1.300
+                                                                    watt</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="col-12 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <label class="custom-switch form-switch me-5">
+                                                                <input type="radio" name="watt_listrik"
+                                                                    wire:model.defer="watt_listrik"
+                                                                    class="custom-switch-input" value="5">
+                                                                <span
+                                                                    class="custom-switch-indicator custom-switch-indicator-md"></span>
+                                                                <span class="custom-switch-description">450
+                                                                    watt</span>
+                                                            </label>
+                                                            <label class="custom-switch form-switch">
+                                                                <input type="radio" name="watt_listrik"
+                                                                    wire:model.defer="watt_listrik"
+                                                                    class="custom-switch-input" value="6">
+                                                                <span
+                                                                    class="custom-switch-indicator custom-switch-indicator-md"></span>
+                                                                <span class="custom-switch-description">900
+                                                                    watt</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="col-12 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <label class="custom-switch form-switch me-5">
+                                                                <input type="radio" name="watt_listrik"
+                                                                    wire:model.defer="watt_listrik"
+                                                                    class="custom-switch-input" value="7">
+                                                                <span
+                                                                    class="custom-switch-indicator custom-switch-indicator-md"></span>
+                                                                <span class="custom-switch-description">1.300
+                                                                    watt</span>
+                                                            </label>
+                                                            @error('watt_listrik')
+                                                                <div><span
+                                                                        class="text-danger">{{ $message }}</span>
+                                                                </div>
+                                                            @enderror
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 mb-3">
+                                    <div class="example">
+                                        <div class="d-flex justify-content-center">
+                                            <img class="mb-4"
+                                                src="{{ asset('assets/images/brand/undraw_mint_tea_7su0.png') }}"
+                                                alt="Generic placeholder image" style="width:50%; height: 50%;">
+                                        </div>
+
+                                        <div class="media media-lg mt-0">
+                                            <div class="media-body">
+                                                <h4 class="mt-0 text-center">Sumber air minum utama</h4>
+                                                <div class="form-row">
+                                                    <div class="col-6 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisSumberAirMinum[]"
+                                                                        wire:model="jenisSumberAirMinum.air_kemasan_isi_ulang"
+                                                                        value="air_kemasan_isi_ulang"
+                                                                        {{ $jenisSumberAirMinum['air_kemasan_isi_ulang'] == '1' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Air Kemasan /
+                                                                        Isi Ulang</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisSumberAirMinum[]"
+                                                                        wire:model="jenisSumberAirMinum.ledeng_pam"
+                                                                        value="ledeng_pam"
+                                                                        {{ $jenisSumberAirMinum['ledeng_pam'] == '2' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Ledeng /
+                                                                        PAM</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisSumberAirMinum[]"
+                                                                        wire:model="jenisSumberAirMinum.sumur_bor"
+                                                                        value="sumur_bor"
+                                                                        {{ $jenisSumberAirMinum['sumur_bor'] == '3' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Sumur Bor /
+                                                                        Pompa</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisSumberAirMinum[]"
+                                                                        wire:model="jenisSumberAirMinum.sumur_terlindung"
+                                                                        value="sumur_terlindung"
+                                                                        {{ $jenisSumberAirMinum['sumur_terlindung'] == '4' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Sumur
+                                                                        Terlindung</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisSumberAirMinum[]"
+                                                                        wire:model="jenisSumberAirMinum.sumur_tidak_terlindung"
+                                                                        value="sumur_tidak_terlindung"
+                                                                        {{ $jenisSumberAirMinum['sumur_tidak_terlindung'] == '5' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Sumur Tidak
+                                                                        Terlindung</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisSumberAirMinum[]"
+                                                                        wire:model="jenisSumberAirMinum.mata_air_terlindung"
+                                                                        value="mata_air_terlindung"
+                                                                        {{ $jenisSumberAirMinum['mata_air_terlindung'] == '6' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Mata Air
+                                                                        Terlindung</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisSumberAirMinum[]"
+                                                                        wire:model="jenisSumberAirMinum.air_permukaan_sungai_danau_dll"
+                                                                        value="air_permukaan_sungai_danau_dll"
+                                                                        {{ $jenisSumberAirMinum['air_permukaan_sungai_danau_dll'] == '7' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Air Permukaan
+                                                                        (Sungai, Danau, dll)</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisSumberAirMinum[]"
+                                                                        wire:model="jenisSumberAirMinum.air_hujan"
+                                                                        value="air_hujan"
+                                                                        {{ $jenisSumberAirMinum['air_hujan'] == '8' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Air
+                                                                        Hujan</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisSumberAirMinum[]"
+                                                                        wire:model="jenisSumberAirMinum.air_minum_lainnya"
+                                                                        value="air_minum_lainnya"
+                                                                        {{ $jenisSumberAirMinum['air_minum_lainnya'] == '9' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Lainnya</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 mb-3">
+                                    <div class="example">
+                                        <div class="d-flex justify-content-center">
+                                            <img class="mb-4"
+                                                src="{{ asset('assets/images/brand/undraw_cabin_hkfr.png') }}"
+                                                alt="Generic placeholder image" style="width:50%; height: 50%;">
+                                        </div>
+
+                                        <div class="media media-lg mt-0">
+                                            <div class="media-body">
+                                                <h4 class="mt-0 text-center">Memiliki fasilitas tempat buang air besar
+                                                </h4>
+                                                <div class="form-row">
+                                                    <div class="col-12 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="fasilitasBuangAirBesar[]"
+                                                                        wire:model="fasilitasBuangAirBesar.milik_sendiri_fasilitas_buang_air_besar"
+                                                                        value="milik_sendiri_fasilitas_buang_air_besar"
+                                                                        {{ $fasilitasBuangAirBesar['milik_sendiri_fasilitas_buang_air_besar'] == '1' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Milik
+                                                                        sendiri</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="fasilitasBuangAirBesar[]"
+                                                                        wire:model="fasilitasBuangAirBesar.umum_bersama"
+                                                                        value="umum_bersama"
+                                                                        {{ $fasilitasBuangAirBesar['umum_bersama'] == '2' ? 'checked' : '' }}>
+                                                                    <span
+                                                                        class="custom-control-label">Umum/Bersama</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="fasilitasBuangAirBesar[]"
+                                                                        wire:model="fasilitasBuangAirBesar.fasilitas_buang_air_besar_lainnya"
+                                                                        value="fasilitas_buang_air_besar_lainnya"
+                                                                        {{ $fasilitasBuangAirBesar['fasilitas_buang_air_besar_lainnya'] == '3' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Lainnya</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="fasilitasBuangAirBesar[]"
+                                                                        wire:model="fasilitasBuangAirBesar.fasilitas_buang_air_besar_kosong"
+                                                                        value="fasilitas_buang_air_besar_kosong"
+                                                                        {{ $fasilitasBuangAirBesar['fasilitas_buang_air_besar_kosong'] == '4' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Kosong</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="fasilitasBuangAirBesar[]"
+                                                                        wire:model="fasilitasBuangAirBesar.tidak_ada_fasilitas_buang_air_besar"
+                                                                        value="tidak_ada_fasilitas_buang_air_besar"
+                                                                        {{ $fasilitasBuangAirBesar['tidak_ada_fasilitas_buang_air_besar'] == '5' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Tidak</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 mb-3">
+                                    <div class="example text-center">
+                                        <img class="mb-4 "
+                                            src="{{ asset('assets/images/brand/undraw_smart_home_re_orvn.png') }}"
+                                            alt="Generic placeholder image" style="width:50%; height: 50%;">
+                                        <div class="media media-lg mt-0">
+                                            <div class="media-body">
+                                                <h4 class="mt-0">Luas rumah/bangunan keseluruhan (m2)</h4>
+                                                <div class="form-group">
+                                                    <input type="text" name="luas_rumah"
+                                                        wire:model.defer="luas_rumah" class="form-control"
+                                                        autocomplete="off"
+                                                        placeholder="Luas rumah/bangunan keseluruhan (m2)">
+                                                    @error('luas_rumah')
+                                                        <div><span class="text-danger">{{ $message }}</span></div>
+                                                    @enderror
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 mb-3">
+                                    <div class="example text-center">
+                                        <img class="mb-4 "
+                                            src="{{ asset('assets/images/brand/undraw_Quiet_town_re_n99r.png') }}"
+                                            alt="Generic placeholder image" style="width:50%; height: 50%;">
+                                        <div class="media media-lg mt-0">
+                                            <div class="media-body">
+                                                <h4 class="mt-0">Orang yang tinggal dan menetap di rumah / bangunan
+                                                    ini?</h4>
+                                                <div class="form-group">
+                                                    <input type="text" name="jumlah_orang_dirumah"
+                                                        wire:model.defer="jumlah_orang_dirumah" class="form-control"
+                                                        autocomplete="off"
+                                                        placeholder="Orang yang tinggal dan menetap di rumah / bangunan ini?">
+                                                    @error('jumlah_orang_dirumah')
+                                                        <div><span class="text-danger">{{ $message }}</span></div>
+                                                    @enderror
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 mb-3">
+                                    <div class="example">
+                                        <div class="d-flex justify-content-center">
+                                            <img class="mb-4"
+                                                src="{{ asset('assets/images/brand/undraw_Home_settings_re_pkya.png') }}"
+                                                alt="Generic placeholder image" style="width:50%; height: 50%;">
+                                        </div>
+
+                                        <div class="media media-lg mt-0">
+                                            <div class="media-body">
+                                                <h4 class="mt-0 text-center">Bahan bakar utama untuk memasak?</h4>
+                                                <div class="form-row">
+                                                    <div class="col-12 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisBahanBakar[]"
+                                                                        wire:model="jenisBahanBakar.listrik"
+                                                                        value="listrik" {{ $jenisBahanBakar['listrik'] == '1' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Listrik</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisBahanBakar[]"
+                                                                        wire:model="jenisBahanBakar.gas_12kg"
+                                                                        value="gas_12kg" {{ $jenisBahanBakar['gas_12kg'] == '2' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Gas 12
+                                                                        kg</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisBahanBakar[]"
+                                                                        wire:model="jenisBahanBakar.gas_5_5kg"
+                                                                        value="gas_5_5kg" {{ $jenisBahanBakar['gas_5_5kg'] == '3' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Gas 5,5 kg /
+                                                                        blue gaz</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisBahanBakar[]"
+                                                                        wire:model="jenisBahanBakar.gas_3kg"
+                                                                        value="gas_3kg" {{ $jenisBahanBakar['gas_3kg'] == '4' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Gas 3 kg</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisBahanBakar[]"
+                                                                        wire:model="jenisBahanBakar.minyak_tanah"
+                                                                        value="minyak_tanah" {{ $jenisBahanBakar['minyak_tanah'] == '5' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Minyak
+                                                                        Tanah</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisBahanBakar[]"
+                                                                        wire:model="jenisBahanBakar.briket_kayu_arang"
+                                                                        value="briket_kayu_arang" {{ $jenisBahanBakar['briket_kayu_arang'] == '6' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Briket / Kayu /
+                                                                        Arang</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="jenisBahanBakar[]"
+                                                                        wire:model="jenisBahanBakar.bahan_bakar_utama_lainnya"
+                                                                        value="bahan_bakar_utama_lainnya" {{ $jenisBahanBakar['bahan_bakar_utama_lainnya'] == '7' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Lainnya</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 mb-3">
+                                    <div class="example">
+                                        <div class="d-flex justify-content-center">
+                                            <img class="mb-4"
+                                                src="{{ asset('assets/images/brand/undraw_For_sale_re_egkk.png') }}"
+                                                alt="Generic placeholder image" style="width:50%; height: 50%;">
+                                        </div>
+
+                                        <div class="media media-lg mt-0">
+                                            <div class="media-body">
+                                                <h4 class="mt-0 text-center">Kepemilikan rumah / bangunan tempat
+                                                    tinggal?</h4>
+                                                <div class="form-row">
+                                                    <div class="col-12 d-flex justify-content-center">
+                                                        <div class="form-group">
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="kepemilikanRumah[]"
+                                                                        wire:model="kepemilikanRumah.bebas_sewa_menumpang"
+                                                                        value="bebas_sewa_menumpang" {{ $kepemilikanRumah['bebas_sewa_menumpang'] == '1' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Bebas
+                                                                        Sewa/Menumpang</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="kepemilikanRumah[]"
+                                                                        wire:model="kepemilikanRumah.kontrak_sewa"
+                                                                        value="kontrak_sewa" {{ $kepemilikanRumah['kontrak_sewa'] == '2' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Kontrak /
+                                                                        Sewa</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="kepemilikanRumah[]"
+                                                                        wire:model="kepemilikanRumah.milik_sendiri"
+                                                                        value="milik_sendiri" {{ $kepemilikanRumah['milik_sendiri'] == '3' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Milik
+                                                                        Sendiri</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="kepemilikanRumah[]"
+                                                                        wire:model="kepemilikanRumah.dinas"
+                                                                        value="dinas" {{ $kepemilikanRumah['dinas'] == '4' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Dinas</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="custom-controls-stacked">
+                                                                <label class="custom-control custom-checkbox-md">
+                                                                    <input type="checkbox"
+                                                                        class="custom-control-input"
+                                                                        name="kepemilikanRumah[]"
+                                                                        wire:model="kepemilikanRumah.kepemilikan_rumah_lainnya"
+                                                                        value="kepemilikan_rumah_lainnya" {{ $kepemilikanRumah['kepemilikan_rumah_lainnya'] == '5' ? 'checked' : '' }}>
+                                                                    <span class="custom-control-label">Lainnya</span>
+                                                                </label>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
