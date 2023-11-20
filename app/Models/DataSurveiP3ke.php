@@ -119,4 +119,18 @@ class DataSurveiP3ke extends Model
     {
         return $this->belongsTo(DataPenduduk::class);
     }
+
+    public function scopeSearch($query, $value)
+    {
+        $query->orWhereHas('dataPenduduk', function ($q) use ($value) {
+            $q->where('nomor_keluarga_indonesia', 'like', "%{$value}%")
+                ->orWhere('nama_kepala_keluarga', 'like', "%{$value}%")
+                ->orWhere('nama_istri', 'like', "%{$value}%")
+                ->orWhere('status_keluarga', 'like', "%{$value}%")
+                ->orWhere('kecamatan', 'like', "%{$value}%")
+                ->orWhere('kelurahan', 'like', "%{$value}%")
+                ->orWhere('rw', 'like', "%{$value}%")
+                ->orWhere('rt', 'like', "%{$value}%");
+        });
+    }
 }

@@ -130,121 +130,121 @@ class SurveiKaderIndex extends Component
 
         if (isset($this->dataSurveiP3ke)) {
             $this->penerimaanBantuan = [
-                'bpnt' => $this->dataSurveiP3ke->bpnt,
-                'bpum' => $this->dataSurveiP3ke->bpum,
-                'bst' => $this->dataSurveiP3ke->bst,
-                'pkh' => $this->dataSurveiP3ke->pkh,
-                'sembako' => $this->dataSurveiP3ke->sembako,
-                'pra_kerja' => $this->dataSurveiP3ke->pra_kerja,
-                'kur' => $this->dataSurveiP3ke->kur,
+                'bpnt' => $this->dataSurveiP3ke->bpnt === '2' ? '-' : true,
+                'bpum' => $this->dataSurveiP3ke->bpum === '2' ? '-' : true,
+                'bst' => $this->dataSurveiP3ke->bst === '2' ? '-' : true,
+                'pkh' => $this->dataSurveiP3ke->pkh === '2' ? '-' : true,
+                'sembako' => $this->dataSurveiP3ke->sembako === '2' ? '-' : true,
+                'pra_kerja' => $this->dataSurveiP3ke->pra_kerja === '2' ? '-' : true,
+                'kur' => $this->dataSurveiP3ke->kur === '2' ? '-' : true,
             ];
 
             $this->sumber_penghasilan = $this->dataSurveiP3ke->sumber_penghasilan;
             $this->aset = $this->dataSurveiP3ke->aset;
 
             $this->jenisAset = [
-                'tabungan' => $this->dataSurveiP3ke->tabungan,
-                'ac' => $this->dataSurveiP3ke->ac,
-                'televisi_layar_datar' => $this->dataSurveiP3ke->televisi_layar_datar,
-                'lemari_es_kulkas' => $this->dataSurveiP3ke->lemari_es_kulkas,
-                'komputer_laptop' => $this->dataSurveiP3ke->komputer_laptop,
-                'sepeda_motor' => $this->dataSurveiP3ke->sepeda_motor,
-                'mobil' => $this->dataSurveiP3ke->mobil,
-                'kapal_perahu_motor_perahu' => $this->dataSurveiP3ke->kapal_perahu_motor_perahu,
-                'emas_perhiasan' => $this->dataSurveiP3ke->emas_perhiasan,
-                'hewan_ternak' => $this->dataSurveiP3ke->hewan_ternak,
-                'lahan' => $this->dataSurveiP3ke->lahan,
-                'rumah_ditempat_lain' => $this->dataSurveiP3ke->rumah_ditempat_lain,
+                'tabungan' => $this->dataSurveiP3ke->tabungan === '-' ? false : true,
+                'ac' => $this->dataSurveiP3ke->ac === '-' ? false : true,
+                'televisi_layar_datar' => $this->dataSurveiP3ke->televisi_layar_datar === '-' ? false : true,
+                'lemari_es_kulkas' => $this->dataSurveiP3ke->lemari_es_kulkas === '-' ? false : true,
+                'komputer_laptop' => $this->dataSurveiP3ke->komputer_laptop === '-' ? false : true,
+                'sepeda_motor' => $this->dataSurveiP3ke->sepeda_motor === '-' ? false : true,
+                'mobil' => $this->dataSurveiP3ke->mobil === '-' ? false : true,
+                'kapal_perahu_motor_perahu' => $this->dataSurveiP3ke->kapal_perahu_motor_perahu === '-' ? false : true,
+                'emas_perhiasan' => $this->dataSurveiP3ke->emas_perhiasan === '-' ? false : true,
+                'hewan_ternak' => $this->dataSurveiP3ke->hewan_ternak === '-' ? false : true,
+                'lahan' => $this->dataSurveiP3ke->lahan === '-' ? false : true,
+                'rumah_ditempat_lain' => $this->dataSurveiP3ke->rumah_ditempat_lain === '-' ? false : true,
             ];
 
             $this->jenisAtapRumah = [
-                'beton' => $this->dataSurveiP3ke->beton,
-                'genteng' => $this->dataSurveiP3ke->genteng,
-                'seng_atap' => $this->dataSurveiP3ke->seng_atap,
-                'asbes_seng' => $this->dataSurveiP3ke->asbes_seng,
-                'kayu_sirap' => $this->dataSurveiP3ke->kayu_sirap,
-                'bambu_atap' => $this->dataSurveiP3ke->bambu_atap,
-                'jerami_ijuk_rumbia_daun_daunan' => $this->dataSurveiP3ke->jerami_ijuk_rumbia_daun_daunan,
-                'atap_rumah_lainnya' => $this->dataSurveiP3ke->atap_rumah_lainnya,
+                'beton' => $this->dataSurveiP3ke->beton === '-' ? false : true,
+                'genteng' => $this->dataSurveiP3ke->genteng === '-' ? false : true,
+                'seng_atap' => $this->dataSurveiP3ke->seng_atap === '-' ? false : true,
+                'asbes_seng' => $this->dataSurveiP3ke->asbes_seng === '-' ? false : true,
+                'kayu_sirap' => $this->dataSurveiP3ke->kayu_sirap === '-' ? false : true,
+                'bambu_atap' => $this->dataSurveiP3ke->bambu_atap === '-' ? false : true,
+                'jerami_ijuk_rumbia_daun_daunan' => $this->dataSurveiP3ke->jerami_ijuk_rumbia_daun_daunan === '-' ? false : true,
+                'atap_rumah_lainnya' => $this->dataSurveiP3ke->atap_rumah_lainnya === '-' ? false : true,
             ];
 
             $this->kondisi_atap_rumah = $this->dataSurveiP3ke->kondisi_atap_rumah;
 
             $this->jenisDindingRumah = [
-                'tembok' => $this->dataSurveiP3ke->tembok,
-                'plasteran_anyaman_bambu_kawat' => $this->dataSurveiP3ke->plasteran_anyaman_bambu_kawat,
-                'kayu_papan_dinding' => $this->dataSurveiP3ke->kayu_papan_dinding,
-                'anyaman_bambu' => $this->dataSurveiP3ke->anyaman_bambu,
-                'batang_kayu' => $this->dataSurveiP3ke->batang_kayu,
-                'bambu_dinding' => $this->dataSurveiP3ke->bambu_dinding,
-                'seng_dinding' => $this->dataSurveiP3ke->seng_dinding,
-                'dinding_rumah_lainnya' => $this->dataSurveiP3ke->dinding_rumah_lainnya,
+                'tembok' => $this->dataSurveiP3ke->tembok === '-' ? false : true,
+                'plasteran_anyaman_bambu_kawat' => $this->dataSurveiP3ke->plasteran_anyaman_bambu_kawat === '-' ? false : true,
+                'kayu_papan_dinding' => $this->dataSurveiP3ke->kayu_papan_dinding === '-' ? false : true,
+                'anyaman_bambu' => $this->dataSurveiP3ke->anyaman_bambu === '-' ? false : true,
+                'batang_kayu' => $this->dataSurveiP3ke->batang_kayu === '-' ? false : true,
+                'bambu_dinding' => $this->dataSurveiP3ke->bambu_dinding === '-' ? false : true,
+                'seng_dinding' => $this->dataSurveiP3ke->seng_dinding === '-' ? false : true,
+                'dinding_rumah_lainnya' => $this->dataSurveiP3ke->dinding_rumah_lainnya === '-' ? false : true,
             ];
 
             $this->kondisi_dinding_rumah = $this->dataSurveiP3ke->kondisi_dinding_rumah;
 
             $this->jenisLantaiRumah = [
-                'keramik_granit_marmer_ubin_tegel_teraso' => $this->dataSurveiP3ke->keramik_granit_marmer_ubin_tegel_teraso,
-                'keramik' => $this->dataSurveiP3ke->keramik,
-                'parket_vinil_karpet' => $this->dataSurveiP3ke->parket_vinil_karpet,
-                'ubin_tegel_teraso' => $this->dataSurveiP3ke->ubin_tegel_teraso,
-                'kayu_papan_lantai' => $this->dataSurveiP3ke->kayu_papan_lantai,
-                'semen' => $this->dataSurveiP3ke->semen,
-                'bambu_lantai' => $this->dataSurveiP3ke->bambu_lantai,
-                'tanah' => $this->dataSurveiP3ke->tanah,
-                'lantai_rumah_lainnya' => $this->dataSurveiP3ke->lantai_rumah_lainnya,
+                'keramik_granit_marmer_ubin_tegel_teraso' => $this->dataSurveiP3ke->keramik_granit_marmer_ubin_tegel_teraso === '-' ? false : true,
+                'keramik' => $this->dataSurveiP3ke->keramik === '-' ? false : true,
+                'parket_vinil_karpet' => $this->dataSurveiP3ke->parket_vinil_karpet === '-' ? false : true,
+                'ubin_tegel_teraso' => $this->dataSurveiP3ke->ubin_tegel_teraso === '-' ? false : true,
+                'kayu_papan_lantai' => $this->dataSurveiP3ke->kayu_papan_lantai === '-' ? false : true,
+                'semen' => $this->dataSurveiP3ke->semen === '-' ? false : true,
+                'bambu_lantai' => $this->dataSurveiP3ke->bambu_lantai === '-' ? false : true,
+                'tanah' => $this->dataSurveiP3ke->tanah === '-' ? false : true,
+                'lantai_rumah_lainnya' => $this->dataSurveiP3ke->lantai_rumah_lainnya === '-' ? false : true,
             ];
 
             $this->kondisi_lantai_rumah = $this->dataSurveiP3ke->kondisi_lantai_rumah;
 
             $this->jenisSumberPeneranganUtama = [
-                'listrik_pln_meteran' => $this->dataSurveiP3ke->listrik_pln_meteran,
-                'listrik_pln_non_meteran' => $this->dataSurveiP3ke->listrik_pln_non_meteran,
-                'listrik_non_pln' => $this->dataSurveiP3ke->listrik_non_pln,
-                'bukan_listrik' => $this->dataSurveiP3ke->bukan_listrik,
+                'listrik_pln_meteran' => $this->dataSurveiP3ke->listrik_pln_meteran === '-' ? false : true,
+                'listrik_pln_non_meteran' => $this->dataSurveiP3ke->listrik_pln_non_meteran === '-' ? false : true,
+                'listrik_non_pln' => $this->dataSurveiP3ke->listrik_non_pln === '-' ? false : true,
+                'bukan_listrik' => $this->dataSurveiP3ke->bukan_listrik === '-' ? false : true,
             ];
 
             $this->watt_listrik = $this->dataSurveiP3ke->watt_listrik;
 
             $this->jenisSumberAirMinum = [
-                'air_kemasan_isi_ulang' => $this->dataSurveiP3ke->air_kemasan_isi_ulang,
-                'ledeng_pam' => $this->dataSurveiP3ke->ledeng_pam,
-                'sumur_bor' => $this->dataSurveiP3ke->sumur_bor,
-                'sumur_terlindung' => $this->dataSurveiP3ke->sumur_terlindung,
-                'sumur_tidak_terlindung' => $this->dataSurveiP3ke->sumur_tidak_terlindung,
-                'mata_air_terlindung' => $this->dataSurveiP3ke->mata_air_terlindung,
-                'air_permukaan_sungai_danau_dll' => $this->dataSurveiP3ke->air_permukaan_sungai_danau_dll,
-                'air_hujan' => $this->dataSurveiP3ke->air_hujan,
-                'air_minum_lainnya' => $this->dataSurveiP3ke->air_minum_lainnya,
+                'air_kemasan_isi_ulang' => $this->dataSurveiP3ke->air_kemasan_isi_ulang === '-' ? false : true,
+                'ledeng_pam' => $this->dataSurveiP3ke->ledeng_pam === '-' ? false : true,
+                'sumur_bor' => $this->dataSurveiP3ke->sumur_bor === '-' ? false : true,
+                'sumur_terlindung' => $this->dataSurveiP3ke->sumur_terlindung === '-' ? false : true,
+                'sumur_tidak_terlindung' => $this->dataSurveiP3ke->sumur_tidak_terlindung === '-' ? false : true,
+                'mata_air_terlindung' => $this->dataSurveiP3ke->mata_air_terlindung === '-' ? false : true,
+                'air_permukaan_sungai_danau_dll' => $this->dataSurveiP3ke->air_permukaan_sungai_danau_dll === '-' ? false : true,
+                'air_hujan' => $this->dataSurveiP3ke->air_hujan === '-' ? false : true,
+                'air_minum_lainnya' => $this->dataSurveiP3ke->air_minum_lainnya === '-' ? false : true,
             ];
 
             $this->fasilitasBuangAirBesar = [
-                'milik_sendiri_fasilitas_buang_air_besar' => $this->dataSurveiP3ke->milik_sendiri_fasilitas_buang_air_besar,
-                'umum_bersama' => $this->dataSurveiP3ke->umum_bersama,
-                'fasilitas_buang_air_besar_lainnya' => $this->dataSurveiP3ke->fasilitas_buang_air_besar_lainnya,
-                'fasilitas_buang_air_besar_kosong' => $this->dataSurveiP3ke->fasilitas_buang_air_besar_kosong,
-                'tidak_ada_fasilitas_buang_air_besar' => $this->dataSurveiP3ke->tidak_ada_fasilitas_buang_air_besar,
+                'milik_sendiri_fasilitas_buang_air_besar' => $this->dataSurveiP3ke->milik_sendiri_fasilitas_buang_air_besar === '-' ? false : true,
+                'umum_bersama' => $this->dataSurveiP3ke->umum_bersama === '-' ? false : true,
+                'fasilitas_buang_air_besar_lainnya' => $this->dataSurveiP3ke->fasilitas_buang_air_besar_lainnya === '-' ? false : true,
+                'fasilitas_buang_air_besar_kosong' => $this->dataSurveiP3ke->fasilitas_buang_air_besar_kosong === '-' ? false : true,
+                'tidak_ada_fasilitas_buang_air_besar' => $this->dataSurveiP3ke->tidak_ada_fasilitas_buang_air_besar === '-' ? false : true,
             ];
 
             $this->luas_rumah = $this->dataSurveiP3ke->luas_rumah;
             $this->jumlah_orang_dirumah = $this->dataSurveiP3ke->jumlah_orang_dirumah;
 
             $this->jenisBahanBakar = [
-                'listrik' => $this->dataSurveiP3ke->listrik,
-                'gas_12kg' => $this->dataSurveiP3ke->gas_12kg,
-                'gas_5_5kg' => $this->dataSurveiP3ke->gas_5_5kg,
-                'gas_3kg' => $this->dataSurveiP3ke->gas_3kg,
-                'minyak_tanah' => $this->dataSurveiP3ke->minyak_tanah,
-                'briket_kayu_arang' => $this->dataSurveiP3ke->briket_kayu_arang,
-                'bahan_bakar_utama_lainnya' => $this->dataSurveiP3ke->bahan_bakar_utama_lainnya,
+                'listrik' => $this->dataSurveiP3ke->listrik === '-' ? false : true,
+                'gas_12kg' => $this->dataSurveiP3ke->gas_12kg === '-' ? false : true,
+                'gas_5_5kg' => $this->dataSurveiP3ke->gas_5_5kg === '-' ? false : true,
+                'gas_3kg' => $this->dataSurveiP3ke->gas_3kg === '-' ? false : true,
+                'minyak_tanah' => $this->dataSurveiP3ke->minyak_tanah === '-' ? false : true,
+                'briket_kayu_arang' => $this->dataSurveiP3ke->briket_kayu_arang === '-' ? false : true,
+                'bahan_bakar_utama_lainnya' => $this->dataSurveiP3ke->bahan_bakar_utama_lainnya === '-' ? false : true,
             ];
 
             $this->kepemilikanRumah = [
-                'bebas_sewa_menumpang' => $this->dataSurveiP3ke->bebas_sewa_menumpang,
-                'kontrak_sewa' => $this->dataSurveiP3ke->kontrak_sewa,
-                'milik_sendiri' => $this->dataSurveiP3ke->milik_sendiri,
-                'dinas' => $this->dataSurveiP3ke->dinas,
-                'kepemilikan_rumah_lainnya' => $this->dataSurveiP3ke->kepemilikan_rumah_lainnya,
+                'bebas_sewa_menumpang' => $this->dataSurveiP3ke->bebas_sewa_menumpang === '-' ? false : true,
+                'kontrak_sewa' => $this->dataSurveiP3ke->kontrak_sewa === '-' ? false : true,
+                'milik_sendiri' => $this->dataSurveiP3ke->milik_sendiri === '-' ? false : true,
+                'dinas' => $this->dataSurveiP3ke->dinas === '-' ? false : true,
+                'kepemilikan_rumah_lainnya' => $this->dataSurveiP3ke->kepemilikan_rumah_lainnya === '-' ? false : true,
             ];
         } else {
             $this->penerimaanBantuan = [
@@ -769,5 +769,8 @@ class SurveiKaderIndex extends Component
                     $dataKepemilikanRumah,
             );
         }
+
+
+        return redirect()->route('dashboardAdminKader');
     }
 }

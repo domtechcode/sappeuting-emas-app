@@ -743,7 +743,7 @@
                                                                             class="custom-control-input"
                                                                             name="penerimaanBantuan[]"
                                                                             wire:model="penerimaanBantuan.bpnt"
-                                                                            value="1"
+                                                                            value="bpnt"
                                                                             {{ $penerimaanBantuan['bpnt'] == '1' ? 'checked' : '' }}>
                                                                         <span class="custom-control-label">BPNT</span>
                                                                     </label>
@@ -754,7 +754,7 @@
                                                                             class="custom-control-input"
                                                                             name="penerimaanBantuan[]"
                                                                             wire:model="penerimaanBantuan.bpum"
-                                                                            value="1"
+                                                                            value="bpum"
                                                                             {{ $penerimaanBantuan['bpum'] == '1' ? 'checked' : '' }}>
                                                                         <span class="custom-control-label">BPUM</span>
                                                                     </label>
@@ -765,7 +765,7 @@
                                                                             class="custom-control-input"
                                                                             name="penerimaanBantuan[]"
                                                                             wire:model="penerimaanBantuan.bst"
-                                                                            value="1"
+                                                                            value="bst"
                                                                             {{ $penerimaanBantuan['bst'] == '1' ? 'checked' : '' }}>
                                                                         <span class="custom-control-label">BST</span>
                                                                     </label>
@@ -776,7 +776,7 @@
                                                                             class="custom-control-input"
                                                                             name="penerimaanBantuan[]"
                                                                             wire:model="penerimaanBantuan.pkh"
-                                                                            value="1"
+                                                                            value="pkh"
                                                                             {{ $penerimaanBantuan['pkh'] == '1' ? 'checked' : '' }}>
                                                                         <span class="custom-control-label">PKH</span>
                                                                     </label>
@@ -792,7 +792,7 @@
                                                                             class="custom-control-input"
                                                                             name="penerimaanBantuan[]"
                                                                             wire:model="penerimaanBantuan.sembako"
-                                                                            value="1"
+                                                                            value="sembako"
                                                                             {{ $penerimaanBantuan['sembako'] == '1' ? 'checked' : '' }}>
                                                                         <span
                                                                             class="custom-control-label">Sembako</span>
@@ -804,7 +804,7 @@
                                                                             class="custom-control-input"
                                                                             name="penerimaanBantuan[]"
                                                                             wire:model="penerimaanBantuan.pra_kerja"
-                                                                            value="1"
+                                                                            value="pra_kerja"
                                                                             {{ $penerimaanBantuan['pra_kerja'] == '1' ? 'checked' : '' }}>
                                                                         <span class="custom-control-label">Pra
                                                                             Kerja</span>
@@ -816,7 +816,7 @@
                                                                             class="custom-control-input"
                                                                             name="penerimaanBantuan[]"
                                                                             wire:model="penerimaanBantuan.kur"
-                                                                            value="1"
+                                                                            value="kur"
                                                                             {{ $penerimaanBantuan['kur'] == '1' ? 'checked' : '' }}>
                                                                         <span class="custom-control-label">KUR</span>
                                                                     </label>

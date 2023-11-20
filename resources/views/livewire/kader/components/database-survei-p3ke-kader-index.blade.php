@@ -2,10 +2,10 @@
     {{-- The best athlete wants his opponent at his best. --}}
     <!-- PAGE-HEADER -->
     <div class="page-header">
-        <h1 class="page-title">Database Survei KRS</h1>
+        <h1 class="page-title">Database Survei P3KE</h1>
         <div>
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="javascript:void(0)">Database Survei KRS</a></li>
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Database Survei P3KE</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Home</li>
             </ol>
         </div>
@@ -16,7 +16,7 @@
         <div class="col-lg-12">
             <div class="card">
                 <div class="card-header">
-                    <div class="card-title">Database KRS</div>
+                    <div class="card-title">Database P3KE</div>
                 </div>
                 <div class="card-body">
                     <div class="row mb-3">
@@ -52,7 +52,7 @@
                                     </thead>
                                     <tbody>
 
-                                        @foreach ($dataSurveiKrs as $key => $data)
+                                        @foreach ($dataSurveiP3ke as $key => $data)
                                             <tr>
                                                 <td>{{ $key + 1 }}</td>
                                                 <td>{{ $data->dataPenduduk->nomor_keluarga_indonesia }}</td>
@@ -75,7 +75,7 @@
                             </div>
                         </div>
                         <div class="col d-flex justify-content-end mt-3">
-                            {{ $dataSurveiKrs->links(data: ['scrollTo' => false]) }}
+                            {{ $dataSurveiP3ke->links(data: ['scrollTo' => false]) }}
                         </div>
                     </div>
 

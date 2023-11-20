@@ -12,6 +12,7 @@ use App\Livewire\Kelurahan\Components\SurveiKelurahanIndex;
 use App\Livewire\Kader\Components\DatabaseSurveiKrsKaderIndex;
 use App\Livewire\Kecamatan\Components\DashboardKecamatanIndex;
 use App\Livewire\Kelurahan\Components\DashboardKelurahanIndex;
+use App\Livewire\Kader\Components\DatabaseSurveiP3keKaderIndex;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,6 +44,7 @@ Route::group(['middleware' => ['auth']], function () {
         Route::get('/dashboard', DashboardKaderIndex::class)->name('dashboardAdminKader');
         Route::get('/survei/{state}/{id}', SurveiKaderIndex::class)->name('surveiKader');
         Route::get('/database-survei-krs-kader', DatabaseSurveiKrsKaderIndex::class)->name('databaseSurveiKrsKader');
+        Route::get('/database-survei-p3ke-kader', DatabaseSurveiP3keKaderIndex::class)->name('databaseSurveiP3keKader');
     });
 
     Route::group(['prefix' => 'admin-kelurahan', 'middleware' => ['role:admin-kelurahan']], function () {

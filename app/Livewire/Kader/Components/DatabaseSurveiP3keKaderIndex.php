@@ -5,10 +5,11 @@ namespace App\Livewire\Kader\Components;
 use Livewire\Component;
 use Livewire\WithPagination;
 use App\Models\DataSurveiKrs;
+use App\Models\DataSurveiP3ke;
 use Livewire\Attributes\Title;
 
-#[Title('Database Survei KRS - DP3AP2KB Kota Cimahi')]
-class DatabaseSurveiKrsKaderIndex extends Component
+#[Title('Database Survei P3KE - DP3AP2KB Kota Cimahi')]
+class DatabaseSurveiP3keKaderIndex extends Component
 {
     use WithPagination;
 
@@ -42,13 +43,13 @@ class DatabaseSurveiKrsKaderIndex extends Component
 
     public function mount()
     {
-        $this->setSortBy('data_survei_krs.created_at');
+        $this->setSortBy('data_survei_p3kes.created_at');
     }
 
     public function render()
     {
-        return view('livewire.kader.components.database-survei-krs-kader-index',[
-            'dataSurveiKrs' => DataSurveiKrs::where('user_id', Auth()->user()->id)->with('dataPenduduk')
+        return view('livewire.kader.components.database-survei-p3ke-kader-index',[
+            'dataSurveiP3ke' => DataSurveiP3ke::where('user_id', Auth()->user()->id)->with('dataPenduduk')
                 ->search($this->search)
                 ->paginate($this->perpage),
         ]);

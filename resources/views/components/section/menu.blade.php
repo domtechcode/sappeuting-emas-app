@@ -214,7 +214,7 @@
                                                 <li class="side-menu-label1"><a href="javascript:void(0)">Database</a>
                                                 </li>
                                                 <li><a href="{{ route('databaseSurveiKrsKader') }}" class="slide-item ">Data Survei KRS</a></li>
-                                                <li><a href="{{ route('databaseTabulasi') }}" class="slide-item ">Data Survei P3KE</a></li>
+                                                <li><a href="{{ route('databaseSurveiP3keKader') }}" class="slide-item ">Data Survei P3KE</a></li>
                                             </ul>
                                         </div>
                                     </div>
