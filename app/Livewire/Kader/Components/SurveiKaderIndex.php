@@ -121,9 +121,9 @@ class SurveiKaderIndex extends Component
             $this->answer_13 = '-';
             $this->answer_14 = '-';
             $this->answer_15 = '-';
-            $this->answer_16 = '-';
-            $this->answer_17 = '-';
-            $this->answer_18 = '-';
+            $this->answer_16 = '';
+            $this->answer_17 = '';
+            $this->answer_18 = '';
         }
 
         $this->dataSurveiP3ke = DataSurveiP3ke::where('data_penduduk_id', $dataPenduduk->id)->first();

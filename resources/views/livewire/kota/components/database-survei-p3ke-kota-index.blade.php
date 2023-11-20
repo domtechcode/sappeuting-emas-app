@@ -1,23 +1,11 @@
 <div>
     {{-- If you look to others for fulfillment, you will never truly be fulfilled. --}}
 
-    <!-- PAGE-HEADER -->
-    <div class="page-header">
-        <h1 class="page-title">Data Tabulasi</h1>
-        <div>
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="javascript:void(0)">Data Tabulasi</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Home</li>
-            </ol>
-        </div>
-    </div>
-    <!-- PAGE-HEADER END -->
-
     <div class="row">
         <div class="col-xl-12">
             <div class="card">
                 <div class="card-header">
-                    <div class="card-title">Filter KRS</div>
+                    <div class="card-title">Filter P3KE</div>
                 </div>
                 <div class="card-body">
                         <div class="form-row">
@@ -27,6 +15,7 @@
                                     <select x-init="$($el).select2({
                                         placeholder: 'Pilih Kecamatan',
                                         allowClear: true,
+                                        width: '100%',
                                     });
                                     $($el).on('change', function() {
                                         @this.set('kecamatan', $($el).val())
@@ -47,6 +36,7 @@
                                     <select x-init="$($el).select2({
                                         placeholder: 'Pilih Kelurahan',
                                         allowClear: true,
+                                        width: '100%',
                                     });
                                     $($el).on('change', function() {
                                         @this.set('kelurahan', $($el).val())
@@ -67,6 +57,7 @@
                                     <select x-init="$($el).select2({
                                         placeholder: 'Pilih RW',
                                         allowClear: true,
+                                        width: '100%',
                                     });
                                     $($el).on('change', function() {
                                         @this.set('rw', $($el).val())
@@ -87,6 +78,7 @@
                                     <select x-init="$($el).select2({
                                         placeholder: 'Pilih RT',
                                         allowClear: true,
+                                        width: '100%',
                                     });
                                     $($el).on('change', function() {
                                         @this.set('rt', $($el).val())
@@ -107,11 +99,11 @@
         </div>
     </div>
 
-    @if (session()->has('successSurveiKrs'))
+    @if (session()->has('successSurveiP3ke'))
         <!--notif submit-->
         <div class="alert alert-success alert-dismissible fade show mb-2" role="alert">
             <span class="alert-inner--icon"><i class="fe fe-check-circle"></i></span>
-            <span class="alert-inner--text">{{ session('successSurveiKrs') }}</span>
+            <span class="alert-inner--text">{{ session('successSurveiP3ke') }}</span>
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">×</span>
             </button>
@@ -122,10 +114,10 @@
         <div class="col-lg-12">
             <div class="card">
                 <div class="card-header">
-                    <div class="card-title">Database KRS</div>
+                    <div class="card-title">Database P3KE</div>
                     <div class="card-options">
-                        <button @click="$dispatch('importSurveiKrs')" type="button" class="btn btn-icon btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#modalImportSurveiKrs"><i class="fe fe-plus"></i> Import</button>
-                        <button type="button" class="btn btn-icon btn-sm btn-info ms-2" wire:click="exportDataSurveiKrs"><i class="fe fe-upload"></i> Export</button>
+                        <button @click="$dispatch('importSurveiP3ke')" type="button" class="btn btn-icon btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#modalImportSurveiP3ke"><i class="fe fe-plus"></i> Import</button>
+                        <button type="button" class="btn btn-icon btn-sm btn-info ms-2" wire:click="exportDataSurveiP3ke"><i class="fe fe-upload"></i> Export</button>
                     </div>
                 </div>
                 <div class="card-body">
@@ -183,7 +175,7 @@
                                     </thead>
                                     <tbody>
 
-                                        @foreach ($dataSurveiKrs as $key => $data)
+                                        @foreach ($dataSurveiP3ke as $key => $data)
                                             <tr>
                                                 <td>{{ $key + 1 }}</td>
                                                 <td>{{ $data->dataPenduduk->nomor_keluarga_indonesia }}</td>
@@ -196,7 +188,7 @@
                                                 <td>{{ $data->dataPenduduk->rt }}</td>
                                                 <td>
                                                     <div class="btn-list">
-                                                        <button @click="$dispatch('details', {id:{{ $data->id }}})" type="button" class="btn btn-icon btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#modalDetailSurveiKrs"><i class="fe fe-eye"></i></button>
+                                                        <button @click="$dispatch('details', {id:{{ $data->id }}})" type="button" class="btn btn-icon btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#modalDetailSurveiP3ke"><i class="fe fe-eye"></i></button>
                                                         {{-- <button type="button" class="btn btn-icon btn-sm btn-danger" href="deleteuser/'.$data->id.'"><i class="fe fe-x"></i></button> --}}
                                                     </div>
                                                 </td>
@@ -207,7 +199,7 @@
                             </div>
                         </div>
                         <div class="col d-flex justify-content-end mt-3">
-                            {{ $dataSurveiKrs->links(data: ['scrollTo' => false]) }}
+                            {{ $dataSurveiP3ke->links(data: ['scrollTo' => false]) }}
                         </div>
                     </div>
 
@@ -217,6 +209,6 @@
         <!-- COL-END -->
     </div>
 
-    <livewire:kota.components.modal-detail-survei-krs-index>
-    <livewire:kota.components.modal-import-survei-krs-index>
+    <livewire:kota.components.modal-detail-survei-p3ke-index>
+    <livewire:kota.components.modal-import-survei-p3ke-index>
 </div>

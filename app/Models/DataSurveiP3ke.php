@@ -133,4 +133,15 @@ class DataSurveiP3ke extends Model
                 ->orWhere('rt', 'like', "%{$value}%");
         });
     }
+
+    public function scopeSearchP3ke($query, $kecamatanField, $kelurahanField, $rwField, $rtField)
+    {
+        $query->orWhereHas('dataPenduduk', function ($query) use ($kecamatanField, $kelurahanField, $rwField, $rtField) {
+            $query
+                ->where('kecamatan', 'like', "%{$kecamatanField}%")
+                ->where('kelurahan', 'like', "%{$kelurahanField}%")
+                ->where('rw', 'like', "%{$rwField}%")
+                ->where('rt', 'like', "%{$rtField}%");
+        });
+    }
 }

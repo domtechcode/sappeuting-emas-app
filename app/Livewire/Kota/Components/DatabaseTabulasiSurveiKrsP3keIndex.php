@@ -8,15 +8,13 @@ use Livewire\Component;
 use App\Models\Kecamatan;
 use App\Models\Kelurahan;
 use Livewire\Attributes\On;
+use App\Models\DataPenduduk;
 use Livewire\WithPagination;
 use App\Models\DataSurveiKrs;
 use Livewire\Attributes\Rule;
-use Livewire\Attributes\Title;
-use App\Exports\DataSurveiKrsExport;
-use Maatwebsite\Excel\Facades\Excel;
+use App\Models\DataSurveiP3ke;
 
-#[Title('Database Tabulasi - DP3AP2KB Kota Cimahi')]
-class DatabaseTabulasiIndex extends Component
+class DatabaseTabulasiSurveiKrsP3keIndex extends Component
 {
     use WithPagination;
 
@@ -48,7 +46,7 @@ class DatabaseTabulasiIndex extends Component
     public function closeModalAndReset()
     {
         $this->resetPage();
-        session()->flash('successSurveiKrs', 'Data Penduduk berhasil disimpan.');
+        session()->flash('successSurveiTabulasi', 'Data Penduduk berhasil disimpan.');
     }
 
     public function updatedSearch()
@@ -67,36 +65,42 @@ class DatabaseTabulasiIndex extends Component
         $this->sortDir = 'DESC';
     }
 
-    public function mount()
-    {
-        $this->setSortBy('data_survei_krs.created_at');
-    }
-
     public function render()
     {
-        return view('livewire.kota.components.database-tabulasi-index', [
+        $idDataSurveiKrs = DataSurveiKrs::pluck('data_penduduk_id')->toArray();
+        $idDataSurveiP3ke = DataSurveiP3ke::pluck('data_penduduk_id')->toArray();
+
+        $commonIds = array_intersect($idDataSurveiKrs, $idDataSurveiP3ke);
+
+        $uniqueIds = array_unique($commonIds);
+
+        $dataPendudukQuery = DataPenduduk::whereIn('id', $uniqueIds);
+
+        if (!empty($this->kecamatan)) {
+            $dataPendudukQuery->where('kecamatan', $this->kecamatan);
+        }
+
+        if (!empty($this->kelurahan)) {
+            $dataPendudukQuery->where('kelurahan', $this->kelurahan);
+        }
+
+        if (!empty($this->rt)) {
+            $dataPendudukQuery->where('rt', $this->rt);
+        }
+
+        if (!empty($this->rw)) {
+            $dataPendudukQuery->where('rw', $this->rw);
+        }
+
+        return view('livewire.kota.components.database-tabulasi-survei-krs-p3ke-index', [
             'dataKecamatan' => Kecamatan::all(),
             'dataKelurahan' => Kelurahan::all(),
             'dataRw' => Rw::all(),
             'dataRt' => Rt::all(),
-            'dataSurveiKrs' => DataSurveiKrs::with('dataPenduduk')
-                ->searchKRS($this->kecamatan, $this->kelurahan, $this->rw, $this->rt)
+            'dataPenduduk' => $dataPendudukQuery
+                ->search($this->search)
                 ->orderBy($this->sortBy, $this->sortDir)
-                ->join('data_penduduks', 'data_survei_krs.data_penduduk_id', '=', 'data_penduduks.id')
-                ->select('data_survei_krs.*')
                 ->paginate($this->perpage),
         ]);
     }
-
-    public function exportDataSurveiKrs()
-    {
-        $kecamatan = $this->kecamatan;
-        $kelurahan = $this->kelurahan;
-        $rw = $this->rw;
-        $rt = $this->rt;
-
-        return Excel::download(new DataSurveiKrsExport($kecamatan, $kelurahan, $rw, $rt), 'data_survei_krs.xlsx');
-    }
-
-
 }

@@ -4,6 +4,7 @@ use App\Livewire\Auth\LoginIndex;
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Kader\Components\SurveiKaderIndex;
 use App\Livewire\Kota\Components\DashboardKotaIndex;
+use App\Livewire\Kota\Components\DatabaseSurveiIndex;
 use App\Livewire\Kader\Components\DashboardKaderIndex;
 use App\Livewire\Kota\Components\UserManagementsIndex;
 use App\Livewire\Kota\Components\DatabasePendudukIndex;
@@ -35,9 +36,9 @@ Route::post('/logout', [LoginIndex::class, 'logout'])->name('logoutProcess');
 Route::group(['middleware' => ['auth']], function () {
     Route::group(['prefix' => 'admin-kota', 'middleware' => ['role:admin-kota']], function () {
         Route::get('/dashboard', DashboardKotaIndex::class)->name('dashboardAdminKota');
-        Route::get('/admin-kota-database', DatabasePendudukIndex::class)->name('databasePenduduk');
-        Route::get('/admin-kota-tabulasi', DatabaseTabulasiIndex::class)->name('databaseTabulasi');
-        Route::get('/admin-kota-user', UserManagementsIndex::class)->name('userManagements');
+        Route::get('/database-penduduk', DatabasePendudukIndex::class)->name('databasePenduduk');
+        Route::get('/database-survei', DatabaseSurveiIndex::class)->name('databaseSurvei');
+        Route::get('/user-managements', UserManagementsIndex::class)->name('userManagements');
     });
 
     Route::group(['prefix' => 'admin-kader', 'middleware' => ['role:admin-kader']], function () {

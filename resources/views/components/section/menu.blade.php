@@ -98,8 +98,8 @@
                                                 </li>
                                                 <li><a href="{{ route('databasePenduduk') }}" class="slide-item ">Data
                                                         Penduduk</a></li>
-                                                <li><a href="{{ route('databaseTabulasi') }}"
-                                                        class="slide-item ">Tabulasi</a></li>
+                                                <li><a href="{{ route('databaseSurvei') }}"
+                                                        class="slide-item ">Data Survei</a></li>
                                             </ul>
                                         </div>
                                     </div>
