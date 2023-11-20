@@ -208,7 +208,7 @@
             </div>
         @endif
 
-        <!-- ROW-2-->
+        {{-- <!-- ROW-2-->
         <div class="row">
             <div class="col-md-12">
                 <div class="card">
@@ -246,6 +246,6 @@
                 </div>
             </div>
         </div>
-        <!-- ROW-2 END -->
+        <!-- ROW-2 END --> --}}
 
 </div>

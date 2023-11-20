@@ -194,6 +194,34 @@
                             </li>
                         </ul>
                     </li>
+
+                    <li class="sub-category">
+                        <h3>Database</h3>
+                    </li>
+                    <li class="slide">
+                        <a class="side-menu__item " data-bs-toggle="slide" href="javascript:void(0)"><i
+                                class="side-menu__icon fe fe-database"></i><span
+                                class="side-menu__label">Database</span><i class="angle fe fe-chevron-right"></i>
+                        </a>
+                        <ul class="slide-menu">
+                            <li class="panel sidetab-menu">
+                                <div class="tab-menu-heading p-0 pb-2 border-0">
+                                </div>
+                                <div class="panel-body tabs-menu-body p-0 border-0">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="side1">
+                                            <ul class="sidemenu-list">
+                                                <li class="side-menu-label1"><a href="javascript:void(0)">Database</a>
+                                                </li>
+                                                <li><a href="{{ route('databaseSurveiKrsKader') }}" class="slide-item ">Data Survei KRS</a></li>
+                                                <li><a href="{{ route('databaseTabulasi') }}" class="slide-item ">Data Survei P3KE</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
                 @endif
 
             </ul>
