@@ -14,27 +14,27 @@
 
     <livewire:includes.statistik>
 
+        @if (session()->has('error'))
+            <div class="alert alert-danger alert-dismissible fade show mb-3" role="alert">
+                <span class="alert-inner--icon"><i class="fe fe-slash"></i></span>
+                <span class="alert-inner--text">{{ session('error') }}</span>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+        @endif
+
         @if ($showSecondForm)
             <div class="row">
                 <div class="col-xl-12">
                     <div class="card">
                         <div class="row">
                             <div class="col-md-4">
-                                <img src="{{ asset('assets/images/brand/undraw_undraw_undraw_undraw_undraw_search_engines_041x_-2-_cl95_o7o8_pigd_wbm3.png') }}"
+                                <img src="{{ asset('assets/images/brand/undraw_Hire_re_gn5j.png') }}"
                                     class="card-img-left" alt="img">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    @if (session()->has('error'))
-                                        <div class="alert alert-danger alert-dismissible fade show mb-0" role="alert">
-                                            <span class="alert-inner--icon"><i class="fe fe-slash"></i></span>
-                                            <span class="alert-inner--text">{{ session('error') }}</span>
-                                            <button type="button" class="btn-close" data-bs-dismiss="alert"
-                                                aria-label="Close">
-                                                <span aria-hidden="true">×</span>
-                                            </button>
-                                        </div>
-                                    @endif
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-group">
@@ -178,74 +178,35 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="card">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img src="{{ asset('assets/images/brand/undraw_undraw_undraw_undraw_undraw_search_engines_041x_-2-_cl95_o7o8_pigd_wbm3.png') }}"
-                                    class="card-img-left" alt="img">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Nomor Kartu Keluarga Indonesia
-                                    </h5>
+                        <div class="card-status bg-primary br-te-7 br-ts-7"></div>
+                        <div class="card-header">
+                            <h3 class="card-title">Form Search NIK</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="{{ asset('assets/images/brand/undraw_Hire_re_gn5j.png') }}"
+                                        class="card-img-left" alt="img">
+                                </div>
+                                <div class="col-md-6 d-flex flex-column justify-content-center">
+                                    <h3 class="card-title text-center">Nomor Induk Kependudukan</h3>
                                     <div class="form-group">
-                                        <input name="nomor_keluarga_indonesia_search"
-                                            wire:model.defer="nomor_keluarga_indonesia_search" type="text"
-                                            class="form-control" placeholder="Nomor Kartu Kepala Keluarga"
+                                        <input name="nik_search" wire:model.defer="nik_search" type="text"
+                                            class="form-control" placeholder="Nomor Induk Kependudukan"
                                             autocomplete="off">
-                                        @error('nomor_keluarga_indonesia_search')
+                                        @error('nik_search')
                                             <div><span class="text-danger">{{ $message }}</span></div>
                                         @enderror
                                     </div>
-                                    <div class="form-group">
-                                        <button type="submit" wire:click="searchSurvei" class="btn btn-dark"><i
-                                                class="fe fe-search me-2"></i>Cari</button>
-                                    </div>
+                                    <button type="submit" wire:click="searchSurvei" class="btn btn-dark"><i
+                                            class="fe fe-search me-2"></i>Cari</button>
                                 </div>
                             </div>
+
+
                         </div>
                     </div>
                 </div>
             </div>
         @endif
-
-        {{-- <!-- ROW-2-->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="card-status bg-primary br-te-7 br-ts-7"></div>
-                    <div class="card-header">
-                        <h3 class="card-title">Data Survei</h3>
-                    </div>
-                    <div class="card-body">
-                        <div class="row row-sm mt-3">
-                            <div class="col-md-12">
-                                <div class="table-responsive">
-                                    <table id="example2" class="table table-bordered text-nowrap border-bottom">
-                                        <thead>
-                                            <tr>
-                                                <th class="border-bottom-0">No</th>
-                                                <th class="border-bottom-0">Nama</th>
-                                                <th class="border-bottom-0">No Kartu
-                                                    Keluarga
-                                                    Indonesia</th>
-                                                <th class="border-bottom-0">Kepala Keluarga
-                                                </th>
-                                                <th class="border-bottom-0">Nama Istri</th>
-                                                <th class="border-bottom-0">Status Keluarga
-                                                </th>
-                                                <th class="border-bottom-0">Keterangan</th>
-                                                <th class="border-bottom-0">State</th>
-                                                <th class="border-bottom-0">Action</th>
-                                            </tr>
-                                        </thead>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ROW-2 END --> --}}
-
 </div>

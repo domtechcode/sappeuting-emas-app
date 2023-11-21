@@ -25,6 +25,8 @@ return new class extends Migration
             $table->text('sembako')->nullable();
             $table->text('pra_kerja')->nullable();
             $table->text('kur')->nullable();
+            $table->text('bantuan_lainnya')->nullable();
+            $table->text('isian_bantuan_lainnya')->nullable();
 
             $table->text('sumber_penghasilan')->nullable();
 
@@ -42,76 +44,85 @@ return new class extends Migration
             $table->text('lahan')->nullable();
             $table->text('rumah_ditempat_lain')->nullable();
 
-            $table->text('beton')->nullable();
-            $table->text('genteng')->nullable();
-            $table->text('seng_atap')->nullable();
-            $table->text('asbes_seng')->nullable();
-            $table->text('kayu_sirap')->nullable();
-            $table->text('bambu_atap')->nullable();
-            $table->text('jerami_ijuk_rumbia_daun_daunan')->nullable();
-            $table->text('atap_rumah_lainnya')->nullable();
+
+            $table->text('atap_rumah_terluas')->nullable();
+            // $table->text('beton')->nullable();
+            // $table->text('genteng')->nullable();
+            // $table->text('seng_atap')->nullable();
+            // $table->text('asbes_seng')->nullable();
+            // $table->text('kayu_sirap')->nullable();
+            // $table->text('bambu_atap')->nullable();
+            // $table->text('jerami_ijuk_rumbia_daun_daunan')->nullable();
+            // $table->text('atap_rumah_lainnya')->nullable();
             $table->text('kondisi_atap_rumah')->nullable();
 
-            $table->text('tembok')->nullable();
-            $table->text('plasteran_anyaman_bambu_kawat')->nullable();
-            $table->text('kayu_papan_dinding')->nullable();
-            $table->text('anyaman_bambu')->nullable();
-            $table->text('batang_kayu')->nullable();
-            $table->text('bambu_dinding')->nullable();
-            $table->text('seng_dinding')->nullable();
-            $table->text('dinding_rumah_lainnya')->nullable();
+            $table->text('dinding_rumah_terluas')->nullable();
+            // $table->text('tembok')->nullable();
+            // $table->text('plasteran_anyaman_bambu_kawat')->nullable();
+            // $table->text('kayu_papan_dinding')->nullable();
+            // $table->text('anyaman_bambu')->nullable();
+            // $table->text('batang_kayu')->nullable();
+            // $table->text('bambu_dinding')->nullable();
+            // $table->text('seng_dinding')->nullable();
+            // $table->text('dinding_rumah_lainnya')->nullable();
             $table->text('kondisi_dinding_rumah')->nullable();
 
-            $table->text('keramik_granit_marmer_ubin_tegel_teraso')->nullable();
-            $table->text('keramik')->nullable();
-            $table->text('parket_vinil_karpet')->nullable();
-            $table->text('ubin_tegel_teraso')->nullable();
-            $table->text('kayu_papan_lantai')->nullable();
-            $table->text('semen')->nullable();
-            $table->text('bambu_lantai')->nullable();
-            $table->text('tanah')->nullable();
-            $table->text('lantai_rumah_lainnya')->nullable();
+            $table->text('lantai_rumah_terluas')->nullable();
+            // $table->text('keramik_granit_marmer_ubin_tegel_teraso')->nullable();
+            // $table->text('keramik')->nullable();
+            // $table->text('parket_vinil_karpet')->nullable();
+            // $table->text('ubin_tegel_teraso')->nullable();
+            // $table->text('kayu_papan_lantai')->nullable();
+            // $table->text('semen')->nullable();
+            // $table->text('bambu_lantai')->nullable();
+            // $table->text('tanah')->nullable();
+            // $table->text('lantai_rumah_lainnya')->nullable();
             $table->text('kondisi_lantai_rumah')->nullable();
 
-            $table->text('listrik_pln_meteran')->nullable();
-            $table->text('listrik_pln_non_meteran')->nullable();
-            $table->text('listrik_non_pln')->nullable();
-            $table->text('bukan_listrik')->nullable();
+            $table->text('sumber_penerangan')->nullable();
+            // $table->text('listrik_pln_meteran')->nullable();
+            // $table->text('listrik_pln_non_meteran')->nullable();
+            // $table->text('listrik_non_pln')->nullable();
+            // $table->text('bukan_listrik')->nullable();
             $table->text('watt_listrik')->nullable();
 
-            $table->text('air_kemasan_isi_ulang')->nullable();
-            $table->text('ledeng_pam')->nullable();
-            $table->text('sumur_bor')->nullable();
-            $table->text('sumur_terlindung')->nullable();
-            $table->text('sumur_tidak_terlindung')->nullable();
-            $table->text('mata_air_terlindung')->nullable();
-            $table->text('air_permukaan_sungai_danau_dll')->nullable();
-            $table->text('air_hujan')->nullable();
-            $table->text('air_minum_lainnya')->nullable();
+            $table->text('sumber_air_minum')->nullable();
+            // $table->text('air_kemasan_isi_ulang')->nullable();
+            // $table->text('ledeng_pam')->nullable();
+            // $table->text('sumur_bor')->nullable();
+            // $table->text('sumur_terlindung')->nullable();
+            // $table->text('sumur_tidak_terlindung')->nullable();
+            // $table->text('mata_air_terlindung')->nullable();
+            // $table->text('air_permukaan_sungai_danau_dll')->nullable();
+            // $table->text('air_hujan')->nullable();
+            // $table->text('air_minum_lainnya')->nullable();
 
-            $table->text('milik_sendiri_fasilitas_buang_air_besar')->nullable();
-            $table->text('umum_bersama')->nullable();
-            $table->text('fasilitas_buang_air_besar_lainnya')->nullable();
-            $table->text('fasilitas_buang_air_besar_kosong')->nullable();
-            $table->text('tidak_ada_fasilitas_buang_air_besar')->nullable();
+            $table->text('fasilitas_buang_air_besar')->nullable();
+            // $table->text('milik_sendiri_fasilitas_buang_air_besar')->nullable();
+            // $table->text('umum_bersama')->nullable();
+            // $table->text('fasilitas_buang_air_besar_lainnya')->nullable();
+            // $table->text('fasilitas_buang_air_besar_kosong')->nullable();
+            // $table->text('tidak_ada_fasilitas_buang_air_besar')->nullable();
 
             $table->text('luas_rumah')->nullable();
 
             $table->text('jumlah_orang_dirumah')->nullable();
 
-            $table->text('listrik')->nullable();
-            $table->text('gas_12kg')->nullable();
-            $table->text('gas_5_5kg')->nullable();
-            $table->text('gas_3kg')->nullable();
-            $table->text('minyak_tanah')->nullable();
-            $table->text('briket_kayu_arang')->nullable();
-            $table->text('bahan_bakar_utama_lainnya')->nullable();
+            $table->text('bahan_bakar_utama')->nullable();
+            // $table->text('listrik')->nullable();
+            // $table->text('gas_12kg')->nullable();
+            // $table->text('gas_5_5kg')->nullable();
+            // $table->text('gas_3kg')->nullable();
+            // $table->text('minyak_tanah')->nullable();
+            // $table->text('briket_kayu_arang')->nullable();
+            // $table->text('bahan_bakar_utama_lainnya')->nullable();
 
-            $table->text('bebas_sewa_menumpang')->nullable();
-            $table->text('kontrak_sewa')->nullable();
-            $table->text('milik_sendiri')->nullable();
-            $table->text('dinas')->nullable();
-            $table->text('kepemilikan_rumah_lainnya')->nullable();
+            $table->text('kepemilikan_rumah')->nullable();
+            // $table->text('bebas_sewa_menumpang')->nullable();
+            // $table->text('kontrak_sewa')->nullable();
+            // $table->text('milik_sendiri')->nullable();
+            // $table->text('dinas')->nullable();
+            // $table->text('kepemilikan_rumah_lainnya')->nullable();
 
             $table->string('status')->nullable();
             $table->string('state')->nullable();

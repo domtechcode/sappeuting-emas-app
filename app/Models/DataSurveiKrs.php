@@ -14,7 +14,7 @@ class DataSurveiKrs extends Model
     use HasFactory, SoftDeletes;
 
     protected $table = 'data_survei_krs';
-    protected $fillable = ['user_id', 'data_penduduk_id', 'answer_1', 'answer_2', 'answer_3', 'answer_4', 'answer_5', 'answer_6', 'answer_7', 'answer_8', 'answer_9', 'answer_10', 'answer_11', 'answer_12', 'answer_13', 'answer_14', 'answer_15', 'answer_16', 'answer_17', 'answer_18', 'status', 'state'];
+    protected $guarded = [];
 
     public function user()
     {

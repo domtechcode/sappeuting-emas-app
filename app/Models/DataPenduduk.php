@@ -14,7 +14,7 @@ class DataPenduduk extends Model
 
     protected $table = 'data_penduduks';
     protected $fillable = [
-        'nomor_keluarga_indonesia', 'nama_kepala_keluarga', 'nama_istri', 'status_keluarga', 'kecamatan', 'kelurahan', 'rw', 'rt', 'latitude', 'longitude'
+        'nomor_keluarga_indonesia', 'nik', 'nama_kepala_keluarga', 'nama_istri', 'status_keluarga', 'kecamatan', 'kelurahan', 'rw', 'rt', 'latitude', 'longitude', 'no_handphone'
     ];
 
     public function dataSurveiKrs()
@@ -31,6 +31,7 @@ class DataPenduduk extends Model
     {
         $query
             ->where('nomor_keluarga_indonesia', 'like', "%{$value}%")
+            ->orWhere('nik', 'like', "%{$value}%")
             ->orWhere('nama_kepala_keluarga', 'like', "%{$value}%")
             ->orWhere('nama_istri', 'like', "%{$value}%")
             ->orWhere('status_keluarga', 'like', "%{$value}%")

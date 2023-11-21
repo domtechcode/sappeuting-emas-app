@@ -17,10 +17,10 @@ use Livewire\Attributes\Title;
 #[Title('Dashboard - DP3AP2KB Kota Cimahi')]
 class DashboardKaderIndex extends Component
 {
-    public $nomor_keluarga_indonesia_search;
+    public $nik_search;
 
     #[Rule('required', message: 'Nomor Keluarga Indonesia harus diisi.')]
-    public $nomor_keluarga_indonesia;
+    public $nik;
 
     #[Rule('required', message: 'Nama Kepala Keluarga harus diisi.')]
     public $nama_kepala_keluarga;
@@ -61,12 +61,12 @@ class DashboardKaderIndex extends Component
     public function searchSurvei()
     {
         $this->validate([
-            'nomor_keluarga_indonesia_search' => 'required',
+            'nik_search' => 'required',
         ], [
-            'nomor_keluarga_indonesia_search.required' => 'Nomor Keluarga Indonesia harus diisi.',
+            'nik_search.required' => 'Nomor Keluarga Indonesia harus diisi.',
         ]);
 
-        $this->data = DataPenduduk::where('nomor_keluarga_indonesia', $this->nomor_keluarga_indonesia_search)->first();
+        $this->data = DataPenduduk::where('nik', $this->nik_search)->first();
         $this->dataSurveiKrs = DataSurveiKrs::where('data_penduduk_id', $this->data)->first();
         $this->dataSurveiP3ke = DataSurveiP3ke::where('data_penduduk_id', $this->data)->first();
 
@@ -85,8 +85,8 @@ class DashboardKaderIndex extends Component
 
             return redirect()->route('surveiKader', ['state' => $state, 'id' => $this->data->id]);
         } else {
-            $this->showSecondForm = true;
-            $this->nomor_keluarga_indonesia = $this->nomor_keluarga_indonesia_search;
+            // $this->showSecondForm = true;
+            // $this->nik = $this->nik_search;
             session()->flash('error', 'Data tidak ada mohon untuk mengisi data keluarga.');
         }
     }
@@ -96,7 +96,7 @@ class DashboardKaderIndex extends Component
         $this->validate();
 
         $dataPenduduk = DataPenduduk::create([
-            'nomor_keluarga_indonesia' => $this->nomor_keluarga_indonesia,
+            'nik' => $this->nik,
             'nama_kepala_keluarga' => $this->nama_kepala_keluarga,
             'nama_istri' => $this->nama_istri,
             'status_keluarga' => $this->status_keluarga,

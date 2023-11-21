@@ -35,6 +35,7 @@ return new class extends Migration
             $table->text('answer_16')->nullable();
             $table->text('answer_17')->nullable();
             $table->text('answer_18')->nullable();
+            $table->text('answer_19')->nullable();
             $table->string('status')->nullable();
             $table->string('state')->nullable();
             $table->timestamps();
