@@ -39,7 +39,7 @@
                                     <thead>
                                         <tr>
                                             <th class="border-bottom-0">No</th>
-                                            <th class="border-bottom-0">Nomor Keluarga Indonesia</th>
+                                            <th class="border-bottom-0">Nomor Induk Kependudukan</th>
                                             <th class="border-bottom-0">Kepala Keluarga</th>
                                             <th class="border-bottom-0">Istri</th>
                                             <th class="border-bottom-0">Status Keluarga</th>
@@ -55,7 +55,7 @@
                                         @foreach ($dataSurveiP3ke as $key => $data)
                                             <tr>
                                                 <td>{{ $key + 1 }}</td>
-                                                <td>{{ $data->dataPenduduk->nomor_keluarga_indonesia }}</td>
+                                                <td>{{ $data->dataPenduduk->nik }}</td>
                                                 <td>{{ $data->dataPenduduk->nama_kepala_keluarga }}</td>
                                                 <td>{{ $data->dataPenduduk->nama_istri }}</td>
                                                 <td>{{ $data->dataPenduduk->status_keluarga }}</td>

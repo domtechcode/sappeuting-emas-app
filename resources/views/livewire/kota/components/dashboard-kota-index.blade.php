@@ -91,9 +91,9 @@
                                             id="kecamatan">
                                             <option label="Pilih Kecamatan"></option>
                                             <option value="all">All Data</option>
-                                            @foreach ($dataKecamatan as $kecamatan)
-                                                <option value="{{ $kecamatan->nama_kecamatan }}">
-                                                    {{ $kecamatan->nama_kecamatan }}</option>
+                                            @foreach ($dataKecamatan as $data)
+                                                <option value="{{ $data->nama_kecamatan }}">
+                                                    {{ $data->nama_kecamatan }}</option>
                                             @endforeach
                                         </select>
                                     </div>
@@ -112,9 +112,9 @@
                                             id="kelurahan">
                                             <option label="Pilih Kelurahan"></option>
                                             <option value="all">All Data</option>
-                                            @foreach ($dataKelurahan as $kelurahan)
-                                                <option value="{{ $kelurahan->nama_kelurahan }}">
-                                                    {{ $kelurahan->nama_kelurahan }}</option>
+                                            @foreach ($dataKelurahan as $data)
+                                                <option value="{{ $data->nama_kelurahan }}">
+                                                    {{ $data->nama_kelurahan }}</option>
                                             @endforeach
                                         </select>
                                     </div>
@@ -133,9 +133,9 @@
                                             id="rw">
                                             <option label="Pilih RW"></option>
                                             <option value="all">All Data</option>
-                                            @foreach ($dataRw as $rw)
-                                                <option value="{{ $rw->nomor_rw }}">
-                                                    {{ $rw->nomor_rw }}</option>
+                                            @foreach ($dataRw as $data)
+                                                <option value="{{ $data->nomor_rw }}">
+                                                    {{ $data->nomor_rw }}</option>
                                             @endforeach
                                         </select>
                                     </div>
@@ -154,9 +154,9 @@
                                             id="rt">
                                             <option label="Pilih RT"></option>
                                             <option value="all">All Data</option>
-                                            @foreach ($dataRt as $rt)
-                                                <option value="{{ $rt->nomor_rt }}">
-                                                    {{ $rt->nomor_rt }}</option>
+                                            @foreach ($dataRt as $data)
+                                                <option value="{{ $data->nomor_rt }}">
+                                                    {{ $data->nomor_rt }}</option>
                                             @endforeach
                                         </select>
                                     </div>
@@ -181,7 +181,7 @@
                     <h3 class="card-title">Keluarga Tervalidasi</h3>
                 </div>
                 <div class="card-body">
-                    <div id="chart-pie" class="chartsh" wire:ignore></div>
+                    <div id="chart-pie" class="chartsh"></div>
                 </div>
             </div>
         </div>
@@ -191,7 +191,7 @@
                     <h3 class="card-title">Jumlah PUS</h3>
                 </div>
                 <div class="card-body">
-                    <div id="chart-pie2" class="chartsh" wire:ignore></div>
+                    <div id="chart-pie2" class="chartsh"></div>
                 </div>
             </div>
         </div>
@@ -201,7 +201,7 @@
                     <h3 class="card-title">PUS 4 Terlalu</h3>
                 </div>
                 <div class="card-body">
-                    <div id="chart-pie3" class="chartsh" wire:ignore></div>
+                    <div id="chart-pie3" class="chartsh"></div>
                 </div>
             </div>
         </div>
@@ -211,7 +211,7 @@
                     <h3 class="card-title">Penapisan</h3>
                 </div>
                 <div class="card-body">
-                    <div id="chart-pie4" class="chartsh" wire:ignore></div>
+                    <div id="chart-pie4" class="chartsh"></div>
                 </div>
             </div>
         </div>
@@ -221,7 +221,7 @@
                     <h3 class="card-title">Peringkat Kesejahteraan</h3>
                 </div>
                 <div class="card-body">
-                    <div id="chart-pie5" class="chartsh" wire:ignore></div>
+                    <div id="chart-pie5" class="chartsh"></div>
                 </div>
             </div>
         </div>
@@ -231,7 +231,7 @@
                     <h3 class="card-title">Keluarga Beresiko Stunting</h3>
                 </div>
                 <div class="card-body">
-                    <div id="chart-pie6" class="chartsh" wire:ignore></div>
+                    <div id="chart-pie6" class="chartsh"></div>
                 </div>
             </div>
         </div>
@@ -447,206 +447,303 @@
     <script>
         /*chart-pie*/
         var chart1 = c3.generate({
-             bindto: '#chart-pie', // id of chart wrapper
-             data: {
-                 columns: [
-                     // each columns data
-                     ['data1', {{ $data_keluarga_pus }}],
-                     ['data2', {{ $data_keluarga_bukan_pus }}]
-                 ],
-                 type: 'pie', // default type of chart
-                 colors: {
-                     data1: '#6c5ffc',
-                     data2: '#05c3fb'
-                 },
-                 names: {
-                     // name of each serie
-                     'data1': 'Jumlah Pus : {{ $data_keluarga_pus }}',
-                     'data2': 'Jumlah Bukan Pus : {{ $data_keluarga_bukan_pus }}',
-                 }
-             },
-             axis: {},
-             legend: {
-                 show: true, //hide legend
-             },
-             padding: {
-                 bottom: 0,
-                 top: 0
-             },
-         });
+            bindto: '#chart-pie', // id of chart wrapper
+            data: {
+                columns: [
+                    // each columns data
+                    ['data1', {{ $data_keluarga_pus }}],
+                    ['data2', {{ $data_keluarga_bukan_pus }}]
+                ],
+                type: 'pie', // default type of chart
+                colors: {
+                    data1: '#6c5ffc',
+                    data2: '#05c3fb'
+                },
+                names: {
+                    // name of each serie
+                    'data1': 'Jumlah Pus : {{ $data_keluarga_pus }}',
+                    'data2': 'Jumlah Bukan Pus : {{ $data_keluarga_bukan_pus }}',
+                }
+            },
+            axis: {},
+            legend: {
+                show: true, //hide legend
+            },
+            padding: {
+                bottom: 0,
+                top: 0
+            },
+        });
 
         /*chart-pie*/
         var chart2 = c3.generate({
-             bindto: '#chart-pie2', // id of chart wrapper
-             data: {
-                 columns: [
-                     // each columns data
-                     ['data1', {{ $jumlah_pus_hamil }}],
-                     ['data2', {{ $jumlah_baduta }}],
-                     ['data3', {{ $jumlah_balita }}]
-                 ],
-                 type: 'pie', // default type of chart
-                 colors: {
-                     data1: '#6c5ffc',
-                     data2: '#05c3fb',
-                     data3: '#09ad95'
-                 },
-                 names: {
-                     // name of each serie
-                     'data1': 'Jumlah Pus Hamil : {{ $data_pus_hamil }}',
-                     'data2': 'Jumlah Baduta : {{ $data_baduta }}',
-                     'data3': 'Jumlah Balita : {{ $data_balita }}'
-                 }
-             },
-             axis: {},
-             legend: {
-                 show: true, //hide legend
-             },
-             padding: {
-                 bottom: 0,
-                 top: 0
-             },
-         });
+            bindto: '#chart-pie2', // id of chart wrapper
+            data: {
+                columns: [
+                    // each columns data
+                    ['data1', {{ $jumlah_pus_hamil }}],
+                    ['data2', {{ $jumlah_baduta }}],
+                    ['data3', {{ $jumlah_balita }}]
+                ],
+                type: 'pie', // default type of chart
+                colors: {
+                    data1: '#6c5ffc',
+                    data2: '#05c3fb',
+                    data3: '#09ad95'
+                },
+                names: {
+                    // name of each serie
+                    'data1': 'Jumlah Pus Hamil : {{ $data_pus_hamil }}',
+                    'data2': 'Jumlah Baduta : {{ $data_baduta }}',
+                    'data3': 'Jumlah Balita : {{ $data_balita }}'
+                }
+            },
+            axis: {},
+            legend: {
+                show: true, //hide legend
+            },
+            padding: {
+                bottom: 0,
+                top: 0
+            },
+        });
 
         /*chart-pie*/
         var chart3 = c3.generate({
-             bindto: '#chart-pie3', // id of chart wrapper
-             data: {
-                 columns: [
-                     // each columns data
-                     ['data1', {{ $terlalu_muda }}],
-                     ['data2', {{ $terlalu_tua }}],
-                     ['data3', {{ $terlalu_dekat }}],
-                     ['data4', {{ $terlalu_banyak }}]
-                 ],
-                 type: 'pie', // default type of chart
-                 colors: {
-                     data1: '#6c5ffc',
-                     data2: '#05c3fb',
-                     data3: '#09ad95',
-                     data4: '#1170e4'
-                 },
-                 names: {
-                     // name of each serie
-                     'data1': 'Terlalu Muda (Umur Istri < 20 Tahun) : {{ $data_terlalu_muda }}',
-                     'data2': 'Terlalu Tua (Umur Istri 35 sd 40 Tahun) : {{ $data_terlalu_tua }}',
-                     'data3': 'Terlalu Dekat (< 2 Tahun) : {{ $data_terlalu_dekat }}',
-                     'data4': 'Terlalu Banyak (≥ 3 Anak) : {{ $data_terlalu_banyak }}'
-                 }
-             },
-             axis: {},
-             legend: {
-                 show: true, //hide legend
-             },
-             padding: {
-                 bottom: 0,
-                 top: 0
-             },
-         });
+            bindto: '#chart-pie3', // id of chart wrapper
+            data: {
+                columns: [
+                    // each columns data
+                    ['data1', {{ $terlalu_muda }}],
+                    ['data2', {{ $terlalu_tua }}],
+                    ['data3', {{ $terlalu_dekat }}],
+                    ['data4', {{ $terlalu_banyak }}]
+                ],
+                type: 'pie', // default type of chart
+                colors: {
+                    data1: '#6c5ffc',
+                    data2: '#05c3fb',
+                    data3: '#09ad95',
+                    data4: '#1170e4'
+                },
+                names: {
+                    // name of each serie
+                    'data1': 'Terlalu Muda (Umur Istri < 20 Tahun) : {{ $data_terlalu_muda }}',
+                    'data2': 'Terlalu Tua (Umur Istri 35 sd 40 Tahun) : {{ $data_terlalu_tua }}',
+                    'data3': 'Terlalu Dekat (< 2 Tahun) : {{ $data_terlalu_dekat }}',
+                    'data4': 'Terlalu Banyak (≥ 3 Anak) : {{ $data_terlalu_banyak }}'
+                }
+            },
+            axis: {},
+            legend: {
+                show: true, //hide legend
+            },
+            padding: {
+                bottom: 0,
+                top: 0
+            },
+        });
 
         /*chart-pie*/
         var chart4 = c3.generate({
-             bindto: '#chart-pie4', // id of chart wrapper
-             data: {
-                 columns: [
-                     // each columns data
-                     ['data1', {{ $fasilitas_lingkungan_tidak_sehat }}],
-                     ['data2', {{ $air_minum }}],
-                     ['data3', {{ $jamban }}],
-                     ['data4', {{ $kb_modern }}]
-                 ],
-                 type: 'pie', // default type of chart
-                 colors: {
-                     data1: '#6c5ffc',
-                     data2: '#05c3fb',
-                     data3: '#09ad95',
-                     data4: '#1170e4'
-                 },
-                 names: {
-                     // name of each serie
-                     'data1': 'Fasilitas Lingkungan Tidak Sehat : {{ $data_fasilitas_lingkungan }}',
-                     'data2': 'Keluarga Tidak Mempunyai Sumber Air Minum Yang Layak : {{ $data_jumlah_air_minum }}',
-                     'data3': 'Keluarga Tidak Mempunyai Jamban Yang Layak : {{ $data_jumlah_jamban }}',
-                     'data4': 'Bukan Peserta KB Modern : {{ $data_kb_modern }}'
-                 }
-             },
-             axis: {},
-             legend: {
-                 show: true, //hide legend
-             },
-             padding: {
-                 bottom: 0,
-                 top: 0
-             },
-         });
+            bindto: '#chart-pie4', // id of chart wrapper
+            data: {
+                columns: [
+                    // each columns data
+                    ['data1', {{ $fasilitas_lingkungan_tidak_sehat }}],
+                    ['data2', {{ $air_minum }}],
+                    ['data3', {{ $jamban }}],
+                    ['data4', {{ $kb_modern }}]
+                ],
+                type: 'pie', // default type of chart
+                colors: {
+                    data1: '#6c5ffc',
+                    data2: '#05c3fb',
+                    data3: '#09ad95',
+                    data4: '#1170e4'
+                },
+                names: {
+                    // name of each serie
+                    'data1': 'Fasilitas Lingkungan Tidak Sehat : {{ $data_fasilitas_lingkungan }}',
+                    'data2': 'Keluarga Tidak Mempunyai Sumber Air Minum Yang Layak : {{ $data_jumlah_air_minum }}',
+                    'data3': 'Keluarga Tidak Mempunyai Jamban Yang Layak : {{ $data_jumlah_jamban }}',
+                    'data4': 'Bukan Peserta KB Modern : {{ $data_kb_modern }}'
+                }
+            },
+            axis: {},
+            legend: {
+                show: true, //hide legend
+            },
+            padding: {
+                bottom: 0,
+                top: 0
+            },
+        });
 
         /*chart-pie*/
         var chart5 = c3.generate({
-             bindto: '#chart-pie5', // id of chart wrapper
-             data: {
-                 columns: [
-                     // each columns data
-                     ['data1', {{ $peringkat_0 }}],
-                     ['data2', {{ $peringkat_1 }}],
-                     ['data3', {{ $peringkat_2 }}],
-                     ['data4', {{ $peringkat_3 }}],
-                     ['data5', {{ $peringkat_4 }}]
-                 ],
-                 type: 'pie', // default type of chart
-                 colors: {
-                     data1: '#6c5ffc',
-                     data2: '#05c3fb',
-                     data3: '#09ad95',
-                     data4: '#1170e4',
-                     data5: '#e25e2e'
-                 },
-                 names: {
-                     // name of each serie
-                     'data1': 'Peringkat 0 : {{ $data_peringkat_0 }}',
-                     'data2': 'Peringkat 1 : {{ $data_peringkat_1 }}',
-                     'data3': 'Peringkat 2 : {{ $data_peringkat_2 }}',
-                     'data4': 'Peringkat 3 : {{ $data_peringkat_3 }}',
-                     'data5': 'Peringkat 4 : {{ $data_peringkat_4 }}'
-                 }
-             },
-             axis: {},
-             legend: {
-                 show: true, //hide legend
-             },
-             padding: {
-                 bottom: 0,
-                 top: 0
-             },
-         });
+            bindto: '#chart-pie5', // id of chart wrapper
+            data: {
+                columns: [
+                    // each columns data
+                    ['data1', {{ $peringkat_0 }}],
+                    ['data2', {{ $peringkat_1 }}],
+                    ['data3', {{ $peringkat_2 }}],
+                    ['data4', {{ $peringkat_3 }}],
+                    ['data5', {{ $peringkat_4 }}]
+                ],
+                type: 'pie', // default type of chart
+                colors: {
+                    data1: '#6c5ffc',
+                    data2: '#05c3fb',
+                    data3: '#09ad95',
+                    data4: '#1170e4',
+                    data5: '#e25e2e'
+                },
+                names: {
+                    // name of each serie
+                    'data1': 'Peringkat 0 : {{ $data_peringkat_0 }}',
+                    'data2': 'Peringkat 1 : {{ $data_peringkat_1 }}',
+                    'data3': 'Peringkat 2 : {{ $data_peringkat_2 }}',
+                    'data4': 'Peringkat 3 : {{ $data_peringkat_3 }}',
+                    'data5': 'Peringkat 4 : {{ $data_peringkat_4 }}'
+                }
+            },
+            axis: {},
+            legend: {
+                show: true, //hide legend
+            },
+            padding: {
+                bottom: 0,
+                top: 0
+            },
+        });
 
         /*chart-pie*/
         var chart6 = c3.generate({
-             bindto: '#chart-pie6', // id of chart wrapper
-             data: {
-                 columns: [
-                     // each columns data
-                     ['data1', {{ $jumlah_keluarga_resiko_stunting_ya }}],
-                     ['data2', {{ $jumlah_keluarga_resiko_stunting_tidak }}]
-                 ],
-                 type: 'pie', // default type of chart
-                 colors: {
-                     data1: '#6c5ffc',
-                     data2: '#05c3fb'
-                 },
-                 names: {
-                     // name of each serie
-                     'data1': 'Data Keluarga Beresiko Stunting : {{ $data_keluarga_resiko_stunting_ya }}',
-                     'data2': 'Data Keluarga Tidak Beresiko Stunting : {{ $data_keluarga_resiko_stunting_tidak }}'
-                 }
-             },
-             axis: {},
-             legend: {
-                 show: true, //hide legend
-             },
-             padding: {
-                 bottom: 0,
-                 top: 0
-             },
-         });
-        </script>
+            bindto: '#chart-pie6', // id of chart wrapper
+            data: {
+                columns: [
+                    // each columns data
+                    ['data1', {{ $jumlah_keluarga_resiko_stunting_ya }}],
+                    ['data2', {{ $jumlah_keluarga_resiko_stunting_tidak }}]
+                ],
+                type: 'pie', // default type of chart
+                colors: {
+                    data1: '#6c5ffc',
+                    data2: '#05c3fb'
+                },
+                names: {
+                    // name of each serie
+                    'data1': 'Data Keluarga Beresiko Stunting : {{ $data_keluarga_resiko_stunting_ya }}',
+                    'data2': 'Data Keluarga Tidak Beresiko Stunting : {{ $data_keluarga_resiko_stunting_tidak }}'
+                }
+            },
+            axis: {},
+            legend: {
+                show: true, //hide legend
+            },
+            padding: {
+                bottom: 0,
+                top: 0
+            },
+        });
+
+
+    </script>
+    <script>
+        window.addEventListener('updateChart', event => {
+
+            chart1.load({
+                columns: [
+                    ['data1', {{ $data_keluarga_pus }}],
+                    ['data2', {{ $data_keluarga_bukan_pus }}],
+                ],
+                names: {
+                    // name of each serie
+                    'data1': 'Jumlah Pus : ' + {{ $data_keluarga_pus }},
+                    'data2': 'Jumlah Bukan Pus : ' + {{ $data_keluarga_bukan_pus }},
+                }
+            });
+
+            chart2.load({
+                columns: [
+                    ['data1', {{ $jumlah_pus_hamil }}],
+                    ['data2', {{ $jumlah_baduta }}],
+                    ['data3', {{ $jumlah_balita }}]
+                ],
+                names: {
+                    // name of each serie
+                    'data1': 'Jumlah Pus Hamil : ' + {{ $data_pus_hamil }},
+                    'data2': 'Jumlah Baduta : ' + {{ $data_baduta }},
+                    'data3': 'Jumlah Balita : ' + {{ $data_balita }}
+                }
+            });
+
+            chart3.load({
+                columns: [
+                    ['data1', {{ $terlalu_muda }}],
+                    ['data2', {{ $terlalu_tua }}],
+                    ['data3', {{ $terlalu_dekat }}],
+                    ['data4', {{ $terlalu_banyak }}],
+                ],
+                names: {
+                    // name of each serie
+                    'data1': 'Terlalu Muda (Umur Istri < 20 Tahun) : ' + {{ $data_terlalu_muda }},
+                    'data2': 'Terlalu Tua (Umur Istri 35 sd 40 Tahun) : ' + {{ $data_terlalu_tua }},
+                    'data3': 'Terlalu Dekat (< 2 Tahun) : ' + {{ $data_terlalu_dekat }},
+                    'data4': 'Terlalu Banyak (≥ 3 Anak) : ' + {{ $data_terlalu_banyak }},
+                }
+            });
+
+            chart4.load({
+                columns: [
+                    ['data1', {{ $data_fasilitas_lingkungan }}],
+                    ['data2', {{ $air_minum }}],
+                    ['data3', {{ $jamban }}],
+                    ['data4', {{ $kb_modern }}],
+                ],
+                names: {
+                    // name of each serie
+                    'data1': 'Fasilitas Lingkungan Tidak Sehat : ' + {{ $data_fasilitas_lingkungan }},
+                    'data2': 'Keluarga Tidak Mempunyai Sumber Air Minum Yang Layak : ' +
+                        {{ $data_jumlah_air_minum }},
+                    'data3': 'Keluarga Tidak Mempunyai Jamban Yang Layak : ' + {{ $data_jumlah_jamban }},
+                    'data4': 'Bukan Peserta KB Modern : ' + {{ $data_kb_modern }},
+                }
+            });
+
+            chart5.load({
+                columns: [
+                    ['data1', {{ $peringkat_0 }}],
+                    ['data2', {{ $peringkat_1 }}],
+                    ['data3', {{ $peringkat_2 }}],
+                    ['data4', {{ $peringkat_3 }}],
+                    ['data5', {{ $peringkat_4 }}],
+                ],
+                names: {
+                    // name of each serie
+                    'data1': 'Peringkat 0 : ' + {{ $data_peringkat_0 }},
+                    'data2': 'Peringkat 1 : ' + {{ $data_peringkat_1 }},
+                    'data3': 'Peringkat 2 : ' + {{ $data_peringkat_2 }},
+                    'data4': 'Peringkat 3 : ' + {{ $data_peringkat_3 }},
+                    'data5': 'Peringkat 4 : ' + {{ $data_peringkat_4 }},
+                }
+            });
+
+            chart6.load({
+                columns: [
+                    ['data1', {{ $data_keluarga_resiko_stunting_ya }}],
+                    ['data2', {{ $data_keluarga_resiko_stunting_tidak }}],
+                ],
+                names: {
+                    // name of each serie
+                    'data1': 'Data Keluarga Beresiko Stunting : ' +
+                        {{ $jumlah_keluarga_resiko_stunting_ya }},
+                    'data2': 'Data Keluarga Tidak Beresiko Stunting : ' +
+                        {{ $jumlah_keluarga_resiko_stunting_tidak }},
+                }
+            });
+        });
+    </script>
 @endpush
